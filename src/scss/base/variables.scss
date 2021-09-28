@@ -1,0 +1,61 @@
+﻿/* Variables
+   ==================== */
+
+/* DEBUG Mode */
+$debug: true; // show MQ helper
+
+/* Colors */
+$color-blue: #664e88;
+$color-dark-blue: #4b3869;
+$color-gray: #eeeeef;
+$color-dark-gray: #55585e;
+
+/* Gradient */
+$gradient: linear-gradient(45deg, #4b3869, #664e88);
+
+/* Variable for CSS image folder */
+$imgUrl: "/images";
+
+/* GENERIC */
+$rem-base: 10px !default;
+$spacing: 10px; // for alternative call it $spacing-alternative
+
+/* FONTS */
+$font-primary: "Roboto", sans-serif;
+$font-secondary: "Roboto", sans-serif;
+
+/* TEXT */
+$color-link: $color-blue;
+$color-link-hover: $color-dark-blue;
+$color-text: #333;
+
+/* CONTENT WIDTHS */
+$page-width: 1400px;
+$content-small-width: 600px;
+$content-medium-width: 800px;
+$content-large-width: 1000px;
+
+/**
+ * MEDIA QUERIES SETUP
+ * SASS MQ library is used
+ * http://sass-mq.github.io/sass-mq/
+ */
+$mq-breakpoints: (
+  screen480: 480px,
+  screen600: 600px,
+  screen768: 768px,
+  screen1000: 1000px,
+  screen1200: 1200px,
+  screen1400: 1400px,
+);
+
+$mq-static-breakpoint: screen768;
+
+//$mq-show-breakpoints: (screen480,screen600,screen768,screen1000,screen1200,screen1400);
+
+/** COMPONENTS THEME
+-------------------- */
+
+/** Panel component
+-------------------- */
+$panel-background: $color-gray;

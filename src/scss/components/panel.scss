@@ -1,0 +1,41 @@
+.panel {
+}
+
+.panel__inner {
+  padding: 80px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.panel__header {
+  @include typography(alpha);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.panel__content {
+  margin-bottom: 20px;
+}
+
+.panel--no-spacing {
+  .panel__inner {
+    padding: 0;
+    max-width: none;
+  }
+}
+
+.panel--limited {
+  .panel__inner {
+    max-width: 600px;
+  }
+}
+
+.panel--special {
+  background: $color-gray;
+}
+
+.panel--header {
+  .panel__inner {
+    padding: 20px;
+  }
+}
