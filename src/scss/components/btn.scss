@@ -9,7 +9,7 @@
   @include typography(default);
 
   &:hover {
-    color: #3a7bd5;
+    color: $color-brand;
     background: #fff;
   }
 }

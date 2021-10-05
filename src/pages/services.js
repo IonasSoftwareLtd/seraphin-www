@@ -5,7 +5,7 @@ import { Panel } from "../component/Panel";
 export default function Services() {
   return (
     <PageLayout>
-      <Panel header="Services">Info here</Panel>
+      <Panel header="Our services">Info here</Panel>
     </PageLayout>
   );
 }

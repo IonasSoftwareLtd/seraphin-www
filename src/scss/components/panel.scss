@@ -11,6 +11,8 @@
   @include typography(alpha);
   text-align: center;
   margin-bottom: 20px;
+  color: $color-brand;
+  text-transform: uppercase;
 }
 
 .panel__content {
@@ -35,6 +37,9 @@
 }
 
 .panel--header {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  background: #fff;
+
   .panel__inner {
     padding: 20px;
   }

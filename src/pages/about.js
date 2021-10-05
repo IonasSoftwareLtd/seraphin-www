@@ -5,7 +5,7 @@ import { Panel } from "../component/Panel";
 export default function About() {
   return (
     <PageLayout>
-      <Panel header="About us">Info here</Panel>
+      <Panel header="About Seraphin">Info here</Panel>
     </PageLayout>
   );
 }

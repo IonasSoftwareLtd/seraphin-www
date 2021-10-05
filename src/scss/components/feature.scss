@@ -1,0 +1,20 @@
+.feature-list {
+  display: flex;
+
+  .feature {
+    flex: 1;
+  }
+}
+
+.feature {
+  padding: 10px;
+}
+
+.feature__header {
+  @include typography(beta);
+  margin-bottom: 20px;
+}
+
+.feature__content {
+  margin-bottom: 20px;
+}
