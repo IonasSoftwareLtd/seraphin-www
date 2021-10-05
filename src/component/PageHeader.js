@@ -8,7 +8,7 @@ export function PageHeader() {
       <div className="header">
         <div className="header__inner">
           <div className="header__logo">
-            <div className="logo">Seraphin</div>
+            <img src="/seraphin-logo.png" alt="Seraphin logo" />
           </div>
           <div className="header__nav">
             <nav className="nav">

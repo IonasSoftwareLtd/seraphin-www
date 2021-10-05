@@ -6,6 +6,10 @@
   font-weight: bold;
   text-transform: uppercase;
   flex: 1;
+  align-self: center;
+  img {
+    display: block;
+  }
 }
 
 .header__inner {
