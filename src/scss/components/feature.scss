@@ -18,3 +18,13 @@
 .feature__content {
   margin-bottom: 20px;
 }
+
+.feature__header {
+  margin-bottom: 20px;
+  text-align: center;
+
+  svg {
+    height: 100px;
+    width: 100px;
+  }
+}

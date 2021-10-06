@@ -27,3 +27,7 @@ img,
 iframe {
   max-width: 100%; /* 3 */
 }
+
+p + p {
+  margin-top: 10px;
+}

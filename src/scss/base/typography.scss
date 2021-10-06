@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  color: $color-text;
   @include typography(default);
+  color: $color-text;
   line-height: 1.5;
   font-family: $font-primary;
   word-wrap: break-word; /* 2 */
@@ -40,6 +40,7 @@ h4,
 h5,
 h6,
 p {
+  color: $color-heading;
   margin: 0; /* 4 */
 }
 
