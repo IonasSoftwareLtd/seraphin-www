@@ -9,7 +9,7 @@ export function PageHeader() {
         <div className="header__inner">
           <div className="header__logo">
             <Link to="/">
-              <img src="/seraphin-logo.png" alt="Seraphin logo" />
+              <img src="/logo.svg" alt="Seraphin logo" />
             </Link>
           </div>
           <div className="header__nav">
