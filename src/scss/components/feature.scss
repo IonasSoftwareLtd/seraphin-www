@@ -1,5 +1,6 @@
 .feature-list {
   display: flex;
+  flex-wrap: wrap;
 
   .feature {
     flex: 1;
