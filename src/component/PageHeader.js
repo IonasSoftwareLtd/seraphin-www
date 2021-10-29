@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React, { useState, useEffect } from "react";
 import { Panel } from "./Panel";
 import { bubble as Menu } from "react-burger-menu";
+import { window } from "browser-monads-ts";
 
 const menuItems = [
   {
@@ -32,7 +33,7 @@ export function PageHeader() {
       window.removeEventListener("resize", setDimension);
     };
   }, [screenWidth]);
-  
+
   return (
     <Panel className="panel--header">
       <div className="header">
