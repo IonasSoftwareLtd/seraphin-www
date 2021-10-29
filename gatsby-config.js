@@ -41,5 +41,17 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Seraphin",
+        short_name: "Seraphin",
+        start_url: "/",
+        background_color: "#eeeeef",
+        theme_color: "#b41625",
+        display: "standalone",
+        icon: "static/icon.svg",
+      },
+    },
   ],
 };
