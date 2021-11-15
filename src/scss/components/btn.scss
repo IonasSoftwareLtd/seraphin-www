@@ -1,8 +1,8 @@
 .btn {
   padding: 10px 20px;
-  border: 1px solid #fff;
+  border: 2px solid $color-text;
   display: inline-block;
-  color: #fff;
+  color: $color-text;
   text-decoration: none;
   background: transparent;
   transition: all 0.5s;
@@ -11,6 +11,7 @@
   &:hover {
     color: $color-brand;
     background: #fff;
+    border: 2px solid #fff;
   }
 }
 

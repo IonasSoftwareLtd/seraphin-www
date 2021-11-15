@@ -7,11 +7,14 @@ $debug: true; // show MQ helper
 /* Colors */
 $color-brand: #b41625;
 $color-brand-dark: mix($color-brand, black, 70%);
+$color-brand-light: mix($color-brand, white, 10%);
+// #ffebf3
 $color-gray: #eeeeef;
 $color-dark-gray: #55585e;
 
 /* Gradient */
 $gradient: linear-gradient(45deg, $color-brand, $color-brand-dark);
+$gradient-light: linear-gradient(45deg, $color-brand, $color-brand-light);
 
 /* Variable for CSS image folder */
 $imgUrl: "/images";

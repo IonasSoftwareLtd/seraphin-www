@@ -10,27 +10,32 @@ import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
+import { PageHeader } from '../component/PageHeader';
+
 export default function Home() {
   return (
     <PageLayout>
-      <Panel className="panel--no-spacing">
-        <div className="banner">
-          <div className="banner__inner">
-            <div className="banner__header">
-              Wireless sensor cloud monitoring system
-            </div>
-            <div className="banner__content">
-              Real time temperature monitoring system for monitoring your
-              inventory and assets.
-            </div>
-            <div className="banner__cta">
-              <Link to="/services" className="btn">
-                Our services
-              </Link>
+      <div className="first-panel">
+        <PageHeader />
+        <Panel className="panel--no-spacing">
+          <div className="banner">
+            <div className="banner__inner">
+              <h1 className="banner__header">
+                Wireless sensor cloud monitoring system
+              </h1 >
+              <div className="banner__content">
+                Real time temperature monitoring system for monitoring your
+                inventory and assets.
+              </div>
+              <div className="banner__cta">
+                <Link to="/services" className="btn">
+                  Our services
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </Panel>
+        </Panel>
+      </div>
       <Panel header="How it works?">
         <FeatureList>
           <Feature
