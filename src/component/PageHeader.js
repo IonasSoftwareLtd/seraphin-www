@@ -55,7 +55,9 @@ export function PageHeader() {
               right
             >
               {menuItems.map((item) => (
-                <Link to={item.link}>{item.label}</Link>
+                <Link to={item.link} key={item.link}>
+                  {item.label}
+                </Link>
               ))}
             </Menu>
           ) : (
