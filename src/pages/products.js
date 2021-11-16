@@ -10,18 +10,18 @@ export default function Products() {
         <ProductList>
           <Product
             image="/temperature-sensor.jpg"
-            url="/products/LTC2LoRaWANTemperatureTransmitter"
-            header="LTC2 LoRaWAN Temperature Transmitter"
-            content="The Dragino LTC2 Industrial LoRaWAN Temperature Transmitter is
+            url="/products/TemperatureTransmitter"
+            header="Seraphin Temperature Transmitter"
+            content="The Seraphin Temperature Transmitter Industrial LoRaWAN Temperature Transmitter is
             designed to monitor temperature for different environment. It
             supports to read PT100 probe and convert the value to temperature
             and uplink to IoT server via LoRaWAN protocol."
           />
           <Product
             image="/gateway.jpg"
-            url="/products/LG308LoRaWANGateway"
-            header="LG308 LoRaWAN Gateway"
-            content="The LG308 is an open source LoRaWAN Pico Gateway. It lets you bridge
+            url="/products/Gateway"
+            header="Seraphin Gateway"
+            content="The Seraphin Gateway is an open source LoRaWAN Pico Gateway. It lets you bridge
               LoRa wireless network to an IP network via WiFi, Ethernet, 3G or 4G
               cellular network. The LoRa wireless allows users to send data and
               reach extremely long ranges at low data-rates."

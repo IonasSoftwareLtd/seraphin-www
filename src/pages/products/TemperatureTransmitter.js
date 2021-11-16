@@ -2,40 +2,41 @@ import React from "react";
 import { PageLayout } from "../../component/PageLayout";
 import { Panel } from "../../component/Panel";
 
-export default function LTC2LoRaWANTemperatureTransmitter() {
+export default function TemperatureTransmitter() {
   return (
     <PageLayout>
-      <Panel header="LTC2 LoRaWAN Temperature Transmitter">
+      <Panel header="Seraphin Temperature Transmitter">
         <div className="grid">
           <div>
             <img
               src="/temperature-sensor.jpg"
-              alt="LTC2 LoRaWAN Temperature Transmitter"
+              alt="Seraphin Temperature Transmitter"
             />
             <p>
-              The Dragino LTC2 Industrial LoRaWAN Temperature Transmitter is
-              designed to monitor temperature for different environment. It
-              supports to read PT100 probe and convert the value to temperature
-              and uplink to IoT server via LoRaWAN protocol.
+              The Seraphin Temperature Transmitter is designed to monitor
+              temperature for different environment. It supports to read PT100
+              probe and convert the value to temperature and uplink to IoT
+              server via LoRaWAN protocol.
             </p>
             <p>
-              LTC2 supports datalog feature. User can retrieve the sensor value
-              via LoRaWAN downlink command.
+              Seraphin Temperature Transmitter supports datalog feature. User
+              can retrieve the sensor value via LoRaWAN downlink command.
             </p>
             <p>
-              LTC2 is powered by 8500mA Li-SOCI2 battery for long time
-              measurement. The battery can run 2~10 years depends on the network
-              environment and working mode.
+              Seraphin Temperature Transmitter is powered by 8500mA Li-SOCI2
+              battery for long time measurement. The battery can run 2~10 years
+              depends on the network environment and working mode.
             </p>
             <p>
-              Each LTC2 has two internal 16 bit ADC interfaces and are
-              calibrated on 12 set resistors to make sure the accuracy
-              measurement on wide range.
+              Each Seraphin Temperature Transmitter has two internal 16 bit ADC
+              interfaces and are calibrated on 12 set resistors to make sure the
+              accuracy measurement on wide range.
             </p>
             <p>
-              LTC2 is LoRaWAN v1.0.3 compatible. Each LTC2 is pre-load with a
-              set of unique keys for LoRaWAN registration, register these keys
-              to local LoRaWAN server and it will auto connect after power on.
+              Seraphin Temperature Transmitter is LoRaWAN v1.0.3 compatible.
+              Each Seraphin Temperature Transmitter is pre-load with a set of
+              unique keys for LoRaWAN registration, register these keys to local
+              LoRaWAN server and it will auto connect after power on.
             </p>
           </div>
           <div>

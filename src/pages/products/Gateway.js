@@ -2,34 +2,36 @@ import React from "react";
 import { PageLayout } from "../../component/PageLayout";
 import { Panel } from "../../component/Panel";
 
-export default function LG308LoRaWANGateway() {
+export default function Gateway() {
   return (
     <PageLayout>
-      <Panel header="LG308 LoRaWAN Gateway">
+      <Panel header="Seraphin Gateway">
         <div className="grid">
           <div>
-            <img src="/gateway.jpg" alt="LG308 LoRaWAN Gateway" />
+            <img src="/gateway.jpg" alt="Seraphin Gateway" />
             <p>
-              The LG308 is an open source LoRaWAN Pico Gateway. It lets you
-              bridge LoRa wireless network to an IP network via WiFi, Ethernet,
-              3G or 4G cellular network. The LoRa wireless allows users to send
-              data and reach extremely long ranges at low data-rates.
+              The Seraphin Gateway is an open source LoRaWAN Pico Gateway. It
+              lets you bridge LoRa wireless network to an IP network via WiFi,
+              Ethernet, 3G or 4G cellular network. The LoRa wireless allows
+              users to send data and reach extremely long ranges at low
+              data-rates.
             </p>
             <p>
-              The LG308 uses Semtech packet forwarder and fully compatible with
-              LoRaWAN protocol. It includes a SX1301 LoRa concentrator, which
-              provides 10 programmable parallel demodulation paths.
+              The Seraphin Gateway uses Semtech packet forwarder and fully
+              compatible with LoRaWAN protocol. It includes a SX1301 LoRa
+              concentrator, which provides 10 programmable parallel demodulation
+              paths.
             </p>
             <p>
-              LG308 has pre-configured standard LoRaWAN frequency bands to use
-              for different countries. User can also customized the frequency
-              bands to use in their own LoRa network.
+              Seraphin Gateway has pre-configured standard LoRaWAN frequency
+              bands to use for different countries. User can also customized the
+              frequency bands to use in their own LoRa network.
             </p>
             <p>
-              LG308 can communicate with ABP LoRaWAN end node without LoRaWAN
-              server. System integrator can use it to integrate with their
-              existing IoT Service without set up own LoRaWAN server or use 3rd
-              party LoRaWAN service.
+              Seraphin Gateway can communicate with ABP LoRaWAN end node without
+              LoRaWAN server. System integrator can use it to integrate with
+              their existing IoT Service without set up own LoRaWAN server or
+              use 3rd party LoRaWAN service.
             </p>
             <h2>Features</h2>
             <ul>
