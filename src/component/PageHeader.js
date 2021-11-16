@@ -1,8 +1,8 @@
-import { Link } from "gatsby";
-import React, { useState, useEffect } from "react";
-import { Panel } from "./Panel";
-import { bubble as Menu } from "react-burger-menu";
 import { window } from "browser-monads-ts";
+import { Link } from "gatsby";
+import React, { useEffect, useState } from "react";
+import { bubble as Menu } from "react-burger-menu";
+import { Panel } from "./Panel";
 
 const menuItems = [
   {
@@ -16,6 +16,10 @@ const menuItems = [
   {
     label: "Services",
     link: "/services",
+  },
+  {
+    label: "Products",
+    link: "/products",
   },
 ];
 

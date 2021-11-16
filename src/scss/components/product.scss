@@ -1,0 +1,37 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  .product {
+    flex: 1 0 50%;
+  }
+}
+
+.product {
+  padding: 10px;
+}
+
+.product__header {
+  @include typography(beta);
+  margin-bottom: 20px;
+}
+
+.product__image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.product__content {
+  margin-bottom: 20px;
+}
+
+.product__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product__cta {
+  text-align: center;
+  margin-top: 20px;
+}
