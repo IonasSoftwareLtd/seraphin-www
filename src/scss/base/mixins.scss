@@ -20,7 +20,7 @@
 @mixin typography($type-class: default) {
   @if $type-class == alpha {
     font-family: $font-primary;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2.4rem;
     line-height: 1.2;
 

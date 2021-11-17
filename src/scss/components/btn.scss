@@ -2,16 +2,19 @@
   padding: 10px 20px;
   border: 2px solid $color-text;
   display: inline-block;
-  color: $color-text;
+  color: $color-text-white;
   text-decoration: none;
-  background: transparent;
-  transition: all 0.5s;
+  background: $color-brand;
+  transition: all 0.3s;
+  border: 2px solid $color-brand;
+  border-radius: 5px;
   @include typography(default);
 
   &:hover {
     color: $color-brand;
-    background: #fff;
-    border: 2px solid #fff;
+    background: transparent;
+    border: 2px solid $color-brand;
+    box-shadow: 2px 2px 5px 0px #c9c9c9;
   }
 }
 

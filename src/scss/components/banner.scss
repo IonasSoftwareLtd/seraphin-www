@@ -10,14 +10,16 @@
 }
 
 .banner__inner {
-  text-align: center;
+  text-align: left;
   max-width: 600px;
+  width:45%;
   // color: #fff;
 }
 
 .banner__header {
-  // @include typography(beta);
+  @include typography(alpha);
   margin-bottom: 20px;
+  order: 1;
 }
 
 .banner__content {
@@ -27,4 +29,33 @@
 .banner__cta {
   z-index: 1;
   position: relative;
+  order: 2;
+}
+
+.banner__image {
+  max-width: 40%;
+  margin-left: 20px;
+  order: 3;
+  background: url('../../static/database-vector-pack.webp'), $color-brand-light;
+  background-blend-mode: darken;
+  height: 300px;
+  width: 500px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 990px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner__inner {
+    width: unset;
+    text-align: center;
+  }
+
+  .banner__image {
+    display: none;
+  }
+  
 }

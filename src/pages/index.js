@@ -10,7 +10,8 @@ import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
-import { PageHeader } from '../component/PageHeader';
+import { PageHeader } from "../component/PageHeader";
+import bannerImage from '../../static/database-vector-pack.webp'
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
             <div className="banner__inner">
               <h1 className="banner__header">
                 Wireless sensor cloud monitoring system
-              </h1 >
+              </h1>
               <div className="banner__content">
                 Real time temperature monitoring system for monitoring your
                 inventory and assets.
@@ -32,6 +33,9 @@ export default function Home() {
                   Our services
                 </Link>
               </div>
+            </div>
+            <div className="banner__image">
+              {/* <img src={bannerImage} /> */}
             </div>
           </div>
         </Panel>

@@ -5,7 +5,9 @@
 $debug: true; // show MQ helper
 
 /* Colors */
-$color-brand: #b41625;
+// $color-brand: #b41625;
+// $color-brand: #faf6f5
+$color-brand: #f08938;
 $color-brand-dark: mix($color-brand, black, 70%);
 $color-brand-light: mix($color-brand, white, 10%);
 // #ffebf3
@@ -32,6 +34,7 @@ $color-link: $color-brand;
 $color-link-hover: $color-brand-dark;
 $color-text: #666;
 $color-heading: #444;
+$color-text-white: whitesmoke;
 
 /* CONTENT WIDTHS */
 $page-width: 1400px;
