@@ -22,6 +22,9 @@ body {
   margin: 0; /* 2 */
   padding: 0; /* 2 */
 }
+body {
+  background: linear-gradient(to right, rgb(233, 233, 233), white);
+}
 
 img,
 iframe {

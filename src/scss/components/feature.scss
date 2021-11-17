@@ -14,18 +14,18 @@
 .feature__header {
   @include typography(beta);
   margin-bottom: 20px;
+  text-align: center;
+
+  svg {
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(120deg, $color-brand, $color-secondary);
+    padding: 14px;
+    border-radius: 49%;
+    color: white;
+  }
 }
 
 .feature__content {
   margin-bottom: 20px;
-}
-
-.feature__header {
-  margin-bottom: 20px;
-  text-align: center;
-
-  svg {
-    height: 100px;
-    width: 100px;
-  }
 }

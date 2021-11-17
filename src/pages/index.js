@@ -1,17 +1,18 @@
-import BarChartIcon from "@mui/icons-material/BarChart";
-import BuildIcon from "@mui/icons-material/Build";
-import CloudIcon from "@mui/icons-material/Cloud";
-import EditNotificationsIcon from "@mui/icons-material/EditNotifications";
-import SensorsIcon from "@mui/icons-material/Sensors";
-import TimelineIcon from "@mui/icons-material/Timeline";
-import TrackChangesIcon from "@mui/icons-material/TrackChanges";
+import BarChartIcon from "@mui/icons-material/BarChartOutlined";
+import BuildIcon from "@mui/icons-material/BuildOutlined";
+// import CloudIcon from "@mui/icons-material/CloudOutlined";
+import EditNotificationsIcon from "@mui/icons-material/EditNotificationsOutlined";
+// import SensorsIcon from "@mui/icons-material/SensorsOutlined";
+import SensorIconPng from '../../static/sensorIcon.png';
+import CloudIconPng from '../../static/cloudIcon.png';
+import TimelineIcon from "@mui/icons-material/TimelineOutlined";
+import TrackChangesIcon from "@mui/icons-material/TrackChangesOutlined";
 import { Link } from "gatsby";
 import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
 import { PageHeader } from "../component/PageHeader";
-import bannerImage from '../../static/database-vector-pack.webp'
 
 export default function Home() {
   return (
@@ -34,16 +35,14 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="banner__image">
-              {/* <img src={bannerImage} /> */}
-            </div>
+            <div className="banner__image" />
           </div>
         </Panel>
       </div>
       <Panel header="How it works?">
         <FeatureList>
           <Feature
-            icon={<SensorsIcon />}
+            icon={<img src={SensorIconPng} alt="sensor" width="80px" />}
             header="Sensor capture"
             content="Our high quality sensors capture real time data"
           />
@@ -53,7 +52,7 @@ export default function Home() {
             content="Gateway is processing data and saving it to the cloud with GPRS"
           />
           <Feature
-            icon={<CloudIcon />}
+            icon={<img src={CloudIconPng} alt="cloud" width="80px" />}
             header="Seraphin Cloud App"
             content="All the data is securly stored and displayed in user friendly interface"
           />
