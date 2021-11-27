@@ -40,7 +40,7 @@ export default function Home() {
         </Panel>
       </div>
       <Panel header="How it works?">
-        <FeatureList>
+        <FeatureList className="how-it-works">
           <Feature
             icon={<img src={SensorIconPng} alt="sensor" width="80px" />}
             header="Sensor capture"

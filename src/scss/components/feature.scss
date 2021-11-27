@@ -5,10 +5,21 @@
   .feature {
     flex: 1;
   }
+
+  &.how-it-works {
+    @media screen and (max-width: 650px) {
+     flex-direction: column;
+     align-items: center;
+     
+     .feature {
+       max-width: 400px;
+     }
+    }
+  }
 }
 
 .feature {
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 .feature__header {

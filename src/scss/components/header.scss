@@ -61,8 +61,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* General sidebar styles */
 .bm-menu {
   background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.5em;
+  padding: 2.5em 1.5em;
+  font-size: 2em;
+  font-weight: bolder;
   width: 100%;
 }
 
@@ -73,19 +74,35 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  // color: #b8b7ad;
   padding: 0.8em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  a {
+    color: unset;
+  }
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
   margin-bottom: 3rem;
-  color: $color-gray;
+  color: $color-gray !important;
   text-decoration: none;
+  transition: all 0.3s !important;
+  background: transparent;
+  &:hover {
+    transform: scale(1.2) !important;
+    background: -webkit-linear-gradient(
+      45deg,
+      $color-brand-light,
+      $color-brand-dark
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 /* Styling of overlay */
