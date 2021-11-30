@@ -1,14 +1,21 @@
 import React from "react";
+import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
-import { PageHeader } from '../component/PageHeader';
 
 export default function Services() {
   return (
     <PageLayout>
-      <div className="fist-panel">
+      <div className="first-panel">
         <PageHeader />
-        <Panel header="Our services">Info here</Panel>
+        <Panel
+          header="Our services"
+          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugit
+          temporibus possimus soluta, velit reprehenderit harum, corporis neque
+          voluptate modi quisquam, culpa ab in reiciendis et officiis! Culpa,
+          natus voluptates."
+          className="panel--centered"
+        ></Panel>
       </div>
     </PageLayout>
   );

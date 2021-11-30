@@ -12,11 +12,9 @@
 }
 
 .panel__header {
-  @include typography(alpha);
+  @include typography(beta);
   text-align: center;
   margin-bottom: 30px;
-  color: $color-text;
-  text-transform: uppercase;
 }
 
 .panel__content {
@@ -44,7 +42,6 @@
   //   max-width: 220px;
   // }
 
-
   @media screen and (max-width: 940px) {
     .feature-list {
       flex-direction: column;
@@ -67,5 +64,14 @@
 
   .panel__inner {
     padding: 20px;
+  }
+}
+
+.panel--centered {
+  text-align: center;
+  .panel__content {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

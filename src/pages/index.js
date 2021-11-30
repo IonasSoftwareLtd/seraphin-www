@@ -2,17 +2,17 @@ import BarChartIcon from "@mui/icons-material/BarChartOutlined";
 import BuildIcon from "@mui/icons-material/BuildOutlined";
 // import CloudIcon from "@mui/icons-material/CloudOutlined";
 import EditNotificationsIcon from "@mui/icons-material/EditNotificationsOutlined";
-// import SensorsIcon from "@mui/icons-material/SensorsOutlined";
-import SensorIconPng from '../../static/sensorIcon.png';
-import CloudIconPng from '../../static/cloudIcon.png';
 import TimelineIcon from "@mui/icons-material/TimelineOutlined";
 import TrackChangesIcon from "@mui/icons-material/TrackChangesOutlined";
 import { Link } from "gatsby";
 import React from "react";
+import CloudIconPng from "../../static/cloudIcon.png";
+// import SensorsIcon from "@mui/icons-material/SensorsOutlined";
+import SensorIconPng from "../../static/sensorIcon.png";
 import { Feature, FeatureList } from "../component/Feature";
+import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
-import { PageHeader } from "../component/PageHeader";
 
 export default function Home() {
   return (
@@ -58,7 +58,7 @@ export default function Home() {
           />
         </FeatureList>
       </Panel>
-      <Panel header="Product features">
+      <Panel header="Product features" className="panel--special">
         <FeatureList>
           <Feature
             icon={<TimelineIcon />}
@@ -86,7 +86,7 @@ export default function Home() {
         </FeatureList>
       </Panel>
 
-      <Panel header="We can help you with" className="panel--special">
+      <Panel header="We can help you with">
         <FeatureList>
           <Feature
             header="Productivity"
@@ -107,21 +107,84 @@ export default function Home() {
           />
         </FeatureList>
       </Panel>
-      <Panel header="Testimonials">
-        <Feature
-          content={
-            <div>
-              <div>
-                <em>
-                  "I love the Seraphin cloud dashboard interface. It is very
-                  intuitive and I have easy access to the sensor data on my
-                  mobile."
-                </em>
+      <Panel
+        header="Don't take our word for it"
+        content={
+          <>
+            <p>
+              We asked our customers what changed for better since switching to
+              Seraphin.
+            </p>
+            <p>Here is what they say.</p>
+          </>
+        }
+        className="panel--special panel--centered"
+      >
+        <FeatureList>
+          <Feature
+            className="feature--testimonial"
+            icon={
+              <div className="feature__profile">
+                <img src="/armin-photo.jpeg" alt="Testimonial" width="80px" />
               </div>
-              Mark
-            </div>
-          }
-        />
+            }
+            content={
+              <div>
+                <div className="feature__quote">
+                  <em>
+                    "I love the Seraphin cloud dashboard interface. It is very
+                    intuitive and I have easy access to the sensor data on my
+                    mobile."
+                  </em>
+                </div>
+                <p className="feature__name">Mark</p>
+                <p className="feature__job">Quality Assessor</p>
+              </div>
+            }
+          />
+          <Feature
+            className="feature--testimonial"
+            icon={
+              <div className="feature__profile">
+                <img src="/armin-photo.jpeg" alt="Testimonial" width="80px" />
+              </div>
+            }
+            content={
+              <div>
+                <div className="feature__quote">
+                  <em>
+                    "I love the Seraphin cloud dashboard interface. It is very
+                    intuitive and I have easy access to the sensor data on my
+                    mobile."
+                  </em>
+                </div>
+                <p className="feature__name">Mark</p>
+                <p className="feature__job">Quality Assessor</p>
+              </div>
+            }
+          />
+          <Feature
+            className="feature--testimonial"
+            icon={
+              <div className="feature__profile">
+                <img src="/armin-photo.jpeg" alt="Testimonial" width="80px" />
+              </div>
+            }
+            content={
+              <div>
+                <div className="feature__quote">
+                  <em>
+                    "I love the Seraphin cloud dashboard interface. It is very
+                    intuitive and I have easy access to the sensor data on my
+                    mobile."
+                  </em>
+                </div>
+                <p className="feature__name">Mark</p>
+                <p className="feature__job">Quality Assessor</p>
+              </div>
+            }
+          />
+        </FeatureList>
       </Panel>
     </PageLayout>
   );

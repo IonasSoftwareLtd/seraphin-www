@@ -13,8 +13,12 @@ $color-brand-light: mix($color-brand, white, 10%);
 
 $color-secondary: #ffc500;
 // #ffebf3
-$color-gray: #eeeeef;
-$color-dark-gray: #55585e;
+$color-gray: #eaebef;
+$color-dark-gray: #656565;
+$color-black: #222831;
+// #eaebef - gray backgorund
+// #222831 - black header
+// #c4c8cc - gray content
 
 /* Gradient */
 $gradient: linear-gradient(45deg, $color-brand, $color-brand-dark);
@@ -34,8 +38,8 @@ $font-secondary: "Roboto", sans-serif;
 /* TEXT */
 $color-link: $color-brand;
 $color-link-hover: $color-brand-dark;
-$color-text: #666;
-$color-heading: #444;
+$color-text: $color-dark-gray;
+$color-heading: $color-black;
 $color-text-white: whitesmoke;
 
 /* CONTENT WIDTHS */

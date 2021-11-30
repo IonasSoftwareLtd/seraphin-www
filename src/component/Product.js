@@ -15,7 +15,7 @@ export function Product({ image, header, content, className, url }) {
         {content && <div>{content}</div>}
         {url && (
           <div className="product__cta">
-            <Link to={url} className="btn-secondary">
+            <Link to={url} className="btn">
               Check specification
             </Link>
           </div>

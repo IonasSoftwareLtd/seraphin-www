@@ -12,7 +12,7 @@
 .banner__inner {
   text-align: left;
   max-width: 600px;
-  width:45%;
+  width: 45%;
   // color: #fff;
 }
 
@@ -36,11 +36,11 @@
   max-width: 40%;
   margin-left: 20px;
   order: 3;
-  background: url('../../static/database-vector-pack.webp'), $color-brand-light;
+  background: url("../../static/database-vector-pack.webp"), $color-brand-light;
   background-blend-mode: darken;
   height: 300px;
   width: 500px;
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -57,5 +57,4 @@
   .banner__image {
     display: none;
   }
-  
 }

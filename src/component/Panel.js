@@ -6,7 +6,7 @@ export function Panel({ children, header, content, className }) {
     <div className={CN("panel", className)}>
       <div className="panel__inner">
         {header && <h1 className="panel__header">{header}</h1>}
-        {content && <div>{content}</div>}
+        {content && <div className="panel__content">{content}</div>}
         {children}
       </div>
     </div>

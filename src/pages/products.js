@@ -1,4 +1,5 @@
 import React from "react";
+import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
 import { Product, ProductList } from "../component/Product";
@@ -6,7 +7,16 @@ import { Product, ProductList } from "../component/Product";
 export default function Products() {
   return (
     <PageLayout>
-      <Panel header="Products">
+      <div className="first-panel">
+        <PageHeader />
+        <Panel
+          header="Our products"
+          content="We offer wide range of real time monitoring sensors for monitoring
+          your inventory and assets."
+          className="panel--centered"
+        ></Panel>
+      </div>
+      <Panel>
         <ProductList>
           <Product
             image="/temperature-sensor.jpg"

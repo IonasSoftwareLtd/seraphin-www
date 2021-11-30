@@ -1,11 +1,24 @@
 import React from "react";
+import { PageHeader } from "../../component/PageHeader";
 import { PageLayout } from "../../component/PageLayout";
 import { Panel } from "../../component/Panel";
 
 export default function Gateway() {
   return (
     <PageLayout>
-      <Panel header="Seraphin Gateway">
+      <div className="first-panel">
+        <PageHeader />
+        <Panel
+          header="Seraphin Gateway"
+          content="The Seraphin Gateway is an open source LoRaWAN Pico Gateway. It
+          lets you bridge LoRa wireless network to an IP network via WiFi,
+          Ethernet, 3G or 4G cellular network. The LoRa wireless allows
+          users to send data and reach extremely long ranges at low
+          data-rates."
+          className="panel--centered"
+        ></Panel>
+      </div>
+      <Panel>
         <div className="grid">
           <div>
             <img src="/gateway.jpg" alt="Seraphin Gateway" />

@@ -1,11 +1,23 @@
 import React from "react";
+import { PageHeader } from "../../component/PageHeader";
 import { PageLayout } from "../../component/PageLayout";
 import { Panel } from "../../component/Panel";
 
 export default function TemperatureTransmitter() {
   return (
     <PageLayout>
-      <Panel header="Seraphin Temperature Transmitter">
+      <div className="first-panel">
+        <PageHeader />
+        <Panel
+          header="Seraphin Temperature Transmitter"
+          content="The Seraphin Temperature Transmitter is designed to monitor
+          temperature for different environment. It supports to read PT100
+          probe and convert the value to temperature and uplink to IoT
+          server via LoRaWAN protocol."
+          className="panel--centered"
+        ></Panel>
+      </div>
+      <Panel>
         <div className="grid">
           <div>
             <img

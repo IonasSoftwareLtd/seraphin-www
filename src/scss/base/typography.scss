@@ -38,9 +38,13 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   color: $color-heading;
+  margin: 0; /* 4 */
+}
+
+p {
+  color: $color-text;
   margin: 0; /* 4 */
 }
 
