@@ -58,8 +58,9 @@ export default function Home() {
           />
         </FeatureList>
       </Panel>
-      <Panel header="Product features" className="panel--special">
-        <FeatureList>
+      <Panel header="Product features">
+        <FeatureList className="product-features">
+          <div className="product-features__row">
           <Feature
             icon={<TimelineIcon />}
             header="Access to realtime data"
@@ -73,6 +74,8 @@ export default function Home() {
             content="Sensors have integrated SIM card reciever that makes the
             installation easy and does not require complicated IT support."
           />
+          </div>
+          <div className="product-features__row">
           <Feature
             icon={<EditNotificationsIcon />}
             header="Instant notifications"
@@ -83,11 +86,12 @@ export default function Home() {
             header="Charts and graphs"
             content="User friendly and powerfull charts display real-time or historical data in easy to understand charts."
           />
+          </div>
         </FeatureList>
       </Panel>
 
-      <Panel header="We can help you with">
-        <FeatureList>
+      <Panel header="We can help you with" className="panel--orange panel--centered">
+        <FeatureList className="help-features">
           <Feature
             header="Productivity"
             content="Removes time consuming paper records Quality Control"

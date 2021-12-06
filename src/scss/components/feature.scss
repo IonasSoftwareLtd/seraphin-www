@@ -16,6 +16,30 @@
       }
     }
   }
+
+  &.product-features {
+    @media screen and (max-width: 1040px) {
+      flex-direction: column;
+    }
+    .product-features__row {
+      display: flex;
+      @media screen and (max-width: 650px) {
+        flex-direction: column;
+      }
+    }
+    .feature {
+      background: linear-gradient(120deg, #f1f1f1, #f0f0f0);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+    }
+  }
+
+  &.help-features { 
+    .feature {
+      margin: 10px;
+    }
+  }
 }
 
 .feature {

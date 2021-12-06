@@ -58,6 +58,13 @@
   }
 }
 
+.panel--orange {
+  background: linear-gradient( 120deg, $color-brand, mix($color-secondary, orange, 30%));
+  div, h1 {
+    color: white;
+  }
+}
+
 .panel--header {
   // box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   // background: #fff;
