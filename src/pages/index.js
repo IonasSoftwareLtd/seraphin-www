@@ -61,36 +61,39 @@ export default function Home() {
       <Panel header="Product features">
         <FeatureList className="product-features">
           <div className="product-features__row">
-          <Feature
-            icon={<TimelineIcon />}
-            header="Access to realtime data"
-            content="Sensors data and reports can be checked in one place via integrated
+            <Feature
+              icon={<TimelineIcon />}
+              header="Access to realtime data"
+              content="Sensors data and reports can be checked in one place via integrated
             cloud platform. No need to be on site in order to view data and you
             have 24/7 access to cloud portal."
-          />
-          <Feature
-            icon={<BuildIcon />}
-            header="Easy installation"
-            content="Sensors have integrated SIM card reciever that makes the
+            />
+            <Feature
+              icon={<BuildIcon />}
+              header="Easy installation"
+              content="Sensors have integrated SIM card reciever that makes the
             installation easy and does not require complicated IT support."
-          />
+            />
           </div>
           <div className="product-features__row">
-          <Feature
-            icon={<EditNotificationsIcon />}
-            header="Instant notifications"
-            content="Alarm feature warns when safe limits are exeded or sensor is not working."
-          />
-          <Feature
-            icon={<BarChartIcon />}
-            header="Charts and graphs"
-            content="User friendly and powerfull charts display real-time or historical data in easy to understand charts."
-          />
+            <Feature
+              icon={<EditNotificationsIcon />}
+              header="Instant notifications"
+              content="Alarm feature warns when safe limits are exeded or sensor is not working."
+            />
+            <Feature
+              icon={<BarChartIcon />}
+              header="Charts and graphs"
+              content="User friendly and powerfull charts display real-time or historical data in easy to understand charts."
+            />
           </div>
         </FeatureList>
       </Panel>
 
-      <Panel header="We can help you with" className="panel--orange panel--centered">
+      <Panel
+        header="We can help you with"
+        className="panel--orange panel--centered"
+      >
         <FeatureList className="help-features">
           <Feature
             header="Productivity"

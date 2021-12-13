@@ -22,6 +22,7 @@
       flex-direction: column;
     }
     .product-features__row {
+      width: 100%;
       display: flex;
       @media screen and (max-width: 650px) {
         flex-direction: column;
@@ -35,7 +36,7 @@
     }
   }
 
-  &.help-features { 
+  &.help-features {
     .feature {
       margin: 10px;
     }
