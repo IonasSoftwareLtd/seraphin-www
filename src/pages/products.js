@@ -28,13 +28,53 @@ export default function Products() {
             and uplink to IoT server via LoRaWAN protocol."
           />
           <Product
-            image="/gateway.jpg"
-            url="/products/Gateway"
-            header="Seraphin Gateway"
-            content="The Seraphin Gateway is an open source LoRaWAN Pico Gateway. It lets you bridge
-              LoRa wireless network to an IP network via WiFi, Ethernet, 3G or 4G
-              cellular network. The LoRa wireless allows users to send data and
-              reach extremely long ranges at low data-rates."
+            image="/temperature-sensor.jpg"
+            url="/products/SoilPhSensor"
+            header="Soil Ph Sensor"
+            content="The Soil Ph Sensor is designed to monitor Ph of soil for different
+            environment."
+          />
+          <Product
+            image="/temperature-sensor.jpg"
+            url="/products/CustomizedSensor"
+            header="Customized sensor"
+            content="Two types of connections RS485 and UART interface for connecting various sensors."
+          />
+          <Product
+            image="/temperature-sensor.jpg"
+            url="/products/WaterLeakSensor"
+            header="Water leak sensor"
+            content="Water leak sensor will detect and water spillage and notifiy you."
+          />
+          <Product
+            image="/temperature-sensor.jpg"
+            url="/products/DoorSensor"
+            header="Door sensor"
+            content="Door sensor will detect weather door was opened or closed."
+          />
+          <Product
+            image="/temperature-sensor.jpg"
+            url="/products/LiquidLevelSensor"
+            header="Liquid level sensor"
+            content="Liquid Level Measurement by Ultrasonic technology."
+          />
+          <Product
+            image="/temperature-sensor.jpg"
+            url="/products/DistanceSensor"
+            header="Distance sensor"
+            content="Laser technology for distance detection."
+          />
+          <Product
+            image="/temperature-sensor.jpg"
+            url="/products/TemperatureAndHumiditySensor"
+            header="Temperature & Humidity Sensor"
+            content="Built-in Temperature & Humidity sensor."
+          />
+          <Product
+            image="/temperature-sensor.jpg"
+            url="/products/LowTemperatureSensor"
+            header="Low temperature sensor"
+            content="Low temperature sensor to gather real time data in extremely low temperatures."
           />
         </ProductList>
       </Panel>
