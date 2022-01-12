@@ -9,18 +9,20 @@ export default function TemperatureTransmitter() {
       <div className="first-panel">
         <PageHeader />
         <Panel
-          header="Water leak sensor"
-          content="Water leak sensor will detect and water spillage and notifiy you."
+          header="Temperature & Humidity Sensor"
+          content="Built-in Temperature & Humidity sensor."
           className="panel--centered"
         ></Panel>
       </div>
       <Panel>
         <div className="grid">
           <div>
-            <img src="/temperature-sensor.jpg" alt="Water leak sensor" />
-            <p>
-              Water leak sensor will detect and water spillage and notifiy you.
-            </p>
+            <img
+              src="/sensors/TempHum.png"
+              alt="Temperature & Humidity Sensor"
+              className="product-detail-image"
+            />
+
             <h2>Features:</h2>
             <ul>
               <li>Built-in 2400mAh battery for more than 10 year use.</li>
@@ -31,6 +33,29 @@ export default function TemperatureTransmitter() {
             </ul>
           </div>
           <div>
+            <h2>Sensor Spec:</h2>
+            <ul>
+              <li>Built-in Temperature Sensor:</li>
+              <li>Resolution: 0.01 °C</li>
+              <li>Accuracy Tolerance : Typ +/-0.3°C</li>
+              <li>Long Term Drift: {"<"} 0.02 °C/yr</li>
+              <li>Operating Range: -40 ~ 125 °C</li>
+            </ul>
+            <h2>Built-in Humidity Sensor:</h2>
+            <ul>
+              <li>Resolution: 0.04 %RH</li>
+              <li>Accuracy Tolerance : Typ +/-3%PH</li>
+              <li>Long Term Drift: {"<"} 0.02 °C/yr</li>
+              <li>Operating Range: 0 ~ 100 °C</li>
+              <li>External Temperature Sensor – E1:</li>
+            </ul>
+            <h2>Resolution: 0.0625 °C</h2>
+            <ul>
+              <li>±0.5°C accuracy from -10°C to +85°C</li>
+              <li>±2°C accuracy from -55°C to +125°C</li>
+              <li>Operating Range: -55 °C ~ 125 °C</li>
+            </ul>
+
             <h2>Applications: </h2>
             <ul>
               <li>Wireless Alarm and Security Systems</li>
@@ -39,10 +64,9 @@ export default function TemperatureTransmitter() {
               <li>Industrial Monitoring and Control</li>
               <li>Long range Irrigation Systems,etc.</li>
             </ul>
-
             <h2>Dimensions and Weight:</h2>
             <ul>
-              <li>Size:135 x 70 x 30 mm</li>
+              <li>Size:135 x 70 x 30 mm/pcs</li>
               <li>Weight: 105g</li>
             </ul>
           </div>

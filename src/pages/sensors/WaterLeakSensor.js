@@ -9,40 +9,32 @@ export default function TemperatureTransmitter() {
       <div className="first-panel">
         <PageHeader />
         <Panel
-          header="Customized sensor"
-          content="Two types of connections RS485 and UART interface for connecting various sensors."
+          header="Water leak sensor"
+          content="Water leak sensor will detect and water spillage and notifiy you."
           className="panel--centered"
         ></Panel>
       </div>
       <Panel>
         <div className="grid">
           <div>
-            <img src="/temperature-sensor.jpg" alt="Customized sensor" />
+            <img
+              src="/sensors/WaterLeak.png"
+              alt="Water leak sensor"
+              className="product-detail-image"
+            />
             <p>
-              Two types of connections RS485 and UART interface for connecting
-              various sensors
+              Water leak sensor will detect and water spillage and notifiy you.
             </p>
             <h2>Features:</h2>
             <ul>
-              <li>Ultra low power consumption</li>
-              <li>
-                Two types of connections RS485 and UART interface for connecting
-                various sensors
-              </li>
-              <li>High capacity 8500 mAh Li-SOCI2 battery</li>
+              <li>Built-in 2400mAh battery for more than 10 year use.</li>
+              <li>Built-in Temperature & Humidity sensor</li>
+              <li>Optional External Sensors</li>
+              <li>Tri-color LED to indicate status</li>
+              <li>3200 set sensor record with time stamp</li>
             </ul>
           </div>
           <div>
-            <h2>Interface for Model:</h2>
-            <ul>
-              <li>1 x RS485 Interface</li>
-              <li>1 x TTL Serial , 3.3v or 5v.</li>
-              <li>1 x I2C Interface, 3.3v or 5v.</li>
-              <li>1 x one wire interface</li>
-              <li>1 x Interrupt Interface</li>
-              <li>1 x Controllable 5V output, max</li>
-            </ul>
-
             <h2>Applications: </h2>
             <ul>
               <li>Wireless Alarm and Security Systems</li>
@@ -51,10 +43,11 @@ export default function TemperatureTransmitter() {
               <li>Industrial Monitoring and Control</li>
               <li>Long range Irrigation Systems,etc.</li>
             </ul>
+
             <h2>Dimensions and Weight:</h2>
             <ul>
-              <li>Device Size: 135 x 70 x 30 mm</li>
-              <li>Device Weight: 150g</li>
+              <li>Size:135 x 70 x 30 mm</li>
+              <li>Weight: 105g</li>
             </ul>
           </div>
         </div>

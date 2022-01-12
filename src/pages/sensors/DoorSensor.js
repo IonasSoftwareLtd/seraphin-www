@@ -17,7 +17,11 @@ export default function TemperatureTransmitter() {
       <Panel>
         <div className="grid">
           <div>
-            <img src="/temperature-sensor.jpg" alt="Door sensor" />
+            <img
+              src="/sensors/Door.png"
+              alt="Door sensor"
+              className="product-detail-image"
+            />
             <p>Door sensor will detect weather door was opened or closed.</p>
             <h2>Features:</h2>
             <ul>

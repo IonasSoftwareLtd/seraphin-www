@@ -17,7 +17,11 @@ export default function TemperatureTransmitter() {
       <Panel>
         <div className="grid">
           <div>
-            <img src="/temperature-sensor.jpg" alt="Low temperature sensor" />
+            <img
+              src="/sensors/LowTemp.png"
+              alt="Low temperature sensor"
+              className="product-detail-image"
+            />
             <p>
               Low temperature sensor to gather real time data in extremely low
               temperatures.

@@ -21,14 +21,22 @@
 
 .footer__item {
   flex: 1;
+  text-align: center;
 }
 
 .footer__item:first-child {
   flex: 2;
 }
 
-.footer__logo {
+.footer__logo-header {
   color: $color-brand;
+}
+
+.footer__logo {
+  background: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
 }
 
 .footer__date {

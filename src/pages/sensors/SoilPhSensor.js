@@ -18,7 +18,11 @@ export default function TemperatureTransmitter() {
       <Panel>
         <div className="grid">
           <div>
-            <img src="/temperature-sensor.jpg" alt="Soil Ph Sensor" />
+            <img
+              src="/sensors/SoilPH.png"
+              alt="Soil Ph Sensor"
+              className="product-detail-image"
+            />
             <p>
               The Soil Ph Sensor is designed to monitor Ph of soil for different
               environment.

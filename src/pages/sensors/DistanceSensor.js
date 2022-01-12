@@ -17,7 +17,11 @@ export default function TemperatureTransmitter() {
       <Panel>
         <div className="grid">
           <div>
-            <img src="/temperature-sensor.jpg" alt="Distance Sensor" />
+            <img
+              src="/sensors/Distance.png"
+              alt="Distance Sensor"
+              className="product-detail-image"
+            />
             <p>Laser technology for distance detection.</p>
             <h2>Features:</h2>
             <ul>

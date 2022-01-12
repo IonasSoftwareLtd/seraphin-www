@@ -18,8 +18,12 @@ const menuItems = [
     link: "/services",
   },
   {
-    label: "Products",
-    link: "/products",
+    label: "Sensors",
+    link: "/sensors",
+  },
+  {
+    label: "Contact",
+    link: "/contact",
   },
 ];
 

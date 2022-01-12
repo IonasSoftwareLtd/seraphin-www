@@ -9,9 +9,12 @@ export default function About() {
       <div className="first-panel">
         <PageHeader />
         <Panel
-          header="Contact Seraphin"
+          header="Contact Seraphin by IONAS"
           content={
             <>
+              <img src="/ionas-logo.png" alt="IONAS Logo" />
+              <br />
+              <br />
               <p>
                 Need assistance with your Seraphin product? We'll get you the
                 help you need.

@@ -17,7 +17,11 @@ export default function TemperatureTransmitter() {
       <Panel>
         <div className="grid">
           <div>
-            <img src="/temperature-sensor.jpg" alt="Liquid Level Sensor" />
+            <img
+              src="/sensors/WaterLevel.png"
+              alt="Liquid Level Sensor"
+              className="product-detail-image"
+            />
             <p>Liquid Level Measurement by Ultrasonic technology.</p>
             <h2>Applications: </h2>
             <ul>
