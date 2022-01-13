@@ -22,16 +22,15 @@ export default function Home() {
         <Panel className="panel--no-spacing">
           <div className="banner">
             <div className="banner__inner">
-              <h1 className="banner__header">
-                Wireless sensor cloud monitoring system
-              </h1>
+              <h1 className="banner__header">Seraphin Monitoring Platform</h1>
               <div className="banner__content">
-                Real time temperature monitoring system for monitoring your
-                inventory and assets.
+                Seraphin Monitoring Platform is a comprehensive IoT (Internet of
+                Things) software platform developed to provide real-time
+                monitoring and rapid alert capability.
               </div>
               <div className="banner__cta">
-                <Link to="/services" className="btn">
-                  Our services
+                <Link to="/about" className="btn">
+                  Read more about Seraphin Platform
                 </Link>
               </div>
             </div>
