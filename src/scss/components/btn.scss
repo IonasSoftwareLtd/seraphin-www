@@ -19,9 +19,9 @@
 
 .btn-secondary {
   padding: 10px 20px;
-  border: 1px solid #3a7bd5;
+  border: 1px solid #fff;
   display: inline-block;
-  color: #3a7bd5;
+  color: #fff;
   text-decoration: none;
   background: transparent;
   transition: all 0.5s;
@@ -29,7 +29,7 @@
   @include typography(default);
 
   &:hover {
-    color: #fff;
-    background: #3a7bd5;
+    color: $color-text;
+    background: #fff;
   }
 }

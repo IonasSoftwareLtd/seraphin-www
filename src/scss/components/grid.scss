@@ -1,8 +1,10 @@
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  @include mq(screen1000) {
+    display: flex;
+    flex-wrap: wrap;
 
-  > * {
-    flex: 1;
+    > * {
+      flex: 1;
+    }
   }
 }

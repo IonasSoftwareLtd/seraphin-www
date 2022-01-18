@@ -1,13 +1,12 @@
-import BarChartIcon from "@mui/icons-material/BarChartOutlined";
-import BuildIcon from "@mui/icons-material/BuildOutlined";
-// import CloudIcon from "@mui/icons-material/CloudOutlined";
-import EditNotificationsIcon from "@mui/icons-material/EditNotificationsOutlined";
-import TimelineIcon from "@mui/icons-material/TimelineOutlined";
+import EditIcon from "@mui/icons-material/Edit";
+import MonitorIcon from "@mui/icons-material/Monitor";
+import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
+import SensorsIcon from "@mui/icons-material/Sensors";
+import ShieldIcon from "@mui/icons-material/Shield";
 import TrackChangesIcon from "@mui/icons-material/TrackChangesOutlined";
 import { Link } from "gatsby";
 import React from "react";
 import CloudIconPng from "../../static/cloudIcon.png";
-// import SensorsIcon from "@mui/icons-material/SensorsOutlined";
 import SensorIconPng from "../../static/sensorIcon.png";
 import { Feature, FeatureList } from "../component/Feature";
 import { PageHeader } from "../component/PageHeader";
@@ -57,63 +56,69 @@ export default function Home() {
           />
         </FeatureList>
       </Panel>
-      <Panel header="Product features">
+      <Panel header="How is it better?">
         <FeatureList className="product-features">
           <div className="product-features__row">
             <Feature
-              icon={<TimelineIcon />}
-              header="Access to realtime data"
-              content="Sensors data and reports can be checked in one place via integrated
-            cloud platform. No need to be on site in order to view data and you
-            have 24/7 access to cloud portal."
+              icon={<MonitorIcon />}
+              header="Scalable and reliable"
+              content="The Seraphin Monitoring Platform is a brand new product developed using the latest technology. The platform is hosted within the AWS cloud, powered by the same infrastructure that is used by Netflix and government websites. Reliability and performance are therefore inherent to the product, ensuring you can expect the platform to scale with predictable performance whether you gather data from a handful or thousands of IoT devices."
             />
             <Feature
-              icon={<BuildIcon />}
-              header="Easy installation"
-              content="Sensors have integrated SIM card reciever that makes the
-            installation easy and does not require complicated IT support."
-            />
-          </div>
-          <div className="product-features__row">
-            <Feature
-              icon={<EditNotificationsIcon />}
-              header="Instant notifications"
-              content="Alarm feature warns when safe limits are exeded or sensor is not working."
+              icon={<ShieldIcon />}
+              header="Secure and reliable technology"
+              content="Seraphin Cloud Monitoring platform is based on LoRa, long range and low power wireless transmittion, designed to work with LoRA compliant devices that implement the latest specifications of the Lorawan protocol. All wireless radio communications are encrypted while ensuring very high delivery ratio."
             />
             <Feature
-              icon={<BarChartIcon />}
-              header="Charts and graphs"
-              content="User friendly and powerfull charts display real-time or historical data in easy to understand charts."
+              icon={<SensorsIcon />}
+              header="Flexible deployment options"
+              content="Seraphin platform providers can advise on a range of sensor deployment options for both wireless and wired installations. Wireless installations afford versatility and flexibility of deployment options. Wired installations are advised where the reliability of transmissions is of highest priority. Our consultants are available to advise on the most optimal deployment package for your needs."
             />
           </div>
         </FeatureList>
       </Panel>
 
       <Panel
-        header="We can help you with"
+        header="Our services"
+        content={
+          <>
+            <p>
+              We offer the full spectrum of services to help organizations work
+              better.
+            </p>
+            <p>
+              We can combine any of our products and services to create a
+              package that’s tailored to your business.
+            </p>
+          </>
+        }
         className="panel--orange panel--centered"
       >
         <FeatureList className="help-features">
           <Feature
-            header="Productivity"
-            content="Removes time consuming paper records Quality Control"
-          />
+            className="feature--testimonial"
+            header="Consulting services"
+            icon={<RecordVoiceOverIcon />}
+          >
+            We are open to any consultation ranging from possible existing
+            solutions to bespoke product design.
+          </Feature>
           <Feature
-            header="Quality Control"
-            content="Protects the integrity of the products"
-          />
-          <Feature header="Cost" content="Reduced product/sample wastage" />
-          <Feature
-            header="Reliability"
-            content="Real-time, web-based temperature monitoring system"
-          />
-          <Feature
-            header="Traceability"
-            content="Live data history available on-line"
-          />
+            className="feature--testimonial"
+            header="Product customization"
+            icon={<EditIcon />}
+          >
+            We offer our partners and customers close cooperation to help the
+            designed monitoring system meet any specific expectations.
+          </Feature>
         </FeatureList>
+        <div className="panel__cta">
+          <Link to="/services" className="btn-secondary">
+            Read more about our Services
+          </Link>
+        </div>
       </Panel>
-      <Panel
+      {/* <Panel
         header="Don't take our word for it"
         content={
           <>
@@ -191,7 +196,7 @@ export default function Home() {
             }
           />
         </FeatureList>
-      </Panel>
+      </Panel> */}
     </PageLayout>
   );
 }
