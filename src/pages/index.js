@@ -118,6 +118,24 @@ export default function Home() {
           </Link>
         </div>
       </Panel>
+      <Panel
+        header="We are here to help"
+        className="panel--centered panel--gray"
+        content={
+          <>
+            <p>
+              Let's talk about your specific project. Our team of specialist's
+            </p>
+            <p>
+              will help you with about your requirements and possible solutions.
+            </p>
+          </>
+        }
+      >
+        <Link to="/contact" className="btn">
+          Contact us
+        </Link>
+      </Panel>
       {/* <Panel
         header="Don't take our word for it"
         content={
