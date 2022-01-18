@@ -38,8 +38,13 @@ export default function Home() {
         </Panel>
       </div>
       <Panel header="How it works?">
-        <div className="row">
-          <img src="/combinedSensors.png" alt="Seraphin Responsive UI" />
+        <div className="row row--clickable">
+          <img
+            src="/combinedSensors.png"
+            alt="Seraphin Responsive UI"
+            width="250px"
+            height="250px"
+          />
           <div className="row__text">
             <h3>Sensors</h3>
             The system is designed to protect your assets. It achieves that by
@@ -48,17 +53,27 @@ export default function Home() {
             defined rules.
           </div>
         </div>
-        <div className="row">
+        <div className="row row--clickable">
           <div className="row__text">
             <h3>Notifications</h3>
             If rule conditions are met, the notification in the form of email,
             text message or a phone call is triggered to inform the user about
             alarm condition.
           </div>
-          <img src="/combinedNotifications.png" alt="Seraphin Responsive UI" />
+          <img
+            src="/combinedNotifications.png"
+            alt="Seraphin Responsive UI"
+            width="250px"
+            height="250px"
+          />
         </div>
-        <div className="row">
-          <img src="/combinedPlatforms.png" alt="Seraphin Responsive UI" />
+        <div className="row row--clickable">
+          <img
+            src="/combinedPlatforms.png"
+            alt="Seraphin Responsive UI"
+            width="250px"
+            height="250px"
+          />
 
           <div className="row__text">
             <h3>Seraphin Platform</h3>
