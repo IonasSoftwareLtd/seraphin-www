@@ -11,3 +11,17 @@
 .content-wrapper {
   max-width: 600px;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  img {
+    max-width: 40%;
+  }
+  &__text {
+    max-width: 560px;
+  }
+}
