@@ -28,9 +28,17 @@ export default function About() {
                 <br />
                 <br />
               </p>
-              <a href="mailto:simon@ionas.co.uk" className="btn">
-                simon@ionas.co.uk
-              </a>
+              <p>
+                <a href="mailto:simon@ionas.co.uk" className="btn">
+                  simon@ionas.co.uk
+                </a>
+              </p>
+              <p>or</p>
+              <p>
+                <a href="tel:07871259234" className="btn">
+                  07871259234
+                </a>
+              </p>
             </>
           }
           className="panel--centered"
