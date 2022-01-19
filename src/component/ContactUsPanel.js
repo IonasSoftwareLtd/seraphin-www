@@ -2,11 +2,13 @@ import { Link } from "gatsby";
 import React from "react";
 import { Panel } from "../component/Panel";
 
-export const ContactUsPanel = () => {
+export const ContactUsPanel = ({
+  className = "panel--centered panel--gray",
+}) => {
   return (
     <Panel
       header="We are here to help"
-      className="panel--centered panel--gray"
+      className={className}
       content={
         <>
           <p>Let's talk about your specific project. </p>

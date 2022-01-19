@@ -77,7 +77,7 @@ export default function About() {
         }
         className="panel--centered panel--gray"
       ></Panel>
-      <ContactUsPanel />
+      <ContactUsPanel className="panel--centered" />
     </PageLayout>
   );
 }
