@@ -12,6 +12,7 @@ import { Feature, FeatureList } from "../component/Feature";
 import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export default function Home() {
   return (
@@ -46,7 +47,11 @@ export default function Home() {
             height="250px"
           />
           <div className="row__text">
-            <h3>Sensors</h3>
+            <h3>
+              <Link to="/sensors" className="text-link text-link--with-icon">
+                Sensors <ArrowForwardIosIcon />
+              </Link>
+            </h3>
             The system is designed to protect your assets. It achieves that by
             sending telemetry data from variety of supported sensors to the
             Seraphin cloud servers. Incoming data is evaluated against user
@@ -76,7 +81,11 @@ export default function Home() {
           />
 
           <div className="row__text">
-            <h3>Seraphin Platform</h3>
+            <h3>
+              <Link to="/about" className="text-link text-link--with-icon">
+                Seraphin Platform <ArrowForwardIosIcon />
+              </Link>
+            </h3>
             All sensor-sent telemetry data is stored in the cloud and available
             for live and retrospective view via a mobile friendly and secure web
             portal.

@@ -23,17 +23,37 @@
   transition: all 0.3s ease-in-out;
   img {
     max-width: 35%;
-    // width: 300px;
   }
   &__text {
     max-width: 560px;
   }
   &--clickable {
     &:hover {
-      // background: #ededed;
-      background: linear-gradient(45deg, $color-brand-light, transparent);
-      cursor: pointer;
-      // transform: scale(1.01);
+      background: linear-gradient(45deg, $color-brand-light, $color-gray);
     }
+  }
+
+  @media  screen and (max-width: 720px) {
+   flex-direction: column; 
+   img {
+     order: 1;
+     max-width: 100%;
+   }
+   .row-text {
+     order: 2;
+   }
+  }
+}
+
+.text-link {
+  color: $color-brand;
+
+  &:hover {
+    color: $color-brand-dark;
+  }
+
+  &--with-icon {
+    display: inline-flex;
+    align-items: center;
   }
 }
