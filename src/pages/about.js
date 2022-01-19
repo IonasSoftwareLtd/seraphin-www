@@ -1,4 +1,5 @@
 import React from "react";
+import { ContactUsPanel } from "../component/ContactUsPanel";
 import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
@@ -32,6 +33,51 @@ export default function About() {
           className="panel--centered"
         ></Panel>
       </div>
+
+      <Panel
+        header="Our mobile friendly and secure web portal"
+        content={
+          <>
+            <p>
+              Monitor your sensors data and manage all aspects of your project
+              from our user friendly web portal.
+            </p>
+          </>
+        }
+        className="panel--centered"
+      >
+        <div className="image-gallery">
+          <img src="/app/admin-manager.png" />
+          <img src="/app/admin-company.png" />
+          <img src="/app/admin-sensors.png" />
+          <img src="/app/admin-sensor-details.png" />
+        </div>
+      </Panel>
+      <Panel
+        header="Real world example"
+        content={
+          <>
+            <p>
+              Temperature in Seraphin monitored freezer rises above the user
+              defined threshold of -70 degrees Celsius. Shortly after, the
+              wireless temperature sensor attached to the freezer reads the
+              temperature and transmits it to the Seraphin Cloud Server (SCS).
+            </p>
+            <p>
+              The SCS executes the user defined test which compares the received
+              reading against the predefined value of -70 degrees.
+            </p>
+            <p>
+              The test criteria are met and the system triggers a phone call to
+              i.e. a clients on-call engineer. The engineer answers the call,
+              the system records the receipt of the alert call. The engineer is
+              now notified of the issue and proceeds to examine the site.
+            </p>
+          </>
+        }
+        className="panel--centered panel--gray"
+      ></Panel>
+      <ContactUsPanel />
     </PageLayout>
   );
 }

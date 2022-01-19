@@ -35,8 +35,8 @@ export default function About() {
               </p>
               <p>or</p>
               <p>
-                <a href="tel:07871259234" className="btn">
-                  07871259234
+                <a href="tel:01412374636" className="btn">
+                  0141 237 4636
                 </a>
               </p>
             </>
