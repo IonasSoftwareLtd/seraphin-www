@@ -13,6 +13,7 @@ import { Feature, FeatureList } from "../component/Feature";
 import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export default function Home() {
   return (
@@ -39,9 +40,61 @@ export default function Home() {
         </Panel>
       </div>
       <Panel header="How it works?">
-        <FeatureList className="how-it-works">
+        <div className="row row--clickable">
+          <img
+            src="/combinedSensors.png"
+            alt="Seraphin Responsive UI"
+            width="250px"
+            height="250px"
+          />
+          <div className="row__text">
+            <h3>
+              <Link to="/sensors" className="text-link text-link--with-icon">
+                Sensors <ArrowForwardIosIcon />
+              </Link>
+            </h3>
+            The system is designed to protect your assets. It achieves that by
+            sending telemetry data from variety of supported sensors to the
+            Seraphin cloud servers. Incoming data is evaluated against user
+            defined rules.
+          </div>
+        </div>
+        <div className="row row--clickable">
+          <div className="row__text">
+            <h3>Notifications</h3>
+            If rule conditions are met, the notification in the form of email,
+            text message or a phone call is triggered to inform the user about
+            alarm condition.
+          </div>
+          <img
+            src="/combinedNotifications.png"
+            alt="Seraphin Responsive UI"
+            width="250px"
+            height="250px"
+          />
+        </div>
+        <div className="row row--clickable">
+          <img
+            src="/combinedPlatforms.png"
+            alt="Seraphin Responsive UI"
+            width="250px"
+            height="250px"
+          />
+
+          <div className="row__text">
+            <h3>
+              <Link to="/about" className="text-link text-link--with-icon">
+                Seraphin Platform <ArrowForwardIosIcon />
+              </Link>
+            </h3>
+            All sensor-sent telemetry data is stored in the cloud and available
+            for live and retrospective view via a mobile friendly and secure web
+            portal.
+          </div>
+        </div>
+        {/* <FeatureList className="how-it-works">
           <Feature
-            icon={<img src={SensorIconPng} alt="sensor" width="80px" />}
+            icon={<img src="/svgBlobs/blob1.svg" alt="sensor" width="80px" />}
             header="Sensor capture"
             content="Our high quality sensors capture real time data"
           />
@@ -55,7 +108,7 @@ export default function Home() {
             header="Seraphin Cloud App"
             content="All the data is securly stored and displayed in user friendly interface"
           />
-        </FeatureList>
+        </FeatureList> */}
       </Panel>
       <Panel header="How is it better?">
         <FeatureList className="product-features">
