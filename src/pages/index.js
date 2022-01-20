@@ -31,7 +31,7 @@ export default function Home() {
                 monitoring and rapid alert capability.
               </div>
               <div className="banner__cta">
-                <Link to="/about" className="btn">
+                <Link to="/seraphin-platform" className="btn">
                   Read more about Seraphin Platform
                 </Link>
               </div>
@@ -49,7 +49,7 @@ export default function Home() {
             sending telemetry data from variety of supported sensors to the
             Seraphin cloud servers. Incoming data is evaluated against user
             defined rules."
-          link="/sensors"
+          link="/seraphin-platform/#sensor-activation-section"
           imageFirst={true}
         />
         <ImageTextRow
@@ -59,7 +59,7 @@ export default function Home() {
             sending telemetry data from variety of supported sensors to the
             Seraphin cloud servers. Incoming data is evaluated against user
             defined rules."
-          link="/sensors"
+          link="/seraphin-platform/#telemetry-section"
           imageFirst={false}
         />
         <ImageTextRow
@@ -68,7 +68,7 @@ export default function Home() {
           body="If rule conditions are met, the notification in the form of email,
           text message or a phone call is triggered to inform the user about
           alarm condition."
-          link="/sensors"
+          link="/seraphin-platform/#notifications-section"
           imageFirst={true}
         />
         <ImageTextRow
@@ -77,7 +77,7 @@ export default function Home() {
           body="All sensor-sent telemetry data is stored in the cloud and available
           for live and retrospective view via a mobile friendly and secure web
           portal."
-          link="/about"
+          link="/seraphin-platform/#portal-section"
           imageFirst={false}
         />
         {/* <FeatureList className="how-it-works">
