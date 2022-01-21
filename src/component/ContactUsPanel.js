@@ -3,7 +3,7 @@ import React from "react";
 import { Panel } from "../component/Panel";
 
 export const ContactUsPanel = ({
-  className = "panel--centered panel--gray",
+  className = "panel--centered panel--orange",
 }) => {
   return (
     <Panel
@@ -19,7 +19,7 @@ export const ContactUsPanel = ({
         </>
       }
     >
-      <Link to="/contact" className="btn">
+      <Link to="/contact" className="btn-secondary">
         Contact us
       </Link>
     </Panel>

@@ -1,20 +1,15 @@
-import { ImageTextRow } from "./../component/ImageTextRow";
 import EditIcon from "@mui/icons-material/Edit";
 import MonitorIcon from "@mui/icons-material/Monitor";
 import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
 import SensorsIcon from "@mui/icons-material/Sensors";
 import ShieldIcon from "@mui/icons-material/Shield";
-import TrackChangesIcon from "@mui/icons-material/TrackChangesOutlined";
 import { Link } from "gatsby";
 import React from "react";
-import CloudIconPng from "../../static/cloudIcon.png";
-import SensorIconPng from "../../static/sensorIcon.png";
-import { ContactUsPanel } from "../component/ContactUsPanel";
 import { Feature, FeatureList } from "../component/Feature";
 import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { ImageTextRow } from "./../component/ImageTextRow";
 
 export default function Home() {
   return (
@@ -135,7 +130,7 @@ export default function Home() {
             </p>
           </>
         }
-        className="panel--orange panel--centered"
+        className="panel--gray panel--centered"
       >
         <FeatureList className="help-features">
           <Feature
@@ -156,13 +151,12 @@ export default function Home() {
           </Feature>
         </FeatureList>
         <div className="panel__cta">
-          <Link to="/services" className="btn-secondary">
+          <Link to="/services" className="btn">
             Read more about our Services
           </Link>
         </div>
       </Panel>
 
-      <ContactUsPanel />
       {/* <Panel
         header="Don't take our word for it"
         content={

@@ -1,15 +1,7 @@
 .footer {
-  background: #333;
-  color: #fff;
   padding: 10px;
-
-  a {
-    color: #fff;
-  }
-}
-
-.footer__header {
-  color: #fff;
+  border-top: 1px solid #dfdfdf;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .footer__inner {
@@ -33,15 +25,13 @@
 }
 
 .footer__logo {
-  background: #fff;
   padding: 10px;
   margin: 10px 0;
   display: inline-block;
 }
 
 .footer__date {
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #777;
+  padding: 20px 0;
+  border-top: 1px solid #dfdfdf;
   text-align: center;
 }

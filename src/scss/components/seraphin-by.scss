@@ -1,0 +1,29 @@
+.seraphin-by-wrapper {
+  display: inline-block;
+}
+
+.seraphin-by {
+  display: flex;
+  align-items: center;
+
+  img {
+    display: block;
+  }
+
+  .seraphin-by__by {
+    margin: 0 20px;
+    color: $color-brand;
+  }
+
+  .seraphin-by__seraphin {
+    width: 200px;
+    height: 28px;
+  }
+
+  .seraphin-by__ionas {
+    img {
+      max-height: 28px;
+      margin-bottom: 5px;
+    }
+  }
+}

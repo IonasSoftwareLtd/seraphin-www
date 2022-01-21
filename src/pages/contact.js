@@ -2,6 +2,7 @@ import React from "react";
 import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
+import { SeraphinBy } from "../component/SeraphinBy";
 
 export default function About() {
   return (
@@ -9,10 +10,10 @@ export default function About() {
       <div className="first-panel">
         <PageHeader />
         <Panel
-          header="Contact Seraphin by IONAS"
+          header="Contact us"
           content={
             <>
-              <img src="/ionas-logo.png" alt="IONAS Logo" />
+              <SeraphinBy />
               <br />
               <br />
               <p>
