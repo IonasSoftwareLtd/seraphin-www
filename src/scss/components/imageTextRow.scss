@@ -42,8 +42,8 @@
 
 .text-link {
   color: $color-brand;
-
   &:hover {
+    cursor: pointer;
     color: $color-brand-dark;
   }
 
