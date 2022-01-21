@@ -69,10 +69,8 @@ export function PageHeader() {
               <nav className="nav">
                 <ul>
                   {menuItems.map((item) => (
-                    <li>
-                      <Link to={item.link} key={item.label}>
-                        {item.label}
-                      </Link>
+                    <li key={item.link}>
+                      <Link to={item.link}>{item.label}</Link>
                     </li>
                   ))}
                 </ul>
