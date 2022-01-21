@@ -16,6 +16,20 @@ export default function SeraphinPlatform() {
           header="About Seraphin Monitoring Platform"
           content={
             <>
+              
+            </>
+          }
+          className="panel--centered"
+        >
+          <div className="row">
+            <img 
+              src="/app/home.jpg" 
+              alt="Seraphin Monitoring Platform"
+            />
+            <div className="row__text">
+              <h3>
+                Our mobile friendly and secure web portal
+              </h3>
               <p>
                 Seraphin Monitoring Platform is a comprehensive IoT (Internet of
                 Things) software platform developed to provide real-time
@@ -31,13 +45,13 @@ export default function SeraphinPlatform() {
                 telemetry data is stored in the cloud and available for live and
                 retrospective view via a mobile friendly and secure web portal.
               </p>
-            </>
-          }
-          className="panel--centered"
-        ></Panel>
+            </div>
+          </div>
+        </Panel>
       </div>
 
-      <Panel header="Sensor management">
+      {/* Sensor management */}
+      <Panel header="Sensor management" headerId="#sensor-activation-section">
         {/* Sensors - general */}
         <div className="row card">
           <div className="row__text">
@@ -56,43 +70,94 @@ export default function SeraphinPlatform() {
         </div>
         {/* Sensors - browse */}
         <div className="row">
-          <img 
-            src="/app/sensor-browse.jpg" 
-            alt="Sensors Management - Browsing"
-          />
           <div className="row__text">
             <h3>
-              Browse 
+              Browse through sensors
             </h3>
             You can use the portal to browse through all sensors that have been associated with your organisation, 
             giving you an instant view into the state of your devices. The portal gives you’re a convenient way 
             to browse the sensors whether you manage only a handful or hundreds of them.
           </div>
+          <img 
+            src="/app/sensor-browse.jpg" 
+            alt="Sensors Management - Browsing"
+          />
         </div>
         {/* Sensors - organise */}
         <div className="row">
-          <img 
-            src="/app/sensor-grouped.jpg" 
-            alt="Sensors Management - Organisation"
-          />
           <div className="row__text">
             <h3>
-              Organise 
+              Organise sensors into groups
             </h3>
             The portal gives you the ability to group your sensors into meaningful compartments e.g., you may 
             want to organise your devices according to their physical location, type or purpose.  It is easy to 
             move sensors between these compartments customising the views according to personal preferences.
           </div>
+          <img 
+            src="/app/sensor-grouped.jpg" 
+            alt="Sensors Management - Organisation"
+          />
         </div>
         {/* Sensors - inspect */}
         <div className="row">
+          <div className="row__text">
+            <h3>
+              Inspect sensor data
+            </h3>
+            Zooming in on a specific sensor uncovers the latest data gathered throughout the day. The data is 
+            plotted on a line chart for easy insight and neat presentation. In addition, all historical data 
+            is available for browsing at your fingertips in an easy to view and pageable table. 
+          </div>
           <img 
             src="/app/sensor-graph.jpg" 
             alt="Sensors Management - Inspection"
           />
+        </div>
+      </Panel>
+
+
+
+      {/* Rule evaluation */}
+      <Panel header="Event rule evaluation" headerId="#telemetry-section">
+        {/* Rule - define */}
+        <div className="row">
+          <img 
+            src="/app/rule-define.jpg" 
+            alt="Rule Management - Rule definition"
+          />
           <div className="row__text">
             <h3>
-              Inspect 
+              Define rules that trigger notifications
+            </h3>
+            Zooming in on a specific sensor uncovers the latest data gathered throughout the day. The data is 
+            plotted on a line chart for easy insight and neat presentation. In addition, all historical data 
+            is available for browsing at your fingertips in an easy to view and pageable table. 
+          </div>
+        </div>
+        {/* Rule - inspect */}
+        <div className="row">
+          <img 
+            src="/app/rule-inspect.jpg" 
+            alt="Rule Management - Inspection"
+          />
+          <div className="row__text">
+            <h3>
+              Inspect rules defined for your organisation
+            </h3>
+            Zooming in on a specific sensor uncovers the latest data gathered throughout the day. The data is 
+            plotted on a line chart for easy insight and neat presentation. In addition, all historical data 
+            is available for browsing at your fingertips in an easy to view and pageable table. 
+          </div>
+        </div>
+        {/* Rule - browse */}
+        <div className="row">
+          <img 
+            src="/app/rule-browse.jpg" 
+            alt="Rule Management - Browsing"
+          />
+          <div className="row__text">
+            <h3>
+              Browse easily thorugh active and disabled rules
             </h3>
             Zooming in on a specific sensor uncovers the latest data gathered throughout the day. The data is 
             plotted on a line chart for easy insight and neat presentation. In addition, all historical data 
@@ -101,30 +166,31 @@ export default function SeraphinPlatform() {
         </div>
       </Panel>
 
-      <Panel
-        header="Our mobile friendly and secure web portal"
-        content={
-          <>
-            <p>
-              Monitor your sensors data and manage all aspects of your project
-              from our user friendly web portal.
-            </p>
-          </>
-        }
-        className="panel--centered"
-      >
-        <h3 id="sensor-activation-section">Sensor activation</h3>
-        <h3 id="telemetry-section">Telemetry event evaluation</h3>
-        <h3 id="notifications-section">Notifications triggering</h3>
-        <h3 id="portal-section">Management using online portal</h3>
-
-        <div className="image-gallery">
-          <img src="/app/admin-manager.png" />
-          <img src="/app/admin-company.png" />
-          <img src="/app/admin-sensors.png" />
-          
+      {/* Notification trigerring */}
+      <Panel header="Notification trigerring" headerId="#notifications-section">
+        <div className="row">
+          <div className="row__text">
+            Zooming in on a specific sensor uncovers the latest data gathered throughout the day. The data is 
+            plotted on a line chart for easy insight and neat presentation. In addition, all historical data 
+            is available for browsing at your fingertips in an easy to view and pageable table. 
+          </div>
         </div>
       </Panel>
+
+
+      {/* Management using online portal */}
+      <Panel header="Management using online portal" headerId="#portal-section">
+        <div className="row">
+          <div className="row__text">
+            Zooming in on a specific sensor uncovers the latest data gathered throughout the day. The data is 
+            plotted on a line chart for easy insight and neat presentation. In addition, all historical data 
+            is available for browsing at your fingertips in an easy to view and pageable table. 
+          </div>
+        </div>
+      </Panel>
+
+
+      {/* Real world example */}
       <Panel
         header="Real world example"
         content={

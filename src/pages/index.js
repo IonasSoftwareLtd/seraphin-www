@@ -76,7 +76,8 @@ export default function Home() {
           title="Management using online portal"
           body="All sensor-sent telemetry data is stored in the cloud and available
           for live and retrospective view via a mobile friendly and secure web
-          portal."
+          portal. Our online portal allows you to browse through the alerts and stay 
+          informed about actions your on-call engineers have taken."
           link="/seraphin-platform/#portal-section"
           imageFirst={false}
         />
