@@ -7,7 +7,7 @@ import { Panel } from "../component/Panel";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "gatsby";
 
-export default function About() {
+export default function SeraphinPlatform() {
   return (
     <PageLayout>
       <div className="first-panel">
@@ -113,6 +113,11 @@ export default function About() {
         }
         className="panel--centered"
       >
+        <h3 id="sensor-activation-section">Sensor activation</h3>
+        <h3 id="telemetry-section">Telemetry event evaluation</h3>
+        <h3 id="notifications-section">Notifications triggering</h3>
+        <h3 id="portal-section">Management using online portal</h3>
+
         <div className="image-gallery">
           <img src="/app/admin-manager.png" />
           <img src="/app/admin-company.png" />

@@ -1,3 +1,4 @@
+import { ImageTextRow } from "./../component/ImageTextRow";
 import EditIcon from "@mui/icons-material/Edit";
 import MonitorIcon from "@mui/icons-material/Monitor";
 import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
@@ -30,7 +31,7 @@ export default function Home() {
                 monitoring and rapid alert capability.
               </div>
               <div className="banner__cta">
-                <Link to="/about" className="btn">
+                <Link to="/seraphin-platform" className="btn">
                   Read more about Seraphin Platform
                 </Link>
               </div>
@@ -40,58 +41,45 @@ export default function Home() {
         </Panel>
       </div>
       <Panel header="How it works?">
-        <div className="row row--clickable">
-          <img
-            src="/combinedSensors.png"
-            alt="Seraphin Responsive UI"
-            width="250px"
-            height="250px"
-          />
-          <div className="row__text">
-            <h3>
-              <Link to="/sensors" className="text-link text-link--with-icon">
-                Sensors <ArrowForwardIosIcon />
-              </Link>
-            </h3>
-            The system is designed to protect your assets. It achieves that by
+        <ImageTextRow
+          imageUrl="/combinedSensors.png"
+          imageAlt="Sensor activation image"
+          title="Sensor activation"
+          body="The system is designed to protect your assets. It achieves that by
             sending telemetry data from variety of supported sensors to the
             Seraphin cloud servers. Incoming data is evaluated against user
-            defined rules.
-          </div>
-        </div>
-        <div className="row row--clickable">
-          <div className="row__text">
-            <h3>Notifications</h3>
-            If rule conditions are met, the notification in the form of email,
-            text message or a phone call is triggered to inform the user about
-            alarm condition.
-          </div>
-          <img
-            src="/combinedNotifications.png"
-            alt="Seraphin Responsive UI"
-            width="250px"
-            height="250px"
-          />
-        </div>
-        <div className="row row--clickable">
-          <img
-            src="/combinedPlatforms.png"
-            alt="Seraphin Responsive UI"
-            width="250px"
-            height="250px"
-          />
-
-          <div className="row__text">
-            <h3>
-              <Link to="/about" className="text-link text-link--with-icon">
-                Seraphin Platform <ArrowForwardIosIcon />
-              </Link>
-            </h3>
-            All sensor-sent telemetry data is stored in the cloud and available
-            for live and retrospective view via a mobile friendly and secure web
-            portal.
-          </div>
-        </div>
+            defined rules."
+          link="/seraphin-platform/#sensor-activation-section"
+          imageFirst={true}
+        />
+        <ImageTextRow
+          imageUrl="/combinedTelemetry.png"
+          title="Telemetry event evaluation "
+          body="The system is designed to protect your assets. It achieves that by
+            sending telemetry data from variety of supported sensors to the
+            Seraphin cloud servers. Incoming data is evaluated against user
+            defined rules."
+          link="/seraphin-platform/#telemetry-section"
+          imageFirst={false}
+        />
+        <ImageTextRow
+          imageUrl="/combinedNotifications.png"
+          title="Notification triggering"
+          body="If rule conditions are met, the notification in the form of email,
+          text message or a phone call is triggered to inform the user about
+          alarm condition."
+          link="/seraphin-platform/#notifications-section"
+          imageFirst={true}
+        />
+        <ImageTextRow
+          imageUrl="/combinedPlatforms.png"
+          title="Management using online portal"
+          body="All sensor-sent telemetry data is stored in the cloud and available
+          for live and retrospective view via a mobile friendly and secure web
+          portal."
+          link="/seraphin-platform/#portal-section"
+          imageFirst={false}
+        />
         {/* <FeatureList className="how-it-works">
           <Feature
             icon={<img src="/svgBlobs/blob1.svg" alt="sensor" width="80px" />}

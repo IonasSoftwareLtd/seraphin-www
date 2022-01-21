@@ -10,8 +10,8 @@ const menuItems = [
     link: "/",
   },
   {
-    label: "About",
-    link: "/about",
+    label: "Seraphin Platform",
+    link: "/seraphin-platform",
   },
   {
     label: "Services",
