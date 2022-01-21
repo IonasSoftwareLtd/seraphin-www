@@ -1,0 +1,32 @@
+.service-list {
+  .service {
+    margin-bottom: 30px;
+  }
+}
+
+.service {
+  padding: 10px 20px;
+
+  svg {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(120deg, $color-brand, $color-secondary);
+    padding: 14px;
+    border-radius: 49%;
+    color: white;
+  }
+}
+
+.service__inner {
+  display: flex;
+  align-items: center;
+}
+
+.service__header {
+  @include typography(gamma);
+  margin-bottom: 10px;
+}
+
+.service__content {
+  padding-left: 30px;
+}

@@ -6,10 +6,11 @@ import SettingsInputComponentIcon from "@mui/icons-material/SettingsInputCompone
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import UpdateIcon from "@mui/icons-material/Update";
 import React from "react";
-import { Feature, FeatureList } from "../component/Feature";
+import { ContentWrapper } from "../component/ContentWrapper";
 import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
+import { Service, ServiceList } from "../component/Service";
 
 export default function Services() {
   return (
@@ -36,59 +37,56 @@ export default function Services() {
         ></Panel>
       </div>
       <Panel>
-        <FeatureList className="product-features">
-          <div className="product-features__row">
-            <Feature
+        <ContentWrapper>
+          <ServiceList className="product-features">
+            <Service
               header="Consulting services"
               icon={<RecordVoiceOverIcon />}
             >
               We are open to any consultation ranging from possible existing
               solutions to bespoke product design.
-            </Feature>
-            <Feature header="Product customization" icon={<EditIcon />}>
+            </Service>
+            <Service header="Product customization" icon={<EditIcon />}>
               We offer our partners and customers close cooperation to help the
               designed monitoring system meet any specific expectations.
-            </Feature>
-          </div>
-          <div className="product-features__row">
-            <Feature
+            </Service>
+
+            <Service
               header="Installation of system components"
               icon={<SettingsInputComponentIcon />}
             >
               Professional installation of your/our monitoring system assuring
               best signal range for undisturbed communication between system
               components.
-            </Feature>
-            <Feature header="Training programs" icon={<PeopleIcon />}>
+            </Service>
+            <Service header="Training programs" icon={<PeopleIcon />}>
               We provide to our partners theoretical and practical trainings for
               better understanding of the concept and functionality of the
               system.
-            </Feature>
-          </div>
-          <div className="product-features__row">
-            <Feature
+            </Service>
+
+            <Service
               header="Maintenance and support"
               icon={<SupportAgentIcon />}
             >
               We help keep your system up and running, so you can ensure
               important data is delivered on schedule.
-            </Feature>
-            <Feature
+            </Service>
+            <Service
               header="Annual calibration services"
               icon={<PhonelinkSetupIcon />}
             >
               High quality regular calibration of your/our system essential to
               ensure the best possible accuracy.
-            </Feature>
-          </div>
-          <div className="product-features__row">
-            <Feature header="Software update" icon={<UpdateIcon />}>
+            </Service>
+
+            <Service header="Software update" icon={<UpdateIcon />}>
               We guarantee the latest software installed on all of the
               components of your/our system to ensure most efficient and safe
               data logging.
-            </Feature>
-          </div>
-        </FeatureList>
+            </Service>
+          </ServiceList>
+        </ContentWrapper>
       </Panel>
     </PageLayout>
   );
