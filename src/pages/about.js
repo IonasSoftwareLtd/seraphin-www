@@ -4,6 +4,9 @@ import { PageHeader } from "../component/PageHeader";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
 
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { Link } from "gatsby";
+
 export default function About() {
   return (
     <PageLayout>
@@ -34,6 +37,70 @@ export default function About() {
         ></Panel>
       </div>
 
+      <Panel header="Sensor management">
+        {/* Sensors - general */}
+        <div className="row card">
+          <div className="row__text">
+            <p>
+              To find out more about the types of sensors the portal supports, 
+              their capabilities and specifications go to &nbsp;
+              <Link to="/sensors" className="text-link text-link--with-icon">
+                Sensors <ArrowForwardIosIcon />
+              </Link>
+            </p>
+            <br />
+            <p>
+              Seraphin Platform Online Portal makes it extremely easy to manage sensors deployed at your site. 
+            </p>
+          </div>
+        </div>
+        {/* Sensors - browse */}
+        <div className="row">
+          <img 
+            src="/app/sensor-browse.jpg" 
+            alt="Sensors Management - Browsing"
+          />
+          <div className="row__text">
+            <h3>
+              Browse 
+            </h3>
+            You can use the portal to browse through all sensors that have been associated with your organisation, 
+            giving you an instant view into the state of your devices. The portal gives you’re a convenient way 
+            to browse the sensors whether you manage only a handful or hundreds of them.
+          </div>
+        </div>
+        {/* Sensors - organise */}
+        <div className="row">
+          <img 
+            src="/app/sensor-grouped.jpg" 
+            alt="Sensors Management - Organisation"
+          />
+          <div className="row__text">
+            <h3>
+              Organise 
+            </h3>
+            The portal gives you the ability to group your sensors into meaningful compartments e.g., you may 
+            want to organise your devices according to their physical location, type or purpose.  It is easy to 
+            move sensors between these compartments customising the views according to personal preferences.
+          </div>
+        </div>
+        {/* Sensors - inspect */}
+        <div className="row">
+          <img 
+            src="/app/sensor-graph.jpg" 
+            alt="Sensors Management - Inspection"
+          />
+          <div className="row__text">
+            <h3>
+              Inspect 
+            </h3>
+            Zooming in on a specific sensor uncovers the latest data gathered throughout the day. The data is 
+            plotted on a line chart for easy insight and neat presentation. In addition, all historical data 
+            is available for browsing at your fingertips in an easy to view and pageable table. 
+          </div>
+        </div>
+      </Panel>
+
       <Panel
         header="Our mobile friendly and secure web portal"
         content={
@@ -50,7 +117,7 @@ export default function About() {
           <img src="/app/admin-manager.png" />
           <img src="/app/admin-company.png" />
           <img src="/app/admin-sensors.png" />
-          <img src="/app/admin-sensor-details.png" />
+          
         </div>
       </Panel>
       <Panel
