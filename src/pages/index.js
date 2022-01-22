@@ -50,10 +50,10 @@ export default function Home() {
         <ImageTextRow
           imageUrl="/combinedTelemetry.png"
           title="Telemetry event evaluation "
-          body="The system is designed to protect your assets. It achieves that by
-            sending telemetry data from variety of supported sensors to the
-            Seraphin cloud servers. Incoming data is evaluated against user
-            defined rules."
+          body="Organisations onboarded onto Serpahin online portal define rules
+          that are evaluated against every incoming telemetry event. The result 
+          of rule evaluation determines if an alert should be trigerred and on-call
+          engineer contacted."
           link="/seraphin-platform/#telemetry-section"
           imageFirst={false}
         />
@@ -68,7 +68,7 @@ export default function Home() {
         />
         <ImageTextRow
           imageUrl="/combinedPlatforms.png"
-          title="Management using online portal"
+          title="Alert management using online portal"
           body="All sensor-sent telemetry data is stored in the cloud and available
           for live and retrospective view via a mobile friendly and secure web
           portal. Our online portal allows you to browse through the alerts and stay 
