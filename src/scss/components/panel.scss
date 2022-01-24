@@ -97,7 +97,9 @@
   background: #e7e9ed;
 }
 
-
-.card {
-  
+.panel--example {
+  img {
+    max-height: 150px;
+    margin-top: 40px;
+  }
 }

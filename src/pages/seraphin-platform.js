@@ -1,6 +1,7 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "gatsby";
 import React from "react";
+import { Feature, FeatureList } from "../component/Feature";
 import { FirstPanel } from "../component/FirstPanel";
 import { GridRow } from "../component/Grid";
 import { ElevatedImage } from "../component/ImageWithModal";
@@ -11,13 +12,10 @@ export default function SeraphinPlatform() {
   return (
     <PageLayout>
       <FirstPanel>
-        <Panel
-          header="About Seraphin Monitoring Platform"
-          headerLevel={1}
-          className="panel--centered"
-        >
+        <Panel header="About Seraphin Monitoring Platform" headerLevel={1}>
           <GridRow
             topAlign
+            imageFirst
             image={
               <ElevatedImage
                 src="/app/home.jpg"
@@ -25,7 +23,6 @@ export default function SeraphinPlatform() {
               />
             }
           >
-            <h3>Our mobile friendly and secure web portal</h3>
             <p>
               Seraphin Monitoring Platform is a comprehensive IoT (Internet of
               Things) software platform developed to provide real-time
@@ -34,12 +31,18 @@ export default function SeraphinPlatform() {
             <p>
               The system is designed to protect your assets. It achieves that by
               sending telemetry data from variety of supported sensors to the
-              Seraphin cloud servers. Incoming data is evaluated against user
-              defined rules. If rule conditions are met, the notification in the
-              form of email, text message or a phone call is triggered to inform
-              the user about alarm condition. All sensor-sent telemetry data is
-              stored in the cloud and available for live and retrospective view
-              via a mobile friendly and secure web portal.
+              Seraphin cloud servers.
+            </p>
+            <p>
+              Incoming data is evaluated against user defined rules. If rule
+              conditions are met, the notification in the form of email, text
+              message or a phone call is triggered to inform the user about
+              alarm condition.
+            </p>
+            <p>
+              All sensor-sent telemetry data is stored in the cloud and
+              available for live and retrospective view via a mobile friendly
+              and secure web portal.
             </p>
           </GridRow>
         </Panel>
@@ -217,28 +220,52 @@ export default function SeraphinPlatform() {
       {/* Real world example */}
       <Panel
         header="Real world example"
-        content={
-          <>
-            <p>
-              Temperature in Seraphin monitored freezer rises above the user
-              defined threshold of -70 degrees Celsius. Shortly after, the
-              wireless temperature sensor attached to the freezer reads the
-              temperature and transmits it to the Seraphin Cloud Server (SCS).
-            </p>
-            <p>
-              The SCS executes the user defined test which compares the received
-              reading against the predefined value of -70 degrees.
-            </p>
-            <p>
-              The test criteria are met and the system triggers a phone call to
-              i.e. a clients on-call engineer. The engineer answers the call,
-              the system records the receipt of the alert call. The engineer is
-              now notified of the issue and proceeds to examine the site.
-            </p>
-          </>
-        }
-        className="panel--centered panel--gray"
-      ></Panel>
+        content="A real world example how clients are using our platform."
+        className="panel--centered panel--gray panel--example"
+      >
+        <FeatureList>
+          <Feature
+            className="feature--testimonial"
+            icon={
+              <img
+                src="/sensors/LowTemp.png"
+                alt="Temperature in Seraphin monitored freezer"
+              />
+            }
+          >
+            Temperature in Seraphin monitored freezer rises above the user
+            defined threshold of -70 degrees Celsius. Shortly after, the
+            wireless temperature sensor attached to the freezer reads the
+            temperature and transmits it to the Seraphin Cloud Server (SCS).
+          </Feature>
+          <Feature
+            className="feature--testimonial"
+            icon={
+              <img
+                src="/combinedTelemetry.png"
+                alt="Temperature in Seraphin monitored freezer"
+              />
+            }
+          >
+            The SCS executes the user defined test which compares the received
+            reading against the predefined value of -70 degrees.
+          </Feature>
+          <Feature
+            className="feature--testimonial"
+            icon={
+              <img
+                src="/combinedNotifications.png"
+                alt="Temperature in Seraphin monitored freezer"
+              />
+            }
+          >
+            The test criteria are met and the system triggers a phone call to
+            i.e. a clients on-call engineer. The engineer answers the call, the
+            system records the receipt of the alert call. The engineer is now
+            notified of the issue and proceeds to examine the site.
+          </Feature>
+        </FeatureList>
+      </Panel>
     </PageLayout>
   );
 }
