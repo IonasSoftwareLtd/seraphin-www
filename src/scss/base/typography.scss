@@ -30,7 +30,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #3a7bd5;
+  color: darken($color-brand, 20%);
 }
 
 h1,

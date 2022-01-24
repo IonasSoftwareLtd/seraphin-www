@@ -19,6 +19,10 @@
     }
   }
 
+  &--top-align {
+    align-items: flex-start;
+  }
+
   &--image-first {
     img {
       order: 1;
