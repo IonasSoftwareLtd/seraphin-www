@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Low temperature sensor"
+          headerLevel={1}
           content="Low temperature sensor to gather real time data in extremely low temperatures."
           className="panel--centered"
         ></Panel>

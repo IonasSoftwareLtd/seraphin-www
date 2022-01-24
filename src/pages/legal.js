@@ -9,6 +9,7 @@ export default function About() {
       <FirstPanel>
         <Panel
           header="Legal"
+          headerLevel={1}
           content={
             <>
               <p>{"TEXT".repeat(100)}</p>

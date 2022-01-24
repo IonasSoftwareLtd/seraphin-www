@@ -1,15 +1,15 @@
 import React from "react";
-import { PageHeader } from "../component/PageHeader";
+import { FirstPanel } from "../component/FirstPanel";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
 
 export default function About() {
   return (
     <PageLayout>
-      <div className="first-panel">
-        <PageHeader />
+      <FirstPanel>
         <Panel
           header="Cookies"
+          headerLevel={1}
           content={
             <>
               <p>{"TEXT".repeat(100)}</p>
@@ -17,7 +17,7 @@ export default function About() {
           }
           className="panel--centered"
         ></Panel>
-      </div>
+      </FirstPanel>
     </PageLayout>
   );
 }

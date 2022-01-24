@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Customized sensor"
+          headerLevel={1}
           content="Two types of connections RS485 and UART interface for connecting various sensors."
           className="panel--centered"
         ></Panel>

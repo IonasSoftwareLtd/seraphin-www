@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Distance Sensor"
+          headerLevel={1}
           content="Laser technology for distance detection."
           className="panel--centered"
         ></Panel>

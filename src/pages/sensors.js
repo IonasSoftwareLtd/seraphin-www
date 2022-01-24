@@ -9,6 +9,7 @@ export default function Sensors() {
       <FirstPanel>
         <Panel
           header="Our sensors"
+          headerLevel={1}
           content="We offer wide range of real time monitoring sensors for monitoring
           your inventory and assets."
           className="panel--centered"

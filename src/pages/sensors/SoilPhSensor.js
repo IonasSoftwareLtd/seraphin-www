@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Soil Ph Sensor"
+          headerLevel={1}
           content="The Soil Ph Sensor is designed to monitor
           Ph of soil for different environment."
           className="panel--centered"

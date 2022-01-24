@@ -6,13 +6,22 @@ export function ProductList({ children, className }) {
   return <div className={CN("product-list", className)}>{children}</div>;
 }
 
-export function Product({ image, header, content, className, url }) {
+export function Product({
+  image,
+  header,
+  headerLevel = 2,
+  content,
+  className,
+  url,
+}) {
+  const Tag = `h${headerLevel}`;
+
   return (
     <div className={CN("product", className)}>
       <div className="product__inner">
         {image && <img className="product__image" src={image} alt={header} />}
         <div className="product__content">
-          {header && <h1 className="product__header">{header}</h1>}
+          {header && <Tag className="product__header">{header}</Tag>}
           {content && <div>{content}</div>}
         </div>
         {url && (

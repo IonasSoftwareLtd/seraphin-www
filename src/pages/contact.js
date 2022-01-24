@@ -10,6 +10,7 @@ export default function Contact() {
       <FirstPanel>
         <Panel
           header="Contact us"
+          headerLevel={1}
           content={
             <>
               <SeraphinBy />

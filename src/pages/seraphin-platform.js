@@ -13,6 +13,7 @@ export default function SeraphinPlatform() {
       <FirstPanel>
         <Panel
           header="About Seraphin Monitoring Platform"
+          headerLevel={1}
           className="panel--centered"
         >
           <div className="row">

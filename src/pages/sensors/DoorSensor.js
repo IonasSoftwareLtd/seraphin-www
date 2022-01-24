@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Door sensor"
+          headerLevel={1}
           content="Door sensor will detect weather door was opened or closed."
           className="panel--centered"
         ></Panel>

@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Water leak sensor"
+          headerLevel={1}
           content="Water leak sensor will detect and water spillage and notifiy you."
           className="panel--centered"
         ></Panel>

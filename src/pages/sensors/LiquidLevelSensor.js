@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Liquid Level Sensor"
+          headerLevel={1}
           content="Liquid Level Measurement by Ultrasonic technology."
           className="panel--centered"
         ></Panel>

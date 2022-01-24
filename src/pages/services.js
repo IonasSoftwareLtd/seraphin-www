@@ -17,6 +17,7 @@ export default function Services() {
       <FirstPanel>
         <Panel
           header="Our services"
+          headerLevel={1}
           content={
             <>
               <p>

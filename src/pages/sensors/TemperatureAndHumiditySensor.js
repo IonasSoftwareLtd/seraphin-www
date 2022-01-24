@@ -9,6 +9,7 @@ export default function TemperatureTransmitter() {
       <FirstPanel>
         <Panel
           header="Temperature & Humidity Sensor"
+          headerLevel={1}
           content="Built-in Temperature & Humidity sensor."
           className="panel--centered"
         ></Panel>
