@@ -1,7 +1,6 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "gatsby";
 import React from "react";
-import { ContactUsPanel } from "../component/ContactUsPanel";
 import { FirstPanel } from "../component/FirstPanel";
 import { GridRow } from "../component/Grid";
 import { ElevatedImage } from "../component/ImageWithModal";
@@ -240,7 +239,6 @@ export default function SeraphinPlatform() {
         }
         className="panel--centered panel--gray"
       ></Panel>
-      <ContactUsPanel className="panel--centered" />
     </PageLayout>
   );
 }
