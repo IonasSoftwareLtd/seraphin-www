@@ -1,14 +1,12 @@
 import React from "react";
-import { PageHeader } from "../component/PageHeader";
+import { FirstPanel } from "../component/FirstPanel";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
 import { Product, ProductList } from "../component/Product";
-
 export default function Sensors() {
   return (
     <PageLayout>
-      <div className="first-panel">
-        <PageHeader />
+      <FirstPanel>
         <Panel
           header="Our sensors"
           content="We offer wide range of real time monitoring sensors for monitoring
@@ -16,19 +14,24 @@ export default function Sensors() {
           className="panel--centered"
         >
           <p>
-            Seraphin Platform works with a variety of LoRA compliant sensors. LoRa specification has become the 
-            de-facto standard in the IoT industry for low-powered, long-range radio telemetry solutions. 
+            Seraphin Platform works with a variety of LoRA compliant sensors.
+            LoRa specification has become the de-facto standard in the IoT
+            industry for low-powered, long-range radio telemetry solutions.
           </p>
           <p>
-          Seraphin sensors can be configured to emit data in response to an event, or at regular time intervals. 
-          All data is encrypted during transmission using strong cipher algorithms. The underlying communications 
-          protocol is engineered to work in noisy environments and guarantees a very high delivery ratio. 
-          Our verified LoRA compliant sensors can establish reliable communication links that extend from 
-          the closest vicinity up to 10 miles where direct line of sight is not obstructed. 
+            Seraphin sensors can be configured to emit data in response to an
+            event, or at regular time intervals. All data is encrypted during
+            transmission using strong cipher algorithms. The underlying
+            communications protocol is engineered to work in noisy environments
+            and guarantees a very high delivery ratio. Our verified LoRA
+            compliant sensors can establish reliable communication links that
+            extend from the closest vicinity up to 10 miles where direct line of
+            sight is not obstructed.
           </p>
           <p>
-          Ionas Software Ltd is the vendor and provider of the Seraphin Platform. The company offers a 
-          range of sensor verified to work with the platform at very competitive prices.
+            Ionas Software Ltd is the vendor and provider of the Seraphin
+            Platform. The company offers a range of sensor verified to work with
+            the platform at very competitive prices.
           </p>
           <ul>
             <li>Up to 10 years battery lifetime</li>
@@ -39,7 +42,7 @@ export default function Sensors() {
             <li>Event triggered telemetry transmission</li>
           </ul>
         </Panel>
-      </div>
+      </FirstPanel>
       <Panel>
         <ProductList>
           <Product

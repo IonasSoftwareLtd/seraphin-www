@@ -1,19 +1,18 @@
 import React from "react";
-import { PageHeader } from "../../component/PageHeader";
+import { FirstPanel } from "../../component/FirstPanel";
 import { PageLayout } from "../../component/PageLayout";
 import { Panel } from "../../component/Panel";
 
 export default function TemperatureTransmitter() {
   return (
     <PageLayout>
-      <div className="first-panel">
-        <PageHeader />
+      <FirstPanel>
         <Panel
           header="Liquid Level Sensor"
           content="Liquid Level Measurement by Ultrasonic technology."
           className="panel--centered"
         ></Panel>
-      </div>
+      </FirstPanel>
       <Panel>
         <div className="grid">
           <div>

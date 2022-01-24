@@ -1,14 +1,13 @@
 import React from "react";
-import { PageHeader } from "../component/PageHeader";
+import { FirstPanel } from "../component/FirstPanel";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
 import { SeraphinBy } from "../component/SeraphinBy";
 
-export default function About() {
+export default function Contact() {
   return (
     <PageLayout>
-      <div className="first-panel">
-        <PageHeader />
+      <FirstPanel>
         <Panel
           header="Contact us"
           content={
@@ -43,8 +42,8 @@ export default function About() {
             </>
           }
           className="panel--centered"
-        ></Panel>
-      </div>
+        />
+      </FirstPanel>
     </PageLayout>
   );
 }

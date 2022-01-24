@@ -9,13 +9,10 @@ export default function About() {
       <div className="first-panel">
         <PageHeader />
         <Panel
-          header="Frequently asked questions"
+          header="Cookies"
           content={
             <>
-              <p>
-                Need assistance with your Seraphin product? We'll get you the
-                help you need.
-              </p>
+              <p>{"TEXT".repeat(100)}</p>
             </>
           }
           className="panel--centered"

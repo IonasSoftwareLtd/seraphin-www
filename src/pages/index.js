@@ -6,7 +6,7 @@ import ShieldIcon from "@mui/icons-material/Shield";
 import { Link } from "gatsby";
 import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
-import { PageHeader } from "../component/PageHeader";
+import { FirstPanel } from "../component/FirstPanel";
 import { PageLayout } from "../component/PageLayout";
 import { Panel } from "../component/Panel";
 import { ImageTextRow } from "./../component/ImageTextRow";
@@ -14,8 +14,7 @@ import { ImageTextRow } from "./../component/ImageTextRow";
 export default function Home() {
   return (
     <PageLayout>
-      <div className="first-panel">
-        <PageHeader />
+      <FirstPanel>
         <Panel className="panel--no-spacing">
           <div className="banner">
             <div className="banner__inner">
@@ -34,7 +33,7 @@ export default function Home() {
             <div className="banner__image" />
           </div>
         </Panel>
-      </div>
+      </FirstPanel>
       <Panel header="How it works?">
         <ImageTextRow
           imageUrl="/combinedSensors.png"

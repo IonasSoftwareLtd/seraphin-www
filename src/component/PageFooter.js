@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import { ContactUsPanel } from "./ContactUsPanel";
 import { Panel } from "./Panel";
@@ -11,20 +12,26 @@ export function PageFooter() {
         <div className="footer">
           <div className="footer__inner">
             <div className="footer__item">
-              <div className="footer__logo">
-                <SeraphinBy />
-              </div>
-              <br /> 20 Summerfield Cottages
-              <br /> G14 0RB
-              <br /> Glasgow
-              <br /> United Kingdom
-              <div>
-                <a href="mailto:simon@ionas.co.uk">simon@ionas.co.uk</a>
-              </div>
+              <ul>
+                <li>
+                  <Link to="/legal">Legal</Link>
+                </li>
+                <li>
+                  <Link to="/cookies">Cookies</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="footer__date">
-            &copy; {new Date().getFullYear()} Seraphin. All rights reserved
+            <div className="footer__logo">
+              <SeraphinBy />
+            </div>
+            <div>
+              &copy; {new Date().getFullYear()} Seraphin. All rights reserved
+            </div>
           </div>
         </div>
       </Panel>
