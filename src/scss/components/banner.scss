@@ -1,19 +1,16 @@
 .banner {
-  // background: $color-brand-light;
-  padding: 40px;
   min-height: 50vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  max-width: 990px;
+  margin: auto;
   position: relative;
 }
 
 .banner__inner {
+  padding-top: 10%;
   text-align: left;
-  max-width: 600px;
-  width: 45%;
-  // color: #fff;
+  width: 70%;
+  z-index: 1;
 }
 
 .banner__header {
@@ -23,7 +20,8 @@
 }
 
 .banner__content {
-  margin-bottom: 20px;
+  margin-bottom: 2em;
+  padding-right: 9em;
 }
 
 .banner__cta {
@@ -33,16 +31,10 @@
 }
 
 .banner__image {
-  max-width: 40%;
-  margin-left: 20px;
-  order: 3;
-  background: url("../../static/icon/Cloud.png"), $color-brand-light;
-  background-blend-mode: darken;
-  height: 300px;
-  width: 300px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  position: absolute;
+  width: 80%;
+  right: -20%;
+  bottom: -15%;
 }
 
 @media screen and (max-width: 990px) {

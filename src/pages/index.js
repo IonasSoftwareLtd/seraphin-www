@@ -20,8 +20,8 @@ export default function Home() {
             <div className="banner__inner">
               <h1 className="banner__header">Seraphin Monitoring Platform</h1>
               <div className="banner__content">
-                Seraphin Monitoring Platform is a comprehensive IoT (Internet of
-                Things) software platform developed to provide real-time
+                Seraphin Monitoring Platform is a comprehensive 
+                IoT solution developed to provide real-time
                 monitoring and rapid alert capability.
               </div>
               <div className="banner__cta">
@@ -30,7 +30,9 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="banner__image" />
+            <div className="banner__image">
+              <img src="app/illustration-dekstop-xxl.png"/>
+            </div>
           </div>
         </Panel>
       </FirstPanel>
