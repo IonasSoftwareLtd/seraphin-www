@@ -1,5 +1,5 @@
 .banner {
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
   max-width: 990px;
   margin: auto;
@@ -7,6 +7,7 @@
 }
 
 .banner__inner {
+  position: relative;
   padding-top: 10%;
   text-align: left;
   width: 70%;
@@ -32,9 +33,9 @@
 
 .banner__image {
   position: absolute;
-  width: 80%;
-  right: -20%;
-  bottom: -15%;
+  width: 100%;
+  right: -20em;
+  top: 9em;
 }
 
 @media screen and (max-width: 990px) {

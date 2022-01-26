@@ -29,9 +29,9 @@ export default function Home() {
                   Read more about Seraphin Platform
                 </Link>
               </div>
-            </div>
-            <div className="banner__image">
-              <img src="app/illustration-dekstop-xxl.png"/>
+              <div className="banner__image">
+                <img alt="Seraphin Platform Illustration" src="app/illustration-dekstop-xxl.png"/>
+              </div>
             </div>
           </div>
         </Panel>
