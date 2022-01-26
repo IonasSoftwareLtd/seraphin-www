@@ -33,21 +33,52 @@
 
 .banner__image {
   position: absolute;
-  width: 100%;
-  right: -20em;
-  top: 9em;
+  width: 70%;
+  right: -80px;
+  bottom: -40px;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1135px) {
   .banner {
     flex-direction: column;
+    align-items: center;
   }
+
   .banner__inner {
-    width: unset;
+    // width: unset;
     text-align: center;
   }
 
+  .banner__content {
+    padding-right: 0;
+  }
+
   .banner__image {
-    display: none;
+    position: relative;
+    right: 0;
+    width: 80%;
   }
 }
+
+@media screen and (max-width: 1135px) {
+
+  .banner__image {
+    width: 90%;
+  }
+}
+
+// @media screen and (max-width: 990px) {
+//   .banner {
+//     flex-direction: column;
+//   }
+//   .banner__inner {
+//     width: unset;
+//     text-align: center;
+//   }
+
+//   .banner__image {
+//     // display: none;
+//   }
+// }
+
+

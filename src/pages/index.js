@@ -20,18 +20,40 @@ export default function Home() {
             <div className="banner__inner">
               <h1 className="banner__header">Seraphin Monitoring Platform</h1>
               <div className="banner__content">
-                Seraphin Monitoring Platform is a comprehensive 
-                IoT solution developed to provide real-time
-                monitoring and rapid alert capability.
+                Seraphin Monitoring Platform is a comprehensive IoT solution
+                developed to provide real-time monitoring and rapid alert
+                capability.
               </div>
               <div className="banner__cta">
                 <Link to="/seraphin-platform" className="btn">
                   Read more about Seraphin Platform
                 </Link>
               </div>
-              <div className="banner__image">
-                <img alt="Seraphin Platform Illustration" src="app/illustration-dekstop-xxl.png"/>
-              </div>
+            </div>
+            <div className="banner__image">
+              {/* <img
+                srcset="app/illustration-mobile-550w.png 550w,
+                     app/illustration-home.png 800w"
+                sizes="(max-width: 600px) 550px,
+                    800px"
+                src="app/illustration-home.png"
+                alt="Seraphin Platform Illustration"
+              /> */}
+              <picture>
+                <source
+                  media="(max-width: 550px)"
+                  srcset="app/illustration-mobile-550w.png"
+                />
+                <source
+                  media="(min-width: 700px)"
+                  srcset="app/illustration-home.png"
+                />
+                <img
+                  src="app/illustration-home.png"
+                  alt="Seraphin Platform Illustration"
+                />
+              </picture>
+              {/* <img alt="Seraphin Platform Illustration" src="app/illustration-dekstop-xxl.png"/> */}
             </div>
           </div>
         </Panel>
