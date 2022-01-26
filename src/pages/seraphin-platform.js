@@ -17,8 +17,8 @@ export default function SeraphinPlatform() {
             topAlign
             imageFirst
             image={
-              <ElevatedImage
-                src="/app/home.jpg"
+              <img
+                src="/app/responsiveHome.png"
                 alt="Seraphin Monitoring Platform"
               />
             }
