@@ -51,7 +51,7 @@ export function PageHeader() {
               <img src="/logo.svg" alt="Seraphin logo" />
             </Link>
           </div>
-          {screenWidth < 550 ? (
+          {screenWidth < 768 ? (
             <Menu
               width={300}
               pageWrapId={"page-wrap"}

@@ -3,7 +3,7 @@ import React from "react";
 import { Panel } from "../component/Panel";
 
 export const ContactUsPanel = ({
-  className = "panel--centered panel--orange",
+  className = "panel--centered panel--filled",
 }) => {
   return (
     <Panel

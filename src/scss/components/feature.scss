@@ -1,9 +1,17 @@
 .feature-list {
-  display: flex;
-  flex-wrap: wrap;
+  @include mq($until: screen1000) {
+    .feature + .feature {
+      margin-top: 20px;
+    }
+  }
 
-  .feature {
-    flex: 1;
+  @include mq(screen1000) {
+    display: flex;
+    flex-wrap: wrap;
+
+    .feature {
+      flex: 1;
+    }
   }
 
   &.how-it-works {

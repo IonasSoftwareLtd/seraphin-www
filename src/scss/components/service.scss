@@ -17,9 +17,19 @@
   }
 }
 
+.service__icon {
+  text-align: center;
+
+  @include mq($until: screen768) {
+    margin-bottom: 20px;
+  }
+}
+
 .service__inner {
-  display: flex;
-  align-items: center;
+  @include mq(screen768) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .service__header {
@@ -28,5 +38,7 @@
 }
 
 .service__content {
-  padding-left: 30px;
+  @include mq(screen768) {
+    padding-left: 30px;
+  }
 }
