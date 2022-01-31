@@ -25,8 +25,20 @@ export default function Services() {
                 work better.
               </p>
               <p>
+                Ranging from product customization through to software updates,
+                we cover all the steps in the process of getting your idea from
+                scratch to fully comprehensive monitoring system and beyond.
+              </p>
+              <p>
+                We take pride in our after sale care aimed to be there for you
+                whenever our support is needed. Be it tiny job of reorganisation
+                users or totally new service that suits your needs, our priority
+                is to ensure you have the best possible experience with your
+                Seraphin system.
+              </p>
+              <p>
                 We can combine any of our products and services to create a
-                package that’s tailored to your business. This removes the
+                package that's tailored to your business. This removes the
                 complexity and unnecessary cost of getting you where you want to
                 be.
               </p>
