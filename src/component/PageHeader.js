@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { bubble as Menu } from "react-burger-menu";
 import { Panel } from "./Panel";
 
-const menuItems = [
+export const menuItems = [
   {
     label: "Home",
     link: "/",

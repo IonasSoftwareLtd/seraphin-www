@@ -42,11 +42,11 @@ export default function Home() {
               <picture>
                 <source
                   media="(max-width: 550px)"
-                  srcset="app/illustration-mobile-550w.png"
+                  srcSet="app/illustration-mobile-550w.png"
                 />
                 <source
                   media="(min-width: 700px)"
-                  srcset="app/illustration-home.png"
+                  srcSet="app/illustration-home.png"
                 />
                 <img
                   src="app/illustration-home.png"

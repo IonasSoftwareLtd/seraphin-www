@@ -1,7 +1,8 @@
 .footer {
   padding: 10px;
   border-top: 1px solid #dfdfdf;
-  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
 
   ul {
     margin: 0;
@@ -9,13 +10,16 @@
   }
 
   li {
-    display: inline-block;
+    list-style: none;
     a {
       margin: 0 10px;
     }
+  }
 
-    & + li {
-      border-left: 1px solid #ddd;
+  .social-link {
+    svg {
+      height: 40px;
+      width: 40px;
     }
   }
 }
@@ -29,7 +33,6 @@
 
 .footer__item {
   flex: 1;
-  text-align: center;
 }
 
 .footer__item:first-child {

@@ -201,21 +201,21 @@ export default function SeraphinPlatform() {
       </Panel>
 
       {/* Notification trigerring */}
-      <Panel header="Notification trigerring" headerId="notifications-section">
+      {/*<Panel header="Notification trigerring" headerId="notifications-section">
         <div className="row">
           <div className="row__text">{"TEXT".repeat(100)}</div>
         </div>
-      </Panel>
+      </Panel>*/}
 
       {/* Management using online portal */}
-      <Panel
+      {/*<Panel
         header="Alert management using online portal"
         headerId="portal-section"
       >
         <div className="row">
           <div className="row__text">{"TEXT".repeat(100)}</div>
         </div>
-      </Panel>
+      </Panel>*/}
 
       {/* Real world example */}
       <Panel
