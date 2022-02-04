@@ -17,7 +17,7 @@ export function Meta({
 
       <meta
         name="og:image"
-        content="https://seraphin.cloud/images/social.jpg"
+        content="https://seraphin.cloud/images/social.png"
       />
       <meta name="og:description" content={description} />
       <meta name="og:url" content="https://seraphin.cloud/" />
@@ -31,7 +31,7 @@ export function Meta({
       <meta name="twitter:description" content={description} />
       <meta
         name="twitter:image:src"
-        content="https://seraphin.cloud/images/social.jpg"
+        content="https://seraphin.cloud/images/social.png"
       />
       <meta name="twitter:url" content="https://seraphin.cloud/" />
     </Helmet>
