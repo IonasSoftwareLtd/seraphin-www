@@ -38,4 +38,45 @@ p + p {
 .first-panel {
   background: $color-brand-light;
   color: $color-text;
+
+  p {
+    color: #000000;
+  }
+
+  .two-columns {
+    display: flex;
+    flex-wrap: wrap;
+
+    .col-left {
+      padding: 1em;
+      flex: 1 1;
+      text-align: right;
+      align-items: center;
+
+      ul {
+        font-weight: 700;
+        color: black;
+
+        li {
+          font-size: 120%;
+          padding: 0 0 .2em .2em;
+        }
+        li:before {
+          content: '✓'; 
+        }
+      }
+    }
+    .col-right {
+      padding: 1em;
+      flex: 1 1;
+      text-align: left;
+    }
+  }
+}
+
+
+@media screen and (max-width: 990px) {
+  .col-left {
+    text-align: center !important;
+  }
 }

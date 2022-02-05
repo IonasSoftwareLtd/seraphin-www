@@ -14,7 +14,8 @@ export function PageFooter() {
       <Panel className="panel--no-spacing">
         <div className="footer">
           <div className="footer__inner">
-            <div className="footer__item">
+
+            <div className="footer__left">
               <SeraphinBy />
               <div>
                 <a
@@ -32,28 +33,32 @@ export function PageFooter() {
                 </a>
               </div>
             </div>
-            <div className="footer__item">
-              <ul>
-                {menuItems
-                  .filter((item, index) => index <= 2)
-                  .map((item) => (
-                    <li key={item.link}>
-                      <Link to={item.link}>{item.label}</Link>
-                    </li>
-                  ))}
-              </ul>
+
+            <div className="footer__right">
+              <div className="footer__item">
+                <ul>
+                  {menuItems
+                    .filter((item, index) => index <= 2)
+                    .map((item) => (
+                      <li key={item.link}>
+                        <Link to={item.link}>{item.label}</Link>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+              <div className="footer__item">
+                <ul>
+                  {menuItems
+                    .filter((item, index) => index > 2)
+                    .map((item) => (
+                      <li key={item.link}>
+                        <Link to={item.link}>{item.label}</Link>
+                      </li>
+                    ))}
+                </ul>
+              </div>
             </div>
-            <div className="footer__item">
-              <ul>
-                {menuItems
-                  .filter((item, index) => index > 2)
-                  .map((item) => (
-                    <li key={item.link}>
-                      <Link to={item.link}>{item.label}</Link>
-                    </li>
-                  ))}
-              </ul>
-            </div>
+
           </div>
           <div className="footer__date">
             <div>

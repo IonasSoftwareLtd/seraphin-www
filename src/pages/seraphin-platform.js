@@ -1,5 +1,6 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
 import { FirstPanel } from "../component/FirstPanel";
@@ -51,8 +52,7 @@ export default function SeraphinPlatform() {
       {/* Sensor management */}
       <Panel header="Sensor management" headerId="sensor-activation-section">
         {/* Sensors - general */}
-        <div className="row card">
-          <div className="row__text">
+        <div className="panel panel--centered">
             <p>
               To find out more about the types of sensors the portal supports,
               their capabilities and specifications go to &nbsp;
@@ -61,11 +61,7 @@ export default function SeraphinPlatform() {
               </Link>
             </p>
             <br />
-            <p>
-              Seraphin Platform Online Portal makes it extremely easy to manage
-              sensors deployed at your site.
-            </p>
-          </div>
+            <br />
         </div>
         {/* Sensors - browse */}
         <GridRow
@@ -200,24 +196,87 @@ export default function SeraphinPlatform() {
         </GridRow>
       </Panel>
 
-      {/* Notification trigerring */}
-      {/*<Panel header="Notification trigerring" headerId="notifications-section">
-        <div className="row">
-          <div className="row__text">{"TEXT".repeat(100)}</div>
-        </div>
-      </Panel>*/}
-
-      {/* Management using online portal */}
-      {/*<Panel
+      {/* Alert management using online portal */}
+      <Panel
         header="Alert management using online portal"
         headerId="portal-section"
       >
-        <div className="row">
-          <div className="row__text">{"TEXT".repeat(100)}</div>
-        </div>
-      </Panel>*/}
+        <GridRow
+          topAlign
+          image={
+            <ElevatedImage
+              isClickable
+              src="/app/alerts-view.jpg"
+              alt="Alert management using online portal"
+            />
+          }
+        >
+          <h3>Browse through alert notifications</h3>
+          The portal makes it easy to get an overview of all alerts that the system has initiated.
+          You can easily access all information related to the context in which the alert was 
+          trigerred. This includes view into the telemetry event that coused the alert to fire, rule 
+          criteria that the telemetry event has met, and all people in your organisation that 
+          have been selected as a point of contact.
+        </GridRow>
+        <GridRow
+          topAlign
+          image={
+            <ElevatedImage
+              isClickable
+              src="/app/activations-view.jpg"
+              alt="Activations details"
+            />
+          }
+        >
+          <h3>Inspect rules that trigerred alerts</h3>
+          Only rules that meet the criteria you define can trigger notification alerts.
+          Use the portal to inspect rules that resulted in notification attempts. A complete 
+          log of all activated rules for every telemetry event that your sensors transit is 
+          always available for total transparency. 
+        </GridRow>
+      </Panel>
+
+
+      {/* Multi-tenancy and user management */}
+      <Panel header="User management" headerId="user-management-section">
+        <GridRow
+          topAlign
+          imageFirst
+          image={
+            <ElevatedImage
+              isClickable
+              src="/app/organisation-management.png"
+              alt="Browse Organisations"
+            />
+          }
+        >
+          <h3>Manage organisations</h3>
+          Seraphin Monitoring Platforms is a truly multi-tenant solution designed for 
+          individual users as well as re-sellers of our software. The system supports 
+          3 levels of access, the highest one available to clients who have been 
+          employed to manage the Seraphin platform for other organisations. 
+        </GridRow>
+        <GridRow
+          topAlign
+          imageFirst
+          image={
+            <ElevatedImage
+              isClickable
+              src="/app/organisation-user-management.png"
+              alt="Manage organisation users"
+            />
+          }
+        >
+          <h3>Manage organisation users</h3>
+          Every organisation administrator has access to the users control panel
+          where users can be added, suspended, deleted or have their priviledges
+          elevated or revoked. 
+        </GridRow>
+      </Panel>
+
 
       {/* Real world example */}
+      
       <Panel
         header="Real world example"
         content="A real world example how clients are using our platform."

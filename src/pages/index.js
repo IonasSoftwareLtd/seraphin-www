@@ -4,6 +4,7 @@ import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
 import SensorsIcon from "@mui/icons-material/Sensors";
 import ShieldIcon from "@mui/icons-material/Shield";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
 import { FirstPanel } from "../component/FirstPanel";
@@ -17,43 +18,49 @@ export default function Home() {
       <FirstPanel>
         <Panel className="panel--no-spacing">
           <div className="banner">
-            <div className="banner__inner">
-              <h1 className="banner__header">Seraphin Monitoring Platform</h1>
-              <div className="banner__content">
-                Seraphin Monitoring Platform is a comprehensive IoT solution
-                developed to provide real-time monitoring and rapid alert
-                capability.
-              </div>
-              <div className="banner__cta">
-                <Link to="/seraphin-platform" className="btn">
-                  Read more about Seraphin Platform
-                </Link>
-              </div>
+
+            <div className="banner__background-fill">
+              <div className="light x1"></div>
+              <div className="light x2"></div>
+              <div className="light x3"></div>
+              <div className="light x4"></div>
+              <div className="light x5"></div>
+              <div className="light x6"></div>
+              <div className="light x7"></div>
+              <div className="light x8"></div>
+              <div className="light x9"></div>
             </div>
-            <div className="banner__image">
-              {/* <img
-                srcset="app/illustration-mobile-550w.png 550w,
-                     app/illustration-home.png 800w"
-                sizes="(max-width: 600px) 550px,
-                    800px"
-                src="app/illustration-home.png"
-                alt="Seraphin Platform Illustration"
-              /> */}
-              <picture>
-                <source
-                  media="(max-width: 550px)"
-                  srcSet="app/illustration-mobile-550w.png"
-                />
-                <source
-                  media="(min-width: 700px)"
-                  srcSet="app/illustration-home.png"
-                />
-                <img
-                  src="app/illustration-home.png"
-                  alt="Seraphin Platform Illustration"
-                />
-              </picture>
-              {/* <img alt="Seraphin Platform Illustration" src="app/illustration-dekstop-xxl.png"/> */}
+
+            <div className="banner__inner">
+
+              <div className="banner__text">
+                <h1 className="banner__header">Seraphin Monitoring Platform</h1>
+                <div className="banner__content">
+                  Seraphin Monitoring Platform is a comprehensive IoT solution
+                  developed to provide real-time monitoring and rapid alert
+                  capabilities.
+                </div>
+              </div>
+
+              <div className="banner__background">
+                <div className="banner__image">
+                  <picture>
+                    <source
+                      media="(max-width: 550px)"
+                      srcSet="app/illustration-mobile-550w.png"
+                    />
+                    <source
+                      media="(min-width: 700px)"
+                      srcSet="app/illustration-home.png"
+                    />
+                    <StaticImage 
+                      placeholder="blurred"
+                      src="../../static/app/illustration-home.png" 
+                      alt="Seraphin Platform Illustration" />
+                  </picture>
+                </div>
+              </div>
+
             </div>
           </div>
         </Panel>
@@ -66,7 +73,10 @@ export default function Home() {
           body="The system is designed to protect your assets. It achieves that by
             sending telemetry data from variety of supported sensors to the
             Seraphin cloud servers. Incoming data is evaluated against user
-            defined rules."
+            defined rules. All sensor-sent telemetry data is stored in the cloud and available
+            for live and retrospective view via a mobile friendly and secure web
+            portal. Our online portal allows you to browse through the alerts and stay 
+            informed about actions your on-call engineers have taken."
           link="/seraphin-platform/#sensor-activation-section"
           imageFirst={true}
         />
@@ -76,27 +86,32 @@ export default function Home() {
           body="Organisations onboarded onto Serpahin online portal define rules
           that are evaluated against every incoming telemetry event. The result 
           of rule evaluation determines if an alert should be trigerred and on-call
-          engineer contacted."
+          engineer contacted. The portal makes it easy to define and manage any number 
+          of rules you may need."
           link="/seraphin-platform/#telemetry-section"
           imageFirst={false}
         />
         <ImageTextRow
           imageUrl="/combinedNotifications.png"
-          title="Notification triggering"
+          title="Alert management using online portal"
           body="If rule conditions are met, the notification in the form of email,
           text message or a phone call is triggered to inform the user about
-          alarm condition."
-          link="/seraphin-platform/#notifications-section"
+          alarm condition. Our system makes it easy to track the lifetime of an alert,
+          from the moment it was trigerred until sucessfully acknowledged by an on-call 
+          engineer."
+          link="/seraphin-platform/#portal-section"
           imageFirst={true}
         />
         <ImageTextRow
           imageUrl="/combinedPlatforms.png"
-          title="Alert management using online portal"
-          body="All sensor-sent telemetry data is stored in the cloud and available
-          for live and retrospective view via a mobile friendly and secure web
-          portal. Our online portal allows you to browse through the alerts and stay 
-          informed about actions your on-call engineers have taken."
-          link="/seraphin-platform/#portal-section"
+          title="User management"
+          body="Seraphin Monitoring Platform is a multi-tenant software solution that
+          has been designed for individual users, organisations and re-sellers. 
+          The system supports 3 user access roles that cater for the needs of individual
+          customers as well as franchisers. This makes Seraphin the perfect product for 
+          clients who wish to manage their own monitoring as well as those that wish to 
+          employ an intermediatry to manage the system for them."
+          link="/seraphin-platform/#user-management-section"
           imageFirst={false}
         />
         {/* <FeatureList className="how-it-works">
