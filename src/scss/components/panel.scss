@@ -73,8 +73,10 @@
 }
 
 .panel--header {
-  // box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  // background: #fff;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  background: #f9f9f9;
+  border-bottom: 1px solid #a1a1a1;
+  margin-bottom: 5px;
 
   .panel__inner {
     padding: 20px;

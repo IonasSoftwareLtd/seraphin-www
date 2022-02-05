@@ -53,10 +53,11 @@ export default function Home() {
                       media="(min-width: 700px)"
                       srcSet="app/illustration-home.png"
                     />
-                    <StaticImage 
+                    <img src="app/illustration-home.png" />
+                    {/* <StaticImage 
                       placeholder="blurred"
                       src="../../static/app/illustration-home.png" 
-                      alt="Seraphin Platform Illustration" />
+                      alt="Seraphin Platform Illustration" /> */}
                   </picture>
                 </div>
               </div>
