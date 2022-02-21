@@ -1,8 +1,8 @@
 import EditIcon from "@mui/icons-material/Edit";
 import MonitorIcon from "@mui/icons-material/Monitor";
-import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
 import SensorsIcon from "@mui/icons-material/Sensors";
 import ShieldIcon from "@mui/icons-material/Shield";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import { Link } from "gatsby";
 import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
@@ -17,7 +17,6 @@ export default function Home() {
       <FirstPanel>
         <Panel className="panel--no-spacing">
           <div className="banner">
-
             <div className="banner__background-fill">
               <div className="light x1"></div>
               <div className="light x2"></div>
@@ -31,7 +30,6 @@ export default function Home() {
             </div>
 
             <div className="banner__inner">
-
               <div className="banner__text">
                 <h1 className="banner__header">Seraphin Monitoring Platform</h1>
                 <div className="banner__content">
@@ -61,7 +59,6 @@ export default function Home() {
                   </picture>
                 </div>
               </div>
-
             </div>
           </div>
         </Panel>
@@ -175,11 +172,14 @@ export default function Home() {
         <FeatureList className="help-features">
           <Feature
             className="feature--testimonial"
-            header="Consulting services"
-            icon={<RecordVoiceOverIcon />}
+            header="Maintenance and support"
+            icon={<SupportAgentIcon />}
           >
-            We're happy to provide consultations about existing
-            solutions, bespoke product design and anything inbetween.
+            We will keep your system up and running, so you can ensure important
+            data is delivered on schedule and all your assets remain protected.
+            Our engineers are by your side, ready to help whenever support is
+            needed. We guarantee fast response times and swift resolution where 
+            action is needed.
           </Feature>
           <Feature
             className="feature--testimonial"
