@@ -13,8 +13,8 @@ export const ContactUsPanel = ({
         <>
           <p>Let's talk about your specific project. </p>
           <p>
-            Our team of specialist's will help you with your requirements and
-            propose solutions that fit your needs.
+            We want to hear about your requirements and
+            propose solutions that meet your expectations.
           </p>
         </>
       }
