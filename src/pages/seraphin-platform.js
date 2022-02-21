@@ -1,6 +1,5 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
 import { FirstPanel } from "../component/FirstPanel";
@@ -50,7 +49,7 @@ export default function SeraphinPlatform() {
       </FirstPanel>
 
       {/* Sensor management */}
-      <Panel header="Sensor management" headerId="sensor-activation-section">
+      <Panel header="Data From Sensors" headerId="sensor-activation-section">
         {/* Sensors - general */}
         <div className="panel panel--centered">
             <p>
@@ -74,10 +73,9 @@ export default function SeraphinPlatform() {
           }
         >
           <h3>Browse through sensors</h3>
-          You can use the portal to browse through all sensors that have been
-          associated with your organisation, giving you an instant view into the
-          state of your devices. The portal gives you’re a convenient way to
-          browse the sensors whether you manage only a handful or hundreds of
+          You can browse through your sensors and access the collected data through the portal. 
+          It's a convenient way to remotely
+          monitor your assets whether you manage only a handful or hundreds of
           them.
         </GridRow>
         {/* Sensors - organise */}
@@ -91,10 +89,10 @@ export default function SeraphinPlatform() {
           }
         >
           <h3>Organise sensors into groups</h3>
-          The portal gives you the ability to group your sensors into meaningful
-          compartments e.g., you may want to organise your devices according to
-          their physical location, type or purpose. It is easy to move sensors
-          between these compartments customising the views according to personal
+          The portal gives you the ability to organise your sensors into meaningful categories. 
+          You may want to group them according to
+          their physical location, type, or purpose. It is easy to move sensors
+          between these groups customising the views according to personal
           preferences.
         </GridRow>
 
@@ -112,8 +110,8 @@ export default function SeraphinPlatform() {
           <h3>Inspect sensor data</h3>
           Zooming in on a specific sensor uncovers the latest data gathered
           throughout the day. The data is plotted on a line chart for easy
-          insight and neat presentation. In addition, all historical data is
-          available for browsing at your fingertips in an easy to view and
+          insight and clear presentation. In addition, all historical data is at your fingertips,
+          available for browsing as an easy to view and
           pageable table.
         </GridRow>
       </Panel>
@@ -133,22 +131,22 @@ export default function SeraphinPlatform() {
         >
           <h3>Define rules that trigger notifications</h3>
           <p>
-            Rules are at the core of the platform. They are evaluated for every
-            telemetry event that the platform receives, and result of the
-            evaluation determines whether an alert should be triggered. The
-            portal allows you to create rules and define rule condition criteria
-            in an easy and convenient way. You can create any number of rules,
-            and all will be evaluated against every telemetry event your sensors
+            Rules are at the core of the platform. Every incoming
+            telemetry event that the platform receives is checked against them, and result
+            determines whether an alert should be triggered. The
+            portal allows you to create and customise new rules as well as change existing ones
+            in an easy and convenient way. You can create any number
+            and tailor them to the different telemetry data your sensors
             emit.
           </p>
           <p>
             A typical rule definition follows an industry recognised pattern of
-            ‘For…, When…, Then’ e.g. for a particular sensor, when the
-            temperature drops below a specified value, then contact people on
-            the following list. This easily understood by humans rule pattern
-            can be easily transformed to an extremely performant condition
+            ‘For…, When…, Then’. For example: <u>for</u> a particular sensor measuring temperature, <u>when</u> the
+            reading drops below a specified value, <u>then</u> contact people on
+            the following list. This easily understood rule pattern
+            can be readily transformed to an extremely performant condition
             evaluation routine that is guaranteed to carry minimal footprint for
-            the compute resources required to execute the rule.
+            the computing resources required to execute the rule.
           </p>
         </GridRow>
         {/* Rule - inspect */}
@@ -165,7 +163,7 @@ export default function SeraphinPlatform() {
           <h3>Inspect rules defined for your organisation</h3>
           As an owner of an organisation onboarded onto the Seraphin Monitoring
           Platform you have the ability to grant multiple users admin access to
-          your organisation and therefore give them the ability to look at your
+          your organisation. This will give them the ability to look at your
           data and view alert triggering rules you defined. In order to improve
           the ease with which newcomers to the platform may inspect existing
           rule definitions, all rules defined for your organisation can be

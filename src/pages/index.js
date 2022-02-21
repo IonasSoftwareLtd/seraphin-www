@@ -4,7 +4,6 @@ import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
 import SensorsIcon from "@mui/icons-material/Sensors";
 import ShieldIcon from "@mui/icons-material/Shield";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { Feature, FeatureList } from "../component/Feature";
 import { FirstPanel } from "../component/FirstPanel";
@@ -37,8 +36,9 @@ export default function Home() {
                 <h1 className="banner__header">Seraphin Monitoring Platform</h1>
                 <div className="banner__content">
                   Seraphin Monitoring Platform is a comprehensive IoT solution
-                  developed to provide real-time monitoring and rapid alert
-                  capabilities.
+                  for asset protection with real-time monitoring 
+                  and rapid alert capabilities.
+                
                 </div>
               </div>
 
@@ -66,39 +66,40 @@ export default function Home() {
           </div>
         </Panel>
       </FirstPanel>
-      <Panel header="How it works?">
+      <Panel header="How it works">
         <ImageTextRow
           imageUrl="/combinedSensors.png"
           imageAlt="Sensor activation image"
-          title="Sensor activation"
-          body="The system is designed to protect your assets. It achieves that by
+          title="Sensor sends data"
+          body="The system protects your assets by
             sending telemetry data from variety of supported sensors to the
             Seraphin cloud servers. Incoming data is evaluated against user
-            defined rules. All sensor-sent telemetry data is stored in the cloud and available
+            defined rules, which trigger alerts if something is amiss. 
+            All sensor-sent telemetry data is stored in the cloud and is available
             for live and retrospective view via a mobile friendly and secure web
-            portal. Our online portal allows you to browse through the alerts and stay 
-            informed about actions your on-call engineers have taken."
+            portal."
           link="/seraphin-platform/#sensor-activation-section"
           imageFirst={true}
         />
         <ImageTextRow
           imageUrl="/combinedTelemetry.png"
-          title="Telemetry event evaluation "
+          title="Telemetry event evaluation"
           body="Organisations onboarded onto Serpahin online portal define rules
-          that are evaluated against every incoming telemetry event. The result 
-          of rule evaluation determines if an alert should be trigerred and on-call
-          engineer contacted. The portal makes it easy to define and manage any number 
-          of rules you may need."
+          that every incoming telemetry event is evaluated against. The result 
+          determines if an alert should be trigerred to an on-call
+          engineer. The portal makes it easy to define and manage any number 
+          of rules you may need, browse through the alerts, and stay 
+          informed about actions your on-call engineers have taken."
           link="/seraphin-platform/#telemetry-section"
           imageFirst={false}
         />
         <ImageTextRow
           imageUrl="/combinedNotifications.png"
           title="Alert management using online portal"
-          body="If rule conditions are met, the notification in the form of email,
-          text message or a phone call is triggered to inform the user about
-          alarm condition. Our system makes it easy to track the lifetime of an alert,
-          from the moment it was trigerred until sucessfully acknowledged by an on-call 
+          body="If rule conditions are met, a notification in the form of email,
+          text message or a phone call is triggered to inform the user about the
+          alert. Our system makes it easy to track the lifetime of each alert,
+          from the moment it was trigerred until it's acknowledged by an on-call 
           engineer."
           link="/seraphin-platform/#portal-section"
           imageFirst={true}
@@ -110,7 +111,7 @@ export default function Home() {
           has been designed for individual users, organisations and re-sellers. 
           The system supports 3 user access roles that cater for the needs of individual
           customers as well as franchisers. This makes Seraphin the perfect product for 
-          clients who wish to manage their own monitoring as well as those that wish to 
+          clients who wish to manage their own monitoring as well as those who wish to 
           employ an intermediatry to manage the system for them."
           link="/seraphin-platform/#user-management-section"
           imageFirst={false}
@@ -139,17 +140,17 @@ export default function Home() {
             <Feature
               icon={<MonitorIcon />}
               header="Scalable and reliable"
-              content="The Seraphin Monitoring Platform is a brand new product developed using the latest technology. The platform is hosted within the AWS cloud, powered by the same infrastructure that is used by Netflix and government websites. Reliability and performance are therefore inherent to the product, ensuring you can expect the platform to scale with predictable performance whether you gather data from a handful or thousands of IoT devices."
+              content="The Seraphin Monitoring Platform is a brand new product developed using the latest technology. The platform is hosted within the AWS cloud, powered by the same infrastructure as Netflix and government websites. Reliability and performance are therefore inherent in the product, ensuring you can expect the platform to scale with predictable performance whether you gather data from a handful or thousands of IoT devices."
             />
             <Feature
               icon={<ShieldIcon />}
-              header="Secure and reliable technology"
+              header="Secure, encrypted technology"
               content="Seraphin Cloud Monitoring platform is based on LoRa, long range and low power wireless transmittion, designed to work with LoRA compliant devices that implement the latest specifications of the Lorawan protocol. All wireless radio communications are encrypted while ensuring very high delivery ratio."
             />
             <Feature
               icon={<SensorsIcon />}
               header="Flexible deployment options"
-              content="Seraphin platform providers can advise on a range of sensor deployment options for both wireless and wired installations. Wireless installations afford versatility and flexibility of deployment options. Wired installations are advised where the reliability of transmissions is of highest priority. Our consultants are available to advise on the most optimal deployment package for your needs."
+              content="Seraphin platform providers can advise on a range of sensor deployment options for both wireless and wired installations. Wireless installations allow versatility of deployment options, while wired setups are advised where the reliability of transmissions is of highest priority. Our consultants are available to advise on the most optimal deployment package for your needs."
             />
           </div>
         </FeatureList>
@@ -177,16 +178,16 @@ export default function Home() {
             header="Consulting services"
             icon={<RecordVoiceOverIcon />}
           >
-            We are open to any consultation ranging from possible existing
-            solutions to bespoke product design.
+            We're happy to provide consultations about existing
+            solutions, bespoke product design and anything inbetween.
           </Feature>
           <Feature
             className="feature--testimonial"
             header="Product customization"
             icon={<EditIcon />}
           >
-            We offer our partners and customers close cooperation to help the
-            designed monitoring system meet any specific expectations.
+            We offer our partners and customers close cooperation to ensure the
+            designed monitoring system meets any specific expectations.
           </Feature>
         </FeatureList>
         <div className="panel__cta">
