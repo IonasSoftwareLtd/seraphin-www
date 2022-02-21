@@ -30,8 +30,8 @@ export default function Contact() {
                 <br />
               </p>
               <p>
-                <a href="mailto:simon@ionas.co.uk" className="btn">
-                  simon@ionas.co.uk
+                <a href="mailto:contact@ionas.co.uk" className="btn">
+                  contact@ionas.co.uk
                 </a>
               </p>
               <p>or</p>
