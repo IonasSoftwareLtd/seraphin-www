@@ -1,0 +1,17 @@
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Visit
+    <a
+      href="https://seraphin.cloud"
+      target="_blank" rel="noopener"
+    >
+      Seraphin website 
+    </a>
+    to contact us
+  {% endif %}
+</div>
