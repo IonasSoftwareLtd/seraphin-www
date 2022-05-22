@@ -55,6 +55,9 @@ export function PageFooter() {
                         <Link to={item.link}>{item.label}</Link>
                       </li>
                     ))}
+                    <li>
+                    <Link to="/legal/privacy">Privacy policy</Link>
+                    </li>
                 </ul>
               </div>
             </div>
