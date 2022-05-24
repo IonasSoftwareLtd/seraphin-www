@@ -56,7 +56,10 @@ export function PageFooter() {
                       </li>
                     ))}
                     <li>
-                    <Link to="/legal/privacy">Privacy policy</Link>
+                      <Link to="/legal/privacy">Privacy policy</Link>
+                    </li>
+                    <li>
+                      <a target="_blank" rel="noreferrer" href="/documents/tnc-v0.pdf">Terms and conditions</a>
                     </li>
                 </ul>
               </div>
