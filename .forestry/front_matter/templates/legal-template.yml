@@ -1,0 +1,11 @@
+---
+label: Legal Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+
+
+# pages:
+# - content/legal/privacy.md

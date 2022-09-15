@@ -1,0 +1,45 @@
+---
+enable: true
+topTitle: Connectivity
+title: >
+  ## Supported protocols
+
+  Seraphin IoT Telemetry Platform can work with a variety of devices supporting
+  different connectivity standards
+service:
+  - content: >
+      #### LoRaWAN
+
+      Seraphin IoT Platform has been designed to work with private LoRaWAN networks
+      supporting latest LoRaWAN **1.0.x** and **1.1.x** specification protocols.
+    image: images/service/lorawan200x65.png
+  - content: >
+      #### AWS
+
+      NB-IoT is gaining more and more coverage and Seraphin IoT Platform can be configured
+      to support NB-IoT enabled devices in private network deployments.
+    image: images/service/aws200x75.png
+  - content: >
+      #### Wi-Fi
+
+      Seraphin IoT Platform can be easily extended to receive data over **REST** or **SOAP** 
+      web service APIs or message oriented protocols such as **MQTT**.
+    image: images/service/uk77x120.png
+  # - content: >
+  #     #### Branding
+
+  #     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+  #     tempor invidunt ut labore et dolore magna aliquyam erat.
+  #   image: images/service/branding.svg
+  # - content: >
+  #     #### UI/UX Design
+
+  #     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+  #     tempor invidunt ut labore et dolore magna aliquyam erat.
+  #   image: images/service/ui-ux.svg
+  # - content: >
+  #     #### Web Development
+
+  #     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+  #     tempor invidunt ut labore et dolore magna aliquyam erat.
+  #   image: images/service/web.svg

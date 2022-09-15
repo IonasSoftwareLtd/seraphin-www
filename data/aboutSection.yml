@@ -2,19 +2,25 @@
 enable: true
 topTitle: About
 title: >
-  ## About me
+  ## About Seraphin IoT
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  Collect, browse, analyse and react to telemetry event data
 content: >
-  ### I design and build ultimate things.
+  ### IoT Wireless Monitoring and Telemetry platform
 
-  I love to work in User Experience & User Interface designing. Because I love
-  to solve the design problem and find easy and better solutions to solve it. I always
-  try my best to make good user interface with the best user experience. I have been
-  working as a Visual designer from.
-button1Name: Hire me
-button2Name: Download CV
+  Seraphin Monitoring Platform is a comprehensive IoT software platform developed to provide real-time 
+  monitoring and rapid alert capability.
+
+
+  The system is designed to gather, evaluate and present telemetry data. 
+
+  Incoming data is evaluated against user defined rules. If rule conditions are met, the notification 
+  in the form of email, text message or a phone call is triggered to inform the user about alarm condition.
+
+
+  All sensor-sent telemetry data is stored in the cloud and available for live and retrospective 
+  view via a mobile friendly and secure web portal.
+
+button1Name: Request demo
 button1Target: contact
-button2Target: contact
-image: images/about/about-img.jpg
+image: images/about/srh-portal-1.png

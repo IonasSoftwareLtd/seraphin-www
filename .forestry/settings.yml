@@ -4,45 +4,63 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+
 - type: document
   path: data/hero.yml
   label: Hero
+
 - type: document
   path: data/aboutSection.yml
   label: About
+
 - type: document
-  path: data/serviceSection.yml
+  path: data/protocolsSection.yml
   label: Services
+
 - type: document
   path: data/resumeSection.yml
   label: Resume
+
 - type: document
   path: data/skillSection.yml
   label: Skills
+
 - type: document
   path: data/testimonialSection.yml
   label: Testimonials
+
 - type: document
   path: data/blogSection.yml
   label: Blog Section
+
 - type: directory
-  path: content/portfolio
-  label: Portfolio
+  path: content/usecase
+  label: Use Cases
   create: all
   match: "**/*"
+
+- type: directory
+  path: content/legal
+  label: Legal
+  create: all
+  match: "**/*"
+
 - type: directory
   path: content/contact
   label: Contact
   create: all
   match: "**/*"
+
 - type: directory
   path: content/blog
   label: Blog
   create: all
+
   match: "**/*"
 - type: document
   path: config.toml
   label: Config File
+
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

@@ -2,7 +2,7 @@ baseURL = "https://seraphin.cloud/"
 languageCode = "en-gb"
 paginate = 6
 theme = "portio"
-title = "Portio"
+title = "Seraphin Iot Wireless Monitoring and Telemetry Platform"
 
 # Main Menu
 [[menu.main]]
@@ -13,30 +13,7 @@ weight = 1
 name = "About"
 url = "#about"
 weight = 2
-[[menu.main]]
-name = "Service"
-url = "#service"
-weight = 3
-[[menu.main]]
-name = "Work"
-url = "#portfolio"
-weight = 4
-[[menu.main]]
-name = "Resume"
-url = "#resume"
-weight = 5
-[[menu.main]]
-name = "Skills"
-url = "#skills"
-weight = 6
-[[menu.main]]
-name = "Blog"
-url = "#blog"
-weight = 7
-[[menu.main]]
-name = "Contact"
-url = "#contact"
-weight = 8
+
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -49,7 +26,11 @@ url = "#"
 weight = 2
 [[menu.sitemap]]
 name = "Privacy & Policy"
-url = "#"
+url = "/legal/privacy"
+weight = 3
+[[menu.sitemap]]
+name = "Terms and Conditions"
+url = "/documents/tnc.pdf"
 weight = 3
 [[menu.sitemap]]
 name = "Latest Article"
@@ -59,18 +40,18 @@ weight = 4
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © Portio 2020"
-footerLogo = "images/contact/widget-logo.png"
+copyright = "All right reserved copyright © Ionas Software Ltd 2022"
+footerLogo = "images/site-navigation/256x256.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 #logo = "images/site-navigation/logo.png"
 logo = "images/site-navigation/logo.svg"
 
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
-email = "hello@example.com"
+address = "Ionas Software Ltd, 20 Summerfield Cottages, G14 0RB, Glasgow, UK"
+email = "contact@ionas.co.uk"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
-phone = "+(448) 833 5272 332"
+phone = "+44 (0) 141 237 4636"
 
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
@@ -81,17 +62,13 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+url = "https://www.facebook.com/ionassoftware/"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+url = "https://www.linkedin.com/company/20872243/"
 weight = 2
-[[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
-weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
-weight = 4
+# [[params.social]]
+# icon = "fa-twitter-square"
+# url = "https://twitter.com/"
+# weight = 3

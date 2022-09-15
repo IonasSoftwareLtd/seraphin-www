@@ -1,5 +1,77 @@
+h1, h2, h3 {
+  font-weight: 700;
+}
+
 .navbar-brand {
   align-self: center;
   flex: 1 1;
   min-width: 180px;
+}
+
+.srh-hero {
+  overflow: hidden;
+}
+
+.srh-hero-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .srh-hero-image {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .srh-hero-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    right: -5em; // overflow hidden in parent
+    width: 130%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+
+.seraphin-by-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.seraphin-by {
+  align-items: center;
+  display: flex;
+}
+
+.seraphin-by img {
+  display: block;
+}
+
+.seraphin-by .seraphin-by__seraphin {
+  height: 28px;
+  width: 200px;
+}
+
+.seraphin-by .seraphin-by__by {
+  color: #023480;
+  font-family: none;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0 0.5em;
+}
+
+.seraphin-by .seraphin-by__ionas img {
+  margin-bottom: 5px;
+  max-height: 28px;
 }

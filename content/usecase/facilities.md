@@ -1,8 +1,8 @@
 ---
-title: Event App Case Study
+title: Facilities management
 date: 2020-08-12T18:07:16.000+06:00
-thumbnail: images/portfolio/portfolio-2.png
-service: Web Design, Branding
+thumbnail: images/usecase/building500x750.png
+service: Workspace conditions and space utilisation monitoring
 client: Johnathon Doe
 shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
