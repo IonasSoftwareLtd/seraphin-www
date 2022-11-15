@@ -1,4 +1,6 @@
 
+
+
 function manageNavBar() {
   if ($(document).scrollTop() > 50) {
     $(".navbar").addClass("nav__color__change");
@@ -64,6 +66,19 @@ function PageLoad() {
 
 
   manageNavBar();
+
+
+  // https://dimsemenov.com/plugins/magnific-popup/documentation.html#initializing_popup
+  $('.image--clickable').magnificPopup({
+    type: 'image',
+    showCloseBtn: false,
+    closeOnContentClick: true,
+    callbacks: {
+      elementParse: function(item) {
+          item.src = item.el.attr('src');
+      }
+    }
+  });
 }
 
 $(document).ready(function () {

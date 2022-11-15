@@ -5,7 +5,7 @@ title: >
   ## Supported protocols
 
   Seraphin IoT Telemetry Platform can work with a variety of devices supporting
-  different connectivity standards
+  different IoT connectivity standards
 service:
   - content: >
       #### LoRaWAN
@@ -14,17 +14,17 @@ service:
       supporting latest LoRaWAN **1.0.x** and **1.1.x** specification protocols.
     image: images/service/lorawan200x65.png
   - content: >
-      #### AWS
+      #### NB-IoT
 
       NB-IoT is gaining more and more coverage and Seraphin IoT Platform can be configured
-      to support NB-IoT enabled devices in private network deployments.
-    image: images/service/aws200x75.png
+      to support NB-IoT enabled devices using **UDP**, **CoAP** or **MQTT** transports.
+    image: images/service/nbiot200x74.png
   - content: >
       #### Wi-Fi
 
       Seraphin IoT Platform can be easily extended to receive data over **REST** or **SOAP** 
       web service APIs or message oriented protocols such as **MQTT**.
-    image: images/service/uk77x120.png
+    image: images/service/wifi143x80.png
   # - content: >
   #     #### Branding
 

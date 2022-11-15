@@ -1,0 +1,106 @@
+---
+enable: true
+topTitle: Characteristics
+title: >
+  ## Platform characteristics
+
+  Seraphin IoT is a cutting-edge, production-grade solution fully addressing 
+  the requirements of a modern and reliable software system.
+
+tab1Name: Cloud-native
+tab2Name: Secure
+tab3Name: Resilient
+tab4Name: Scalable
+tab5Name: Extendible
+
+tab1Target: cloudnative
+tab2Target: secure
+tab3Target: resilient
+tab4Target: scalable
+tab5Target: extendible
+
+cloudnative:
+  - subtitle: Cloud-native
+    content: >
+      #### AWS Cloud-native application
+      
+      The platform is hosted within the AWS cloud, powered by the same infrastructure as Netflix and government websites.
+
+
+      The cloud-nativity of a software solution has tremendous impact on the design and quality of the overall solution.
+      Cloud native application codebase **ages much slower** than the codebase of a regular application taken into the cloud.
+
+      
+    image: /images/service/aws200x75.png
+
+secure:
+  - subtitle: Data security
+    content: >
+      #### End to end encryption
+      
+      In LoRaWAN deployments data packets between sensors and gateways are encrypted using **AES** cipher. 
+      The gateway communicates with *LoRaWAN Network Server* over **TLS**.
+      All LoRaWAN device deployments adopt the security practises descibed in
+
+      [LoRaWAN ™ SECURITY: A White Paper Prepared for the LoRa Alliance™ by Gemalto, Actility, and Semtech](https://lora-alliance.org/sites/default/files/2019-05/lorawan_security_whitepaper.pdf "LoRaWAN Security")
+
+  - subtitle: Multi-tenancy
+    content: >
+      #### Data segregation
+
+      The platform is designed to segregate data associated within a single organisation into its own space -
+      completely separated from other organisations. This ensures greater security of data reducing likelihood
+      of data loss in the event of infrastructure or user error.
+
+  - subtitle: RBAC
+    content: >
+      #### Role based access control
+
+      Seraphin IoT is designed to support 4 access roles - **User**, **Client**, **Partner** and **Root**.
+      While the latter enjoys full access to system across the entire cloud, **Users** are allowed a restricted view 
+      and read-only access to data specific to organisation they belong to.
+   
+
+resilient:
+  - subtitle: Uptime commitment
+    content: >
+      #### 99.9% Uptime commitment
+
+      Seraphin IoT data ingestion endpoints are highly available services guaranteeing **99.9%** uptime commitment
+      which is specifically mentioned in the underlying AWS SLA document.
+      
+   
+  - subtitle: Distributed architecture
+    content: >
+      #### No single point of failure
+
+      Seraphin IoT data ingestion endpoints, as well as the database the solution uses to store all event data, 
+      have been architected to work as a distributed system in a fault-tolerant manner.
+ 
+
+scalable:
+  - subtitle: Platform scalability
+    content: >
+      #### Vertical and horizontal scaling
+ 
+      Reliability and performance are inherent in the product, ensuring you can expect the platform to scale 
+      with predictable performance whether you gather data from a handful or thousands of IoT devices.
+
+
+      This makes Seraphin IoT platform the ideal solution for startups, large corporations as well as re-sellers thanks
+      to the platforms support for **multi-tenancy**.
+    
+extendible:
+  - subtitle: Event push
+    content: >
+      #### Event-based data feeds
+
+      Seraphin IoT can forward all sensor-received data in an event-push manner to external integration endpoints.
+    
+  - subtitle: Flexible data formats
+    content: >
+      #### Text and binary data formats
+
+      The platform can be configured to work with any data format - text or binary, structured or unstructed irrespective
+      of whether the data is ingested or emitted to external systems.
+    

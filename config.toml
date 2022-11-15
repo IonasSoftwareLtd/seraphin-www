@@ -17,13 +17,13 @@ weight = 2
 
 # Sitemap Menu
 [[menu.sitemap]]
-name = "About me"
-url = "about"
+name = "About"
+url = "/#about"
 weight = 1
-[[menu.sitemap]]
-name = "Frequently Ask Question"
-url = "#"
-weight = 2
+# [[menu.sitemap]]
+# name = "Frequently Ask Question"
+# url = "#"
+# weight = 2
 [[menu.sitemap]]
 name = "Privacy & Policy"
 url = "/legal/privacy"
@@ -32,15 +32,15 @@ weight = 3
 name = "Terms and Conditions"
 url = "/documents/tnc.pdf"
 weight = 3
-[[menu.sitemap]]
-name = "Latest Article"
-url = "#"
-weight = 4
+# [[menu.sitemap]]
+# name = "Latest Article"
+# url = "#"
+# weight = 4
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © Ionas Software Ltd 2022"
+copyright = "All rights reserved © Ionas Software Ltd 2023"
 footerLogo = "images/site-navigation/256x256.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
@@ -48,9 +48,9 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo.svg"
 
 [params.address]
-address = "Ionas Software Ltd, 20 Summerfield Cottages, G14 0RB, Glasgow, UK"
+address = "Ionas Software Ltd, 34 Craggan Drive, G14 0EW, Glasgow, UK"
 email = "contact@ionas.co.uk"
-openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
+openingHours = "Contact us between 10am to 5pm Monday to Friday"
 phone = "+44 (0) 141 237 4636"
 
 [params.map]

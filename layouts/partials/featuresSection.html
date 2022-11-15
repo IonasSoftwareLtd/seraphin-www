@@ -1,0 +1,166 @@
+{{ with .Site.Data.skillSection }}
+{{ if .enable }}
+<section class="section skill" , id="skills">
+  <div class="skill__background_shape">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+      <defs>
+        <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+          <stop offset="0" stop-color="#f1f6f9" />
+          <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <g data-name="blob-shape (3)">
+        <path class="blob" fill="url(#d)"
+          d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+      </g>
+    </svg>
+  </div>
+
+  <div class="container">
+
+    
+    <!-- Sensor management -->
+    <div class="row align-items-center">
+
+      <div class="col-lg-6">
+        <div class="skill__thumb">
+          <div class="skill__thumb_pattern">
+            <img src="images/hero/figure-svg.svg" alt="figure-svg">
+          </div>
+          <br/>
+          <div class="skill__thumb_image">
+            <img src="/images/functions/sensor-browse.jpg" class="image--elevated image--clickable" alt="skill-img">
+          </div>
+          <br/>
+          <div class="skill__thumb_image">
+            <img src="/images/functions/sensor-graph.jpg" class="image--elevated image--clickable" alt="skill-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="skill__progress">
+          <div class="skill__progress_heading mb-5">
+            <span class="top-title pre-line">
+              {{ .topTitle }}
+            </span>
+            <h3>Sensor management</h3>
+            Browse through your sensors and access the collected data through the portal. 
+            It's a convenient way to remotely monitor your assets whether you manage only a handful or hundreds of them.
+
+            <br/>
+            <br/>
+            The portal gives you the ability to organise your sensors into meaningful categories. 
+            You may want to group them according to their physical location, type, or purpose. 
+            It is easy to move sensors between these groups customising the views according to personal preferences.
+
+            <br/>
+            <br/>
+            Zooming in on a specific sensor uncovers the latest data gathered throughout the day. 
+            The data is plotted on a line chart for easy insight and clear presentation. 
+            In addition, all historical data is at your fingertips, available for browsing as an easy to view and pageable table.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Event rule evaluation -->
+    <div class="row align-items-center mt-5 mb-5">
+
+      <div class="col-lg-6">
+        <div class="skill__progress">
+          <div class="skill__progress_heading">
+
+            <h3>Event rule evaluation</h3>
+            Rules are at the core of the platform. Every incoming telemetry event that the platform receives is checked against them, 
+            and result determines whether an alert should be triggered. You can create any number and tailor them to the different 
+            telemetry data your sensors can send.
+
+            A typical rule definition follows an industry recognised pattern of ‘For…, When…, Then’. 
+            For example: for a particular sensor measuring temperature, when the reading drops below a specified value, 
+            then contact people on the list. This easily understood rule pattern can be readily transformed 
+            to an extremely performant condition evaluation routine that is guaranteed to carry minimal 
+            footprint for the computing resources required to execute the rule.
+
+            <br/>
+            <br/>
+            Performance is important because The Seraphin IoT Monitoring and Telemetry Platform places 
+            no restrictions on the number of rules you define. Some of the rules you create will require 
+            immediate activation, some will be used only for testing and may or may not be eventually 
+            enabled in your production environment. The online portal makes it easy to browse through all 
+            rules you have defined, test each one in isolation and finally stage for production deployment 
+            or keep them in testing.
+
+            <br/>
+            <br/>
+            As an owner of an organisation onboarded onto the Seraphin Monitoring Platform you have the ability 
+            to grant multiple users admin access to your organisation. This will give them the ability to look 
+            at your data and view alert triggering rules you defined. 
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="skill__thumb">
+          <div class="skill__thumb_image">
+            <img src="/images/functions/rule-define.jpg" class="image--elevated image--clickable" alt="skill-img">
+          </div>
+          <br/>
+          <div class="skill__thumb_image">
+            <img src="/images/functions/rule-inspect.jpg" class="image--elevated image--clickable" alt="skill-img">
+          </div>
+          <br/>
+          <div class="skill__thumb_image">
+            <img src="/images/functions/rule-browse.jpg" class="image--elevated image--clickable" alt="skill-img">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Alerting -->
+    <div class="row align-items-center mt-5">
+
+      <div class="col-lg-6">
+        <div class="skill__thumb">
+          <div class="skill__thumb_image">
+            <img src="/images/functions/alerts-view.jpg" class="image--elevated image--clickable" alt="skill-img">
+          </div>
+          <br/>
+          <div class="skill__thumb_image">
+            <img src="/images/functions/activations-view.jpg" class="image--elevated image--clickable" alt="skill-img">
+          </div>
+          <br/>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="skill__progress">
+          <div class="skill__progress_heading mt-5">
+
+            <h3>Alert management</h3>
+            The portal makes it easy to get an overview of all alerts that the system has initiated. 
+            You can easily access all information related to the context in which the alert was trigerred. 
+            This includes view into the telemetry event that coused the alert to fire, 
+            rule criteria that the telemetry event has met, and all people in your organisation 
+            that have been selected as a point of contact.
+
+            <br/>
+            <br/>
+            Only rules that meet the criteria you define can trigger notification alerts. 
+            Use the portal to inspect rules that resulted in notification attempts. 
+            A complete log of all activated rules for every telemetry event 
+            that your sensors transit is always available for total transparency.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+{{ end }}
+{{ end }}

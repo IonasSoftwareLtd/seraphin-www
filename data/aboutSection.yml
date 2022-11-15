@@ -15,7 +15,7 @@ content: >
   The system is designed to gather, evaluate and present telemetry data. 
 
   Incoming data is evaluated against user defined rules. If rule conditions are met, the notification 
-  in the form of email, text message or a phone call is triggered to inform the user about alarm condition.
+  in the form of **email**, **text message** or a **phone call** is triggered to inform the user about alarm condition.
 
 
   All sensor-sent telemetry data is stored in the cloud and available for live and retrospective 

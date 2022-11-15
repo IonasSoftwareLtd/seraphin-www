@@ -7,7 +7,7 @@ date: 2022-09-11T18:03:29+01:00
 ### I. PERSONAL DATA ADMINISTRATOR 
 
 The administrator of personal data on the Seraphin Wireless Monitoring portal (the portal) and Seraphin website (the website) is Ionas Software Ltd with its registered office in Glasgow, 
-at 20 Summerfield Cottages, G14 0RB, company no: SC492403 (hereinafter: "Administrator"). The Administrator website address is https://www.ionas.co.uk.
+at 34 Craggan Drive, G14 0EW, company no: SC492403 (hereinafter: "Administrator"). The Administrator website address is https://www.ionas.co.uk.
 
 
 <br/>
@@ -64,7 +64,7 @@ d) sending commercial information to partners, advertisers or recipients of the 
 1. Providing personal data by the Customer of the service is voluntary, however, failure to provide personal data necessary to conclude a given agreement results in the impossibility to conclude it.
 
 2. The Administrator informs that the Customer of the service has the opportunity to withdraw consent to the processing of his/her personal data. This can be done by contacting the 
-Administrator by e-mail to the address: contact@ionas.co.uk or in writing to the address: 20 Summerfield Cottages, G14 0RB, Glasgow, UK.
+Administrator by e-mail to the address: contact@ionas.co.uk or in writing to the address: 34 Craggan Drive, G14 0EW, Glasgow, UK.
 
 3. withdrawal of consent for data processing, may be associated with the need to cease using the Service, such as deletion of the account.
 
@@ -99,5 +99,5 @@ site or for all connections from his/her browser. For more information on how to
 
 1. This privacy policy applies to the Seraphin Wireless Monitoring portal as well as the Serpahin website on which this policy is published.
 
-2. If you have any questions regarding this privacy policy please contact the Administrator, in particular via e-mail to: contact@ionas.co.uk in the subject line of the message writing "privacy policy" or in writing to the address in Glasgow, at 20 Summerfield Cottages, G14 0RB, Scotland, UK.
+2. If you have any questions regarding this privacy policy please contact the Administrator, in particular via e-mail to: contact@ionas.co.uk in the subject line of the message writing "privacy policy" or in writing to the address in Glasgow, at 34 Craggan Drive, G14 0EW, Scotland, UK.
 

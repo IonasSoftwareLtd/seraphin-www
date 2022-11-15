@@ -18,12 +18,12 @@ sections:
   label: Services
 
 - type: document
-  path: data/resumeSection.yml
-  label: Resume
+  path: data/characteristicsSection.yml
+  label: Characteristics
 
 - type: document
-  path: data/skillSection.yml
-  label: Skills
+  path: data/featuresSection.yml
+  label: Features
 
 - type: document
   path: data/testimonialSection.yml
