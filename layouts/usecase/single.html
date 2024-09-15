@@ -52,11 +52,15 @@
           </div>
         </div>
 
+        {{ .Content }}
+
+        <br/>
         <div class="case-details-thumb mb-5">
-          <img src="{{ .Params.thumbnail | absURL }}" alt="case-details" />
+          {{ range .Params.images }}
+            <img src="{{ . | absURL }}" alt="case-details" />
+          {{ end }}
         </div>
 
-        {{ .Content }}
 
       </div>
     </div>

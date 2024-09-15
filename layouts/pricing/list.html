@@ -1,0 +1,79 @@
+{{ define "main" }}
+
+<header class="breadCrumb">
+  <div class="svg-img">
+    <img src="{{ "images/hero/figure-svg.svg" | absURL }}" alt="bg">
+  </div>
+  <div class="animate-shape">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+      <defs>
+        <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+          <stop offset="0" stop-color="#f1f6f9" />
+          <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <g data-name="blob-shape (3)">
+        <path class="blob" fill="url(#d)"
+          d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+      </g>
+    </svg>
+  </div>
+  <div class="animate-pattern">
+    <img src="{{ "images/service/background-pattern.svg" | absURL }}" alt="background-shape">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="breadCrumb__title">{{ .Title }}</h3>
+        <h4>
+          Seraphin IoT is a secure, scalable and trusted Monitoring Platform that will protect your high value
+          assets by issuing phone calls and text messages when your assets are at risk.
+        </h4>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>
+          Seraphin IoT pricing is based on Pay-as-you-go (PAYG) model, you will be billed for:
+        </p>
+        <ul>
+          <li>registering new devices</li>
+          <li>transacting telemetry events</li>
+          <li>notification alerts</li>
+        </ul>
+        <p>
+          Your pricing plan will depend on your deployment. <br/>
+          <h4>Evaluation</h4>
+          <p>
+            The most cost effective option for home users would be to use our our shared cloud under our 
+            general T&C agreement. This is the best option for IoT enthusiasts or prospective clients willing to
+            evaluate our platform.
+          </p>
+          <h4>Fully managed</h4>
+          <p>
+            Where a client wishes to fully outsource IoT services, we will examine the site, select the right IoT equipment,
+            configure connectivity to the cloud and - depedening on the number of sensors installed - onboard the client onto 
+            a shared cloud or provision an isolated environment, exclusive to the client. Our services can be provided
+            under a shared or a customised T&C agreement.
+          </p>
+          <h4>Software only</h4>
+          <p>
+            This is an ideal option for clients who already manage a large IoT deployment at their sites. Seraphin IoT can 
+            be deployed as a SaaS product with existing IoT devices being configured to use the platform. The client remains 
+            in charge of the hardware and is assigned an elevated role on the Seraphin platform therefore being able to 
+            feely onboard new users, delegate roles to new users, register new devices and have full control over data within
+            the platform as well as access to audit. Our services will be provided under a customised T&C agreement.
+          </p>
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

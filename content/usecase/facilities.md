@@ -1,13 +1,16 @@
 ---
-title: Facilities management
+title: Facilities management - Water usage, occupancy, CO2, temperature
 date: 2020-08-12T18:07:16.000+06:00
 thumbnail: images/usecase/building500x750.png
 service: Workspace conditions and space utilisation monitoring
 client: Johnathon Doe
+publish: true
 shortDescription: >
-  LoRaWANN based IoT deployments are an ideal technology for Smart Buildings solutions.
+  IoT deployments are an ideal technology for Smart Buildings solutions.
   Seraphin IoT Wireless Monitoring and Telemetry portal is the perfect tool for
-  Smart Buildings solutions. 
+  Smart Buildings solutions with truly versatile solutions. 
+  Seraphin IoT can monitor Water usage using Smart Water meters
+  or office utilisation tracking occupancy, temparature and CO2 levels.
 
 challenge: >
   Large public sector organisation requires a solution to provide information 
@@ -18,7 +21,7 @@ challenge: >
 solution: >
   The information collected by Seraphin IoT Wireless Monitoring and Telemetry portal
   allowed the management to make better decisions about the lighting systems
-  expenditure 
+  expenditure.  
 
 ---
 Keep the air in your building safe and your space primed for productivity by ensuring that CO2, humidity, and temperature levels are always optimal.
