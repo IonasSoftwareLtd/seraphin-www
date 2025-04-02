@@ -1,4 +1,5 @@
-{{ with .Site.Data.usecaseSection }}
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.usecaseSection }}
 {{ if .enable }}
 <section class="section portfolio" id="portfolio">
 

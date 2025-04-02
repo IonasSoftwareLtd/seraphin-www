@@ -1,81 +1,106 @@
 baseURL = "https://seraphin.cloud/"
-languageCode = "en-gb"
 paginate = 6
+
 theme = "portio"
-title = "Seraphin Iot Wireless Monitoring and Telemetry Platform"
 
-# Main Menu
-[[menu.main]]
-name = "Home"
-url = "#home"
-weight = 1
-[[menu.main]]
-name = "About"
-url = "#about"
-weight = 2
-[[menu.main]]
-name = "Use Cases"
-url = "#use-cases-across-various-industries"
-weight = 3
-[[menu.main]]
-name = "Pricing"
-url = "/pricing"
-weight = 4
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
 
-# Sitemap Menu
-[[menu.sitemap]]
-name = "About"
-url = "/#about"
-weight = 1
-# [[menu.sitemap]]
-# name = "Frequently Ask Question"
-# url = "#"
-# weight = 2
-[[menu.sitemap]]
-name = "Privacy & Policy"
-url = "/legal/privacy"
-weight = 3
-[[menu.sitemap]]
-name = "Terms and Conditions"
-url = "/documents/tnc.pdf"
-weight = 3
-# [[menu.sitemap]]
-# name = "Latest Article"
-# url = "#"
-# weight = 4
+[languages]
+  [languages.en]
+    contentDir = 'content/en-gb'
+    languageName = 'English'
+    languageCode = "en-gb"
+    languageDirection = 'ltr'
+    title = "Seraphin Iot Wireless Monitoring and Telemetry Platform"
+    weight = 1
+    [languages.en.params]
+      subtitle = 'Iot Monitoring and Telemetry Platform'
+      blogPageURL = "blog"
+      contactLink = "contact"
+      copyright = "All rights reserved © Ionas Software Ltd 2023"
+      footerLogo = "images/site-navigation/256x256.png"
+      formspreeURL = "YOUR FORMSPREE URL"
+      googleAnalytics = "UA-226688431-1"
+      #logo = "images/site-navigation/logo.png"
+      logo = "/images/site-navigation/logo.svg"
 
-[params]
-blogPageURL = "blog"
-contactLink = "contact"
-copyright = "All rights reserved © Ionas Software Ltd 2023"
-footerLogo = "images/site-navigation/256x256.png"
-formspreeURL = "YOUR FORMSPREE URL"
-googleAnalytics = "UA-226688431-1"
-#logo = "images/site-navigation/logo.png"
-logo = "images/site-navigation/logo.svg"
+    [languages.en.params.address]
+      address = "Ionas Software Ltd, 34 Craggan Drive, G14 0EW, Glasgow, UK"
+      email = "contact@ionas.co.uk"
+      openingHours = "Contact us between 10am to 5pm Monday to Friday"
+      phone = "+44 (0) 141 237 4636"
 
-[params.address]
-address = "Ionas Software Ltd, 34 Craggan Drive, G14 0EW, Glasgow, UK"
-email = "contact@ionas.co.uk"
-openingHours = "Contact us between 10am to 5pm Monday to Friday"
-phone = "+44 (0) 141 237 4636"
+    [languages.en.params.map]
+      APIkey = "YOUR GOOGLE MAP API"
+      latitude = "23.7783741"
+      longitude = "90.3746808"
+      pinImage = "images/pin.png"
 
-[params.map]
-APIkey = "YOUR GOOGLE MAP API"
-latitude = "23.7783741"
-longitude = "90.3746808"
-pinImage = "images/pin.png"
+    # Social icons
+    [[languages.en.params.social]]
+      icon = "fa-facebook-official"
+      url = "https://www.facebook.com/ionassoftware/"
+      weight = 1
+    [[languages.en.params.social]]
+      icon = "fa-linkedin-square"
+      url = "https://www.linkedin.com/company/20872243/"
+      weight = 2
+    # [[params.social]]
+    # icon = "fa-twitter-square"
+    # url = "https://twitter.com/"
+    # weight = 3
 
-# Social icons
-[[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/ionassoftware/"
-weight = 1
-[[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/company/20872243/"
-weight = 2
-# [[params.social]]
-# icon = "fa-twitter-square"
-# url = "https://twitter.com/"
-# weight = 3
+    # Main Menu
+    [[languages.en.menu.main]]
+    name = "Home"
+    url = "#home"
+    weight = 1
+    [[languages.en.menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 2
+    [[languages.en.menu.main]]
+    name = "Use Cases"
+    url = "#use-cases-across-various-industries"
+    weight = 3
+    [[languages.en.menu.main]]
+    name = "Pricing"
+    url = "en/pricing"
+    weight = 4
+    
+    # Sitemap Menu
+    [[languages.en.menu.sitemap]]
+    name = "About"
+    url = "/#about"
+    weight = 1
+    # [[menu.sitemap]]
+    # name = "Frequently Ask Question"
+    # url = "#"
+    # weight = 2
+    [[languages.en.menu.sitemap]]
+    name = "Privacy & Policy"
+    url = "/legal/privacy"
+    weight = 3
+    # [[menu.sitemap]]
+    # name = "Latest Article"
+    # url = "#"
+    # weight = 4
+
+  [languages.pl]
+    contentDir = 'content/pl-pl'
+    languageName = 'Polski'
+    languageDirection = 'ltr'
+    title = "Platforma telemetryczna i monitorująca Seraphin Iot"
+    weight = 1
+    [languages.pl.params]
+      subtitle = 'Platforma telemetryczna i monitorująca Iot'
+      blogPageURL = "blog"
+      contactLink = "kontakt"
+      copyright = "Wszystkie prawa zastrzeżone © Ionas Software Ltd 2023"
+      footerLogo = "images/site-navigation/256x256.png"
+      formspreeURL = "YOUR FORMSPREE URL"
+      googleAnalytics = "UA-226688431-1"
+      #logo = "images/site-navigation/logo.png"
+      logo = "images/site-navigation/logo.svg"

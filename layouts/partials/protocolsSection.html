@@ -1,4 +1,5 @@
-{{ with .Site.Data.protocolsSection }}
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.protocolsSection }}
 {{ if .enable }}
 <section class="section service" id="service">
     <div class="service__background">
@@ -23,7 +24,7 @@
     </div>
 
     <div class="service__background_pattern">
-        <img src="images/service/background-pattern.svg" alt="background-pattern">
+        <img src="/images/service/background-pattern.svg" alt="background-pattern">
     </div>
 
     <div class="container">

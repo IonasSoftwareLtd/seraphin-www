@@ -1,4 +1,5 @@
-{{ with .Site.Data.characteristicsSection }}
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.characteristicsSection }}
 {{ if .enable }}
 <section class="section resume" id="resume">
   <div class="resume__background">

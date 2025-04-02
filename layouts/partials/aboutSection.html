@@ -1,4 +1,5 @@
-{{ with .Site.Data.aboutSection }}
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.aboutSection }}
 {{ if .enable }}
 <section class="section about" id="about">
     <div class="container">
@@ -15,7 +16,7 @@
                 <div class="about_content">
                     <div class="about_content-thumb">
                         <div class="about-svg">
-                            <img src="images/hero/figure-svg.svg" alt="figure-svg">
+                            <img src="/images/hero/figure-svg.svg" alt="figure-svg">
                         </div>
                         <div class="about_content-thumb-image">
                             <img src="{{ .image | absURL }}" alt="about-img">
@@ -43,7 +44,7 @@
                         </div>
                         <div>
                             <a class="btn btn-primary mr-3 btn-zoom"
-                                href="{{ .button1Target | absURL }}">{{ .button1Name }}</a>
+                                href="{{ relLangURL .button1Target }}">{{ .button1Name }}</a>
                         </div>
                     </div>
                 </div>

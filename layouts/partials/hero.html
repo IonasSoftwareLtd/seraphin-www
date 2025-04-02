@@ -1,4 +1,6 @@
-{{ with .Site.Data.hero }}
+
+{{ $myData := index .Site.Data .Lang }}
+{{ with $myData.hero }}
 {{ if .enable }}
 <section class="hero srh-hero" id="home">
 
@@ -17,7 +19,7 @@
 
 
   <div class="hero_footer-svg">
-    <img src="images/hero/figure-svg.svg" alt="" />
+    <img src="/images/hero/figure-svg.svg" alt="" />
   </div>
   
   <div class="container">
@@ -44,7 +46,7 @@
             {{ .content | markdownify }}
           </div>
           <a type="button" class="btn btn-lg btn-primary btn-zoom"
-            href="{{ .buttonURL | absURL }}">{{ .buttonName }}</a>
+            href="{{ relLangURL .buttonURL }}">{{ .buttonName }}</a>
         </div>
       </div>
 
@@ -52,9 +54,9 @@
 
         <div class="srh-hero-image-container">
           <picture>
-            <source media="(max-width: 550px)" srcset="images/hero/illustration-mobile-550w.png">
-            <source media="(min-width: 700px)" srcset="images/hero/illustration-home.png">
-            <img alt="hero-image" class="srh-hero-image" src="images/hero/illustration-home.png">
+            <source media="(max-width: 550px)" srcset="/images/hero/illustration-mobile-550w.png">
+            <source media="(min-width: 700px)" srcset="/images/hero/illustration-home.png">
+            <img alt="hero-image" class="srh-hero-image" src="/images/hero/illustration-home.png">
           </picture>
         </div>
 

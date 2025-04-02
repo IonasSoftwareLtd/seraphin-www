@@ -31,7 +31,7 @@
 						<h2 class="mb-0">Deploy Seraphin IoT Platform at your site</h2>
 					</div>
 					<div class="footer__cta_action">
-						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Get in
+						<a class="btn btn-light btn-zoom" href="{{ relLangURL .Site.Params.contactLink }}">Get in
 							touch</a>
 					</div>
 				</div>
@@ -53,7 +53,7 @@
 					<ul class="unstyle-list small">
 						{{ $sitemap := .Site.Menus.sitemap }}
 						{{ range $sitemap }}
-						<li class="mb-2"><a class="text-light" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+						<li class="mb-2"><a class="text-light" href="{{ relLangURL .URL }}">{{ .Name }}</a></li>
 						{{ end }}
 					</ul>
 				</div>
