@@ -1,5 +1,5 @@
 baseURL = "https://seraphin.cloud/"
-paginate = 6
+pagination.pagerSize = 6
 
 theme = "portio"
 
@@ -20,6 +20,13 @@ disableDefaultLanguageRedirect = false
       blogPageURL = "blog"
       contactLink = "contact"
       copyright = "All rights reserved © Ionas Software Ltd 2023"
+      navbarCta = "Request demo"
+      navbarContact = "Contact"
+      footerCta = "Deploy Seraphin IoT Platform at your site"
+      footerCtaBtn = "Get in touch"
+      footerContactUs = "Contact us"
+      footerContact = "Contact"
+      footerSitemap = "Sitemap"
       footerLogo = "images/site-navigation/256x256.png"
       formspreeURL = "YOUR FORMSPREE URL"
       googleAnalytics = "UA-226688431-1"
@@ -30,7 +37,6 @@ disableDefaultLanguageRedirect = false
       address = "Ionas Software Ltd, 34 Craggan Drive, G14 0EW, Glasgow, UK"
       email = "contact@ionas.co.uk"
       openingHours = "Contact us between 10am to 5pm Monday to Friday"
-      phone = "+44 (0) 141 237 4636"
 
     [languages.en.params.map]
       APIkey = "YOUR GOOGLE MAP API"
@@ -69,24 +75,22 @@ disableDefaultLanguageRedirect = false
     name = "Pricing"
     url = "en/pricing"
     weight = 4
-    
+    [[languages.en.menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 5
+
     # Sitemap Menu
     [[languages.en.menu.sitemap]]
     name = "About"
     url = "/#about"
     weight = 1
-    # [[menu.sitemap]]
-    # name = "Frequently Ask Question"
-    # url = "#"
-    # weight = 2
+
     [[languages.en.menu.sitemap]]
     name = "Privacy & Policy"
     url = "/legal/privacy"
     weight = 3
-    # [[menu.sitemap]]
-    # name = "Latest Article"
-    # url = "#"
-    # weight = 4
+
 
   [languages.pl]
     contentDir = 'content/pl-pl'
@@ -99,8 +103,49 @@ disableDefaultLanguageRedirect = false
       blogPageURL = "blog"
       contactLink = "kontakt"
       copyright = "Wszystkie prawa zastrzeżone © Ionas Software Ltd 2023"
+      navbarCta = "Zamów demonstrację"
+      navbarContact = "Kontakt"
       footerLogo = "images/site-navigation/256x256.png"
+      footerCta = "Wprowadź platformę Seraphin IoT w swojej firmie"
+      footerCtaBtn = "Skontaktuj się z nami"
+      footerContactUs = "Skontaktuj się z nami"
+      footerContact = "Kontakt"
+      footerSitemap = "Mapa strony"
       formspreeURL = "YOUR FORMSPREE URL"
       googleAnalytics = "UA-226688431-1"
       #logo = "images/site-navigation/logo.png"
       logo = "images/site-navigation/logo.svg"
+
+    [languages.pl.params.address]
+      address = "Szymon Czaja - Programowanie w chmurze, ul. Gołębiowskiego 10, 38-130 Frysztak"
+      email = "contact@ionas.co.uk"
+      openingHours = "Skontaktuj się z nami między 10:00 a 17:00 od poniedziałku do piątku"
+
+    # Main Menu
+    [[languages.pl.menu.main]]
+    name = "O produkcie"
+    url = "#o-platformie-seraphin-iot"
+    weight = 2
+    [[languages.pl.menu.main]]
+    name = "Zastosowania"
+    url = "#zastosowania"
+    weight = 3
+    [[languages.pl.menu.main]]
+    name = "Wycena"
+    url = "/wycena"
+    weight = 4
+    [[languages.pl.menu.main]]
+    name = "Kontakt"
+    url = "/kontakt"
+    weight = 5
+
+    # Sitemap Menu
+    [[languages.pl.menu.sitemap]]
+    name = "O nas"
+    url = "#o-platformie-seraphin-iot"
+    weight = 1
+
+    [[languages.pl.menu.sitemap]]
+    name = "Polityka prywatności"
+    url = "prawne/polityka-prywatnosci"
+    weight = 3

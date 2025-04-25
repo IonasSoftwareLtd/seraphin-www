@@ -1,0 +1,12 @@
+---
+enable: true
+topTitle: Platforma telemetryczna IoT
+content: >
+  # Zarządzanie telemetrią, zdalny monitoring i alarmowanie
+
+  Monitorowanie zamrażarek niskotemperaturowych (ULT) i zbiorników LN2 z funkcją alarmowania.
+  Rejestrowanie danych HACCP, inteligentne wodomierze z wykrywaniem wycieków, BMS i inteligentne sterowanie budynkiem.
+
+buttonName: Zamów demonstrację
+buttonURL: kontakt
+image: /images/hero/illustration-home.png

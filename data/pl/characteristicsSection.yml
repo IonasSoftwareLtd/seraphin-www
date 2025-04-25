@@ -1,0 +1,104 @@
+---
+enable: true
+topTitle: Charakterystyka
+title: >
+  ## Charakterystyka platformy
+
+  Seraphin IoT to najnowocześniejsze rozwiązanie klasy produkcyjnej, w pełni spełniające 
+  wymagania nowoczesnego i niezawodnego systemu oprogramowania.
+
+tab1Name: Natywna aplikacja chmurowa
+tab2Name: Bezpieczeństwo danych
+tab3Name: Zawsze dostępny
+tab4Name: Skalowność
+tab5Name: Rozszerzalny
+
+tab1Target: cloudnative
+tab2Target: secure
+tab3Target: resilient
+tab4Target: scalable
+tab5Target: extendible
+
+cloudnative:
+  - subtitle: Aplikacja chmurowa
+    content: >
+      #### Natywna aplikacja chmurowa
+      
+      Platforma jest hostowana w chmurze AWS i używa tej samej infrastruktury co np. strony rządowe.
+
+      Natywność oprogramowania w chmurze ma ogromny wpływ na projekt i jakość całego rozwiązania.
+      Baza kodu aplikacji natywnej dla chmury **starzeje się znacznie wolniej** niż baza kodu zwykłej aplikacji przeniesionej do chmury.
+
+      
+    image: images/service/aws200x75.png
+
+secure:
+  - subtitle: Bezpieczeństwo danych
+    content: >
+      #### Pełne szyfrowanie
+      
+      We wdrożeniach LoRaWAN pakiety danych między czujnikami a bramkami są szyfrowane przy użyciu szyfru **AES**. 
+      Brama komunikuje się z serwerami za pośrednictwem **TLS**.
+      Wszystkie wdrożenia urządzeń LoRaWAN przyjmują praktyki bezpieczeństwa opisane w dokumencie
+
+      [LoRaWAN ™ SECURITY: A White Paper Prepared for the LoRa Alliance™ by Gemalto, Actility, and Semtech](https://lora-alliance.org/sites/default/files/2019-05/lorawan_security_whitepaper.pdf "LoRaWAN Security")
+
+  - subtitle: Izolacja danych
+    content: >
+      #### Podział danych
+
+      Platforma została zaprojektowana tak, aby segregować dane związane z jedną organizacją w jej własnej przestrzeni - całkowicie oddzielonej od innych organizacji.
+      Zapewnia to większe bezpieczeństwo danych, zmniejszając prawdopodobieństwo utraty danych w przypadku błędu infrastruktury lub użytkownika.
+
+  - subtitle: RBAC
+    content: >
+      #### Kontrola dostępu oparta na rolach
+
+      Seraphin IoT został zaprojektowany do obsługi 4 ról dostępu - **User**, **Client**, **Partner** i **Root**.
+      Podczas gdy ta ostatnia cieszy się pełnym dostępem do systemu w całej chmurze, **Użytkownicy** mają ograniczony widok 
+      i dostęp tylko do odczytu do danych specyficznych dla organizacji, do której należą.
+   
+
+resilient:
+  - subtitle: Zawsze dostępny
+    content: >
+      #### 99.99% Zobowiązanie w zakresie dostępnościClick to apply
+
+      Punkty końcowe pozyskiwania danych Seraphin IoT są wysoce dostępnymi usługami gwarantującymi **99,99%** czasu działania.
+      co jest wyraźnie wspomniane w podstawowym dokumencie AWS SLA.
+
+   
+  - subtitle: Architektura rozproszona
+    content: >
+      #### Brak pojedynczego punktu awarii
+
+      Punkty końcowe pozyskiwania danych Seraphin IoT, a także baza danych, której rozwiązanie używa do przechowywania wszystkich danych o zdarzeniach, 
+      zostały zaprojektowane do pracy jako system rozproszony, a w sposób odporny na awarie.
+ 
+
+scalable:
+  - subtitle: Skalowność
+    content: >
+      #### Skalowanie pionowe i poziome
+ 
+      Niezawodność i wydajność są nieodłącznym elementem produktu, dzięki czemu można oczekiwać, że platforma będzie skalować się z 
+      przewidywalną wydajnością, niezależnie od tego, czy zbierasz dane z kilku czy tysięcy urządzeń IoT.
+
+      To sprawia, że platforma Seraphin IoT jest idealnym rozwiązaniem dla startupów, dużych korporacji, a także odsprzedawców,
+      bo Seraphin IoT został zaprojektowany jako rozwiązanie SaaS, które wspomaga firmy pośredniczące w sprzedaży i integracji.
+    
+extendible:
+  - subtitle: Event push
+    content: >
+      #### Kanały danych oparte na zdarzeniach
+
+      Seraphin IoT może przekazywać wszystkie odebrane przez czujniki dane w sposób wypychający zdarzenia do zewnętrznych punktów końcowych integracji.
+    
+  - subtitle: Elastyczne formaty danych
+    content: >
+      #### Formaty danych tekstowe i binarne
+
+      Platforma może być skonfigurowana do pracy z dowolnym formatem danych - tekstowym lub binarnym, strukturalnym lub niestrukturalnym, niezależnie od tego
+      niezależnie od tego, czy dane są pozyskiwane, czy emitowane do systemów zewnętrznych.
+
+    

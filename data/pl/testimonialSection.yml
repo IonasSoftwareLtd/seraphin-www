@@ -1,0 +1,19 @@
+---
+enable: true
+topTitle: Referencje
+title: >
+  ## Informacje zwrotne od naszych klientów
+
+testimonial:
+  - name: Paul
+    comment: Moje ogólne doświadczenia były bardzo pozytywne i poleciłbym ten system innym użytkownikom tych systemów
+    time: 19/05/2022
+    star: 5
+  - name: Fiona
+    comment: Możliwość podglądu temperatury czujnika jest doskonałym rozwiązaniem. Wcześniej byłam wzywana w środku nocy z powodu fałszywych alarmów. Możliwość sprawdzenia temperatury czujnika oznacza, że mogę poczekać do rana, zanim przyjdę na uniwersytet, aby sprawdzić zamrażarkę
+    time: 18/05/2022
+    star: 5
+  - name: Aris
+    comment: Łatwy w użyciu. Może aplikacja na urządzenia mobilne. Chętnie nabyłbym ten system dla mojego działu.
+    time: 17/05/2022
+    star: 5

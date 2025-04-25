@@ -26,8 +26,7 @@
       <div class="col-12 text-center">
         <h3 class="breadCrumb__title">{{ .Title }}</h3>
         <h4>
-          Seraphin IoT is a secure, scalable and trusted Monitoring Platform that will protect your high value
-          assets by issuing phone calls, text messages and email notifications when your assets are at risk.
+          {{ .Params.subTitle }}
         </h4>
       </div>
     </div>
@@ -38,39 +37,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p>
-          Seraphin IoT pricing is based on Pay-as-you-go (PAYG) model, you will be billed for:
-        </p>
-        <ul>
-          <li>registering new devices</li>
-          <li>transacting telemetry events</li>
-          <li>notification alerts</li>
-        </ul>
-        <p>
-          Your pricing plan will depend on your deployment. <br/>
-          <h4>Evaluation</h4>
-          <p>
-            The most cost effective option for home users would want to use our our shared cloud under our 
-            general T&C agreement. This is the best option for IoT enthusiasts or prospective clients willing to
-            evaluate our platform.
-          </p>
-          <h4>Fully managed</h4>
-          <p>
-            Where a client wishes to fully outsource IoT services, we will examine the site, select the right IoT equipment,
-            configure connectivity to the cloud and - depedening on the number of sensors installed - onboard the client onto 
-            a shared cloud or provision an isolated environment, exclusive to the client. Our services can be provided
-            under a shared or a customised T&C agreement.
-          </p>
-          <h4>Software only</h4>
-          <p>
-            This is an ideal option for clients who already manage a large IoT deployment at their sites. Seraphin IoT can 
-            be deployed as a SaaS product with existing IoT devices being configured to use the platform. The client remains 
-            in charge of the hardware and is assigned an elevated role on the Seraphin platform therefore being able to 
-            feely onboard new users, delegate roles to new users, register new devices and have full control over data within
-            the platform as well as access to audit. Our services will be provided under a customised T&C agreement.
-          </p>
-          <br>
-        </p>
+        {{ .Content }}
       </div>
     </div>
   </div>
