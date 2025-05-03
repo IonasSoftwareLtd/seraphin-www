@@ -17,15 +17,15 @@ service:
   - content: >
       #### NB-IoT
 
-      NB-IoT zyskuje coraz większy zasięg, a platformę Seraphin IoT można skonfigurować tak, aby
-      do obsługi urządzeń obsługujących NB-IoT przy użyciu transportów **UDP**, **CoAP** lub **MQTT**.
+      NB-IoT zyskuje coraz większy zasięg, a platformę Seraphin IoT można skonfigurować 
+      do obsługi urządzeń NB-IoT przy użyciu transportów **UDP**, **CoAP** lub **MQTT**.
 
     image: images/service/nbiot200x74.png
   - content: >
       #### Wi-Fi
 
       Platformę Seraphin IoT można łatwo rozszerzyć do odbierania danych przez **REST** lub **SOAP** - 
-      API usług sieciowych lub protokołów zorientowanych na wiadomości, takich jak **MQTT**.
+      API usług sieciowych lub protokołów opartych o wzorzec publikacja/subskrypcja, takich jak **MQTT**.
 
     image: images/service/wifi143x80.png
   # - content: >

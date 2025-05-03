@@ -56,15 +56,15 @@ secure:
 
       Seraphin IoT został zaprojektowany do obsługi 4 ról dostępu - **User**, **Client**, **Partner** i **Root**.
       Podczas gdy ta ostatnia cieszy się pełnym dostępem do systemu w całej chmurze, **Użytkownicy** mają ograniczony widok 
-      i dostęp tylko do odczytu do danych specyficznych dla organizacji, do której należą.
+      i dostęp tylko do odczytu danych specyficznych dla organizacji, do której należą.
    
 
 resilient:
   - subtitle: Zawsze dostępny
     content: >
-      #### 99.99% Zobowiązanie w zakresie dostępnościClick to apply
+      #### 99.9% Zobowiązanie w zakresie dostępności
 
-      Punkty końcowe pozyskiwania danych Seraphin IoT są wysoce dostępnymi usługami gwarantującymi **99,99%** czasu działania.
+      Punkty końcowe pozyskiwania danych Seraphin IoT są wysoce dostępnymi usługami gwarantującymi **99,9%** czasu działania.
       co jest wyraźnie wspomniane w podstawowym dokumencie AWS SLA.
 
    
@@ -73,7 +73,7 @@ resilient:
       #### Brak pojedynczego punktu awarii
 
       Punkty końcowe pozyskiwania danych Seraphin IoT, a także baza danych, której rozwiązanie używa do przechowywania wszystkich danych o zdarzeniach, 
-      zostały zaprojektowane do pracy jako system rozproszony, a w sposób odporny na awarie.
+      zostały zaprojektowane do pracy jako system rozproszony, a w ten sposób odporny na awarie.
  
 
 scalable:
@@ -98,7 +98,6 @@ extendible:
     content: >
       #### Formaty danych tekstowe i binarne
 
-      Platforma może być skonfigurowana do pracy z dowolnym formatem danych - tekstowym lub binarnym, strukturalnym lub niestrukturalnym, niezależnie od tego
-      niezależnie od tego, czy dane są pozyskiwane, czy emitowane do systemów zewnętrznych.
+      Platforma może być skonfigurowana do pracy z dowolnym formatem danych - tekstowym lub binarnym, strukturalnym lub niestrukturalnym, niezależnie od tego czy dane są pozyskiwane, czy emitowane do systemów zewnętrznych.
 
     

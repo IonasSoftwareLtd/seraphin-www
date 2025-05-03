@@ -1,11 +1,11 @@
 ---
-title: Nauka - Zamrażarki ultraniskotemperaturowe (ULT) i zbiorniki LN2
+title: Farmakologia i nauka - Zamrażarki ultraniskotemperaturowe (ULT) i zbiorniki LN2
 url: '/pl/przyklady/naukowe'
 date: 2020-07-13T12:49:27.000+06:00
 thumbnail: /images/usecase/lab500x749.png
 images:
   - /images/usecase/freezer640x480.jpg
-service: Niskotemperaturowe przechowywanie zasobów naukowych
+service: Niskotemperaturowe przechowywanie zasobów farmakologicznych i naukowych
 client: Glasgow University
 publish: true
 shortDescription: >
