@@ -24,6 +24,36 @@
         </li> -->
       </ul>
       <div class="navbar-nav">
+
+        {{ with .AllTranslations }}
+
+          <div class="sl-nav">
+            <ul>
+              <li><b>{{ $.Site.Language }}</b> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <div class="triangle"></div>
+                <ul>
+                  {{ range . }}
+                  <li>
+                    <i class="sl-flag flag-{{ .Lang }}"><div id="germany"></div></i> 
+                    {{ if eq .Language.Lang $.Language.Lang }}
+                    <span class="active" aria-label="{{ i18n "ariaLanguage" }}{{ .Language.LanguageName }}">
+                      {{ .Language.LanguageName }}
+                    </span>
+                    {{ else }}
+                       <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                    {{ end }}
+                  </li>
+                  {{ end }}
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        {{ end }}
+        
+      </div>
+
+      <div class="navbar-nav">
         <a href="{{ "contact" | lang.Translate | relLangURL }}" class="btn btn-primary btn-zoom hire_button">{{ .Site.Params.navbarCta }}</a>
       </div>
     </div>

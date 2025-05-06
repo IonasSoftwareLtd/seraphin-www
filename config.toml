@@ -4,8 +4,9 @@ pagination.pagerSize = 6
 theme = "portio"
 
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
-disableDefaultLanguageRedirect = false
+# defaultContentLanguageInSubdir = true
+# disableDefaultLanguageRedirect = true
+
 
 [languages]
   [languages.en]
@@ -73,7 +74,7 @@ disableDefaultLanguageRedirect = false
     weight = 3
     [[languages.en.menu.main]]
     name = "Pricing"
-    url = "en/pricing"
+    url = "/pricing"
     weight = 4
     [[languages.en.menu.main]]
     name = "Contact"
