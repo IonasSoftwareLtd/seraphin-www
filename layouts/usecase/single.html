@@ -36,7 +36,7 @@
         <div class="row mb-5">
           <div class="col-lg-6">
             <div class="case-details-service">
-              <h3>Challenge</h3>
+              <h3>{{ i18n "challenge" }}</h3>
               <p>
                 {{ .Params.challenge }}
               </p>
@@ -44,7 +44,7 @@
           </div>
           <div class="col-lg-6">
             <div class="case-details-service">
-              <h3>Solution</h3>
+              <h3>{{ i18n "solution" }}</h3>
               <p>
                 {{ .Params.solution }}
               </p>
@@ -78,7 +78,7 @@
               </svg>
             </div>
             <div class="content">
-              <span class="small">Prev case</span>
+              <span class="small">{{ i18n "prev-case" }}</span>
               <h5 class="title"><a class="text-dark"
                   href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title }}</a></h5>
             </div>
@@ -104,7 +104,7 @@
           {{ if .NextInSection }}
           <div class="next d-flex align-items-center">
             <div class=" content text-right">
-              <span class="small">Next case</span>
+              <span class="small">{{ i18n "next-case" }}</span>
               <h5 class="title">
                 <a class="text-dark" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}</a>
               </h5>

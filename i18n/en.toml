@@ -1,2 +1,33 @@
+[categories]
+other = "categories"
+
+[tags]
+other = "tags"
+
+
 [contact]
 other="contact"
+
+[see-details]
+other="See details"
+
+[prev-case]
+other="Prev case"
+
+[next-case]
+other="Next case"
+
+[challenge]
+other="Challenge"
+
+[solution]
+other="Solution"
+
+[mins-read]
+other="mins read"
+
+[home]
+other="Home"
+
+[all-post]
+other="All posts"

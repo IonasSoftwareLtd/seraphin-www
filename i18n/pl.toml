@@ -1,2 +1,33 @@
+[categories]
+other = "kategorie"
+
+[tags]
+other = "tagi"
+
+
 [contact]
 other="kontakt"
+
+[see-details]
+other="Dowiedz się więcej"
+
+[prev-case]
+other="Poprzedni przykład"
+
+[next-case]
+other="Kolejny przykład"
+
+[challenge]
+other="Wyzwanie"
+
+[solution]
+other="Rozwiązanie"
+
+[mins-read]
+other="minuty czytania"
+
+[home]
+other="Strona główna"
+
+[all-post]
+other="Artykuły"

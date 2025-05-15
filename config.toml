@@ -16,6 +16,11 @@ defaultContentLanguage = 'en'
     languageDirection = 'ltr'
     title = "Seraphin Iot Wireless Monitoring and Telemetry Platform"
     weight = 1
+
+    [languages.en.taxonomies]
+      tag = "tags"
+      category = "categories"
+
     [languages.en.params]
       subtitle = 'Iot Monitoring and Telemetry Platform'
       blogPageURL = "blog"
@@ -77,9 +82,13 @@ defaultContentLanguage = 'en'
     url = "/pricing"
     weight = 4
     [[languages.en.menu.main]]
+    name = "Articles"
+    url = "/blog"
+    weight = 5
+    [[languages.en.menu.main]]
     name = "Contact"
     url = "/contact"
-    weight = 5
+    weight = 6
 
     # Sitemap Menu
     [[languages.en.menu.sitemap]]
@@ -99,6 +108,11 @@ defaultContentLanguage = 'en'
     languageDirection = 'ltr'
     title = "Platforma telemetryczna i monitorująca Seraphin Iot"
     weight = 1
+
+    [languages.pl.taxonomies]
+      tag = "tagi"
+      kategoria = "kategorie"
+
     [languages.pl.params]
       subtitle = 'Platforma telemetryczna i monitorująca Iot'
       blogPageURL = "blog"
@@ -136,9 +150,13 @@ defaultContentLanguage = 'en'
     url = "/wycena"
     weight = 4
     [[languages.pl.menu.main]]
+    name = "Artykuły"
+    url = "/blog"
+    weight = 5
+    [[languages.pl.menu.main]]
     name = "Kontakt"
     url = "/kontakt"
-    weight = 5
+    weight = 6
 
     # Sitemap Menu
     [[languages.pl.menu.sitemap]]

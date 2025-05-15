@@ -28,7 +28,7 @@
 				<h3 class="breadCrumb__title">{{ .Title }}</h3>
 				<nav aria-label="breadcrumb" class="d-flex justify-content-center">
 					<ol class="breadcrumb align-items-center">
-						<li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+						<li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">{{ i18n "home" }}</a></li>
 						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
 					</ol>
 				</nav>
@@ -47,7 +47,7 @@
 						<img src="{{ .Params.featureImage | absURL }}" alt="post-image">
 					</div>
 					<div class="blog-page__item-content bg-white">
-						<span class="small">{{ .PublishDate.Format "January 2, 2006" }}</span>
+						<span class="small">{{ .PublishDate | time.Format ":date_medium" }}</span>
 						<h5 class="mb-0">
 							<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
 						</h5>
