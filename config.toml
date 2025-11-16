@@ -168,3 +168,70 @@ defaultContentLanguage = 'en'
     name = "Polityka prywatności"
     url = "prawne/polityka-prywatnosci"
     weight = 3
+
+  [languages.de]
+    contentDir = 'content/de-de'
+    languageName = 'Deutsch'
+    languageDirection = 'ltr'
+    title = "Telemetrie- und Überwachungsplattform Seraphin Iot"
+    weight = 1
+
+    [languages.de.taxonomies]
+      tag = "tagi"
+      kategoria = "kategorie"
+
+    [languages.de.params]
+      subtitle = 'Telemetrie- und Überwachungsplattform Iot'
+      blogPageURL = "blog"
+      contactLink = "kontakt"
+      copyright = "Alle Rechte vorbehalten © Ionas Software Ltd 2023"
+      navbarCta = "Demonstration bestellen"
+      navbarContact = "Kontakt"
+      footerLogo = "images/site-navigation/256x256.png"
+      footerCta = "Führen Sie die Seraphin IoT-Plattform in Ihrem Unternehmen ein"
+      footerCtaBtn = "Kontaktieren Sie uns"
+      footerContactUs = "Kontaktieren Sie uns"
+      footerContact = "Kontakt"
+      footerSitemap = "Sitemap"
+      formspreeURL = "YOUR FORMSPREE URL"
+      googleAnalytics = "UA-226688431-1"
+      #logo = "images/site-navigation/logo.png"
+      logo = "images/site-navigation/logo.svg"
+
+    [languages.de.params.address]
+      address = "Szymon Czaja – Cloud-Programmierung, ul. Gołębiowskiego 10, 38-130 Frysztak"
+      email = "contact@ionas.co.uk"
+      openingHours = "Kontaktieren Sie uns zwischen 10:00 und 17:00 Uhr von Montag bis Freitag."
+
+    # Main Menu
+    [[languages.de.menu.main]]
+    name = "Über"
+    url = "#uber-die-plattform-seraphin-iot"
+    weight = 2
+    [[languages.de.menu.main]]
+    name = "Anwendungen"
+    url = "#anwendungen"
+    weight = 3
+    [[languages.de.menu.main]]
+    name = "Bewertung"
+    url = "/bewertung"
+    weight = 4
+    [[languages.de.menu.main]]
+    name = "Artikel"
+    url = "/blog"
+    weight = 5
+    [[languages.de.menu.main]]
+    name = "Kontakt"
+    url = "/kontakt"
+    weight = 6
+
+    # Sitemap Menu
+    [[languages.de.menu.sitemap]]
+    name = "Über uns"
+    url = "#uber-die-plattform-seraphin-iot"
+    weight = 1
+
+    [[languages.de.menu.sitemap]]
+    name = "Datenschutzerklärung"
+    url = "rechtlich/Datenschutzerklärung"
+    weight = 3

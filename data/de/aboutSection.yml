@@ -1,0 +1,23 @@
+---
+enable: true
+topTitle: Über
+title: >
+  ## Über Seraphin IoT
+
+  Telemetrie-Ereignisdaten sammeln, durchsuchen, analysieren und darauf reagieren
+content: >
+  ### IoT-Plattform für drahtlose Überwachung und Telemetrie
+
+  Die Seraphin Monitoring Platform ist eine umfassende IoT-Softwareplattform, die entwickelt wurde, um Echtzeitüberwachung 
+  und schnelle Alarmierungsfunktionen bereitzustellen.
+
+  Das System dient dazu, Telemetriedaten zu erfassen, auszuwerten und darzustellen. 
+
+  Eingehende Daten werden anhand von benutzerdefinierten Regeln ausgewertet. Sind die Regelbedingungen erfüllt, wird die Benachrichtigung 
+  in Form einer **E-Mail**, einer **SMS** oder eines **Telefonanrufs** ausgelöst, um den Benutzer über den Alarmzustand zu informieren.
+
+  Alle von den Sensoren gesendeten Telemetriedaten werden in der Cloud gespeichert und können über ein mobiles, benutzerfreundliches und sicheres Webportal live und rückwirkend eingesehen werden. 
+
+button1Name: Demo anfordern
+button1Target: contact
+image: /images/about/srh-portal-1.png

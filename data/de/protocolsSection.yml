@@ -1,0 +1,43 @@
+---
+enable: true
+topTitle: Konnektivität
+title: >
+  ## Unterstützte Protokolle
+
+  Die Seraphin IoT-Telemetrieplattform kann mit einer Vielzahl von Geräten verwendet werden, die
+  verschiedene IoT-Konnektivitätsstandards
+service:
+  - content: >
+      #### LoRaWAN
+
+      Die Seraphin IoT-Plattform wurde für die Verwendung mit privaten LoRaWAN-Netzwerken entwickelt
+      und unterstützt die neuesten LoRaWAN **1.0.x**- und **1.1.x**-Spezifikationsprotokolle.
+    image: images/service/lorawan200x65.png
+  - content: >
+      #### NB-IoT
+
+      NB-IoT gewinnt zunehmend an Bedeutung, und die Seraphin IoT-Plattform kann so konfiguriert werden, dass sie NB-IoT-fähige Geräte unterstützt, die **UDP**-, **CoAP**- oder **MQTT**-Transporte verwenden.
+    image: images/service/nbiot200x74.png
+  - content: >
+      #### Wi-Fi
+
+      Die Seraphin IoT-Plattform lässt sich leicht erweitern, um Daten über **REST**- oder **SOAP**-Webservice-APIs oder nachrichtenorientierte Protokolle wie **MQTT** zu empfangen.
+    image: images/service/wifi143x80.png
+  # - content: >
+  #     #### Branding
+
+  #     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+  #     tempor invidunt ut labore et dolore magna aliquyam erat.
+  #   image: images/service/branding.svg
+  # - content: >
+  #     #### UI/UX Design
+
+  #     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+  #     tempor invidunt ut labore et dolore magna aliquyam erat.
+  #   image: images/service/ui-ux.svg
+  # - content: >
+  #     #### Web Development
+
+  #     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
+  #     tempor invidunt ut labore et dolore magna aliquyam erat.
+  #   image: images/service/web.svg

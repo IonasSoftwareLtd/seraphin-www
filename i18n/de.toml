@@ -1,0 +1,33 @@
+[categories]
+other = "kategorien"
+
+[tags]
+other = "tags"
+
+
+[contact]
+other="kontact"
+
+[see-details]
+other="Details anzeigen"
+
+[prev-case]
+other="Vorheriger Fall"
+
+[next-case]
+other="Nächster Fall"
+
+[challenge]
+other="Herausforderung"
+
+[solution]
+other="Lösung"
+
+[mins-read]
+other="Lesezeit: Minuten"
+
+[home]
+other="Startseite"
+
+[all-post]
+other="Alle Beiträge"

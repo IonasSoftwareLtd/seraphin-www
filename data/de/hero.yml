@@ -1,0 +1,12 @@
+---
+enable: true
+topTitle: IoT-Telemetrieplattform
+content: >
+  # Drahtlose Überwachungs- und Telemetrieplattform
+
+  Überwachung und Alarmierung von Ultra-Tiefkühlgeräten (ULT) und LN2-Tanks, HACCP-Datenerfassung, intelligente Wasserzähler mit Leckageerkennung, 
+  Gebäudemanagementsystem und intelligente Gebäudesteuerung
+
+buttonName: Demo anfordern
+buttonURL: contact
+image: /images/hero/illustration-home.png

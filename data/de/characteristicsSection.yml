@@ -1,0 +1,103 @@
+---
+enable: true
+topTitle: Eigenschaften
+title: >
+  ## Platform Eigenschaften
+
+  Seraphin IoT ist eine hochmoderne, produktionsreife Lösung, die 
+  die Anforderungen an ein modernes und zuverlässiges Softwaresystem vollständig erfüllt.
+
+tab1Name: Cloud-nativ
+tab2Name: Sicher
+tab3Name: Widerstandsfähig
+tab4Name: Skalierbar
+tab5Name: Ausziehbar
+
+tab1Target: cloudnative
+tab2Target: secure
+tab3Target: resilient
+tab4Target: scalable
+tab5Target: extendible
+
+cloudnative:
+  - subtitle: Cloud-nativ
+    content: >
+      #### AWS Cloud-native Anwendung
+      
+      Die Plattform wird in der AWS-Cloud gehostet und nutzt dieselbe Infrastruktur wie Netflix und Regierungswebsites.
+
+      Die Cloud-Nativität einer Softwarelösung hat einen enormen Einfluss auf das Design und die Qualität der Gesamtlösung.
+      Die Codebasis einer Cloud-nativen Anwendung **altert viel langsamer** als die Codebasis einer regulären Anwendung, die in die Cloud übernommen wurde.  
+
+      
+    image: images/service/aws200x75.png
+
+secure:
+  - subtitle: Datensicherheit
+    content: >
+      #### End-to-End-Verschlüsselung
+      
+      In LoRaWAN-Implementierungen werden Datenpakete zwischen Sensoren und Gateways mit der **AES**-Verschlüsselung verschlüsselt. 
+      Das Gateway kommuniziert über **TLS** mit dem *LoRaWAN Network Server*.
+      Alle LoRaWAN-Geräteimplementierungen übernehmen die in
+
+      [LoRaWAN ™ SECURITY: A White Paper Prepared for the LoRa Alliance™ by Gemalto, Actility, and Semtech](https://lora-alliance.org/sites/default/files/2019-05/lorawan_security_whitepaper.pdf "LoRaWAN Security")
+
+  - subtitle: Mehrmandschaft
+    content: >
+      #### Datentrennung
+
+      Die Plattform ist so konzipiert, dass Daten, die zu einer einzelnen Organisation gehören, in einem eigenen Bereich gespeichert werden –
+      vollständig getrennt von anderen Organisationen. Dies gewährleistet eine höhere Datensicherheit und verringert die Wahrscheinlichkeit
+      eines Datenverlusts im Falle eines Infrastruktur- oder Benutzerfehlers.
+
+  - subtitle: RBAC
+    content: >
+      #### Rollenbasierte Zugriffskontrolle
+
+      Seraphin IoT unterstützt vier Zugriffsrollen: **Benutzer**, **Kunde**, **Partner** und **Root**.
+      Während Letztere uneingeschränkten Zugriff auf das gesamte Cloud-System haben, verfügen **Benutzer** über eingeschränkte Anzeige- 
+      und Lesezugriffsrechte auf Daten, die für die Organisation, der sie angehören, relevant sind.
+   
+
+resilient:
+  - subtitle: Verfügbarkeitsgarantie
+    content: >
+      #### 99.9% Verfügbarkeitsgarantie
+
+      Die Seraphin IoT-Datenaufnahmendienstpunkte sind hochverfügbare Dienste, die eine Verfügbarkeit von **99,9 %** garantieren,
+      was im zugrunde liegenden AWS-SLA-Dokument ausdrücklich erwähnt wird.
+      
+   
+  - subtitle: Verteilte Architektur
+    content: >
+      #### Kein Single Point of Failure
+
+      Die Seraphin-IoT-Datenerfassungsendpunkte sowie die Datenbank, in der die Lösung alle Ereignisdaten speichert, 
+      wurden so konzipiert, dass sie als verteiltes System fehlertolerant arbeiten.
+ 
+
+scalable:
+  - subtitle: Skalierbarkeit der Plattform
+    content: >
+      #### Vertikale und horizontale Skalierung
+ 
+      Zuverlässigkeit und Leistung sind fester Bestandteil des Produkts, sodass Sie davon ausgehen können, dass die Plattform 
+      mit vorhersehbarer Leistung skaliert, unabhängig davon, ob Sie Daten von einer Handvoll oder Tausenden von IoT-Geräten erfassen.
+
+      Dies macht die Seraphin-IoT-Plattform zur idealen Lösung für Start-ups, große Unternehmen und Wiederverkäufer, da
+      die Plattform **Multi-Tenancy** unterstützt.
+    
+extendible:
+  - subtitle: Veranstaltungs-Push
+    content: >
+      #### Ereignisbasierte Datenfeeds
+
+      Seraphin IoT kann alle von Sensoren empfangenen Daten in Form von Ereignis-Pushes an externe Integrationsendpunkte weiterleiten.
+    
+  - subtitle: Flexible Datenformate
+    content: >
+      #### Text- und Binärdatenformate
+
+      Die Plattform kann so konfiguriert werden, dass sie mit jedem Datenformat arbeitet – Text oder Binärdaten, strukturiert oder unstrukturiert, unabhängig davon,
+      ob die Daten in externe Systeme eingespeist oder aus diesen ausgegeben werden.
