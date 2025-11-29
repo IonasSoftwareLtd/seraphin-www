@@ -1,4 +1,67 @@
 ---
 enable: true
 topTitle: Funktionen
-content: 
+
+sensorManagement:
+  - subtitle: Funktionen
+    content: >
+      ### Sensormanagement
+
+      Durchsuchen Sie Ihre Sensoren und greifen Sie über das Portal auf die gesammelten Daten zu. 
+      Dies ist eine bequeme Möglichkeit, Ihre Anlagen aus der Ferne zu überwachen, unabhängig davon, ob Sie nur wenige oder Hunderte davon verwalten.  
+        
+
+      Das Portal bietet Ihnen die Möglichkeit, Ihre Sensoren in sinnvolle Kategorien zu organisieren. 
+      Sie können sie beispielsweise nach ihrem physischen Standort, ihrem Typ oder ihrem Zweck gruppieren. 
+      Es ist einfach, Sensoren zwischen diesen Gruppen zu verschieben und die Ansichten nach persönlichen Vorlieben anzupassen.  
+        
+
+      Wenn Sie einen bestimmten Sensor heranzoomen, werden die neuesten Daten angezeigt, die im Laufe des Tages erfasst wurden. 
+      Die Daten werden zur besseren Übersicht und klaren Darstellung in einem Liniendiagramm dargestellt. 
+      Darüber hinaus stehen Ihnen alle historischen Daten zur Verfügung, die Sie in einer übersichtlichen und blätterbaren Tabelle durchsuchen können.
+
+ruleEvaluation:
+  - subtitle: 
+    content: >
+      ### Auswertung von Ereignisregeln ###
+
+      Regeln bilden den Kern der Plattform. Jedes eingehende Telemetrieereignis, das die Plattform empfängt, wird anhand dieser Regeln überprüft, 
+      und das Ergebnis bestimmt, ob ein Alarm ausgelöst werden soll. Sie können beliebig viele Regeln erstellen und diese an die verschiedenen 
+      Telemetriedaten anpassen, die Ihre Sensoren senden können.  
+        
+
+      Eine typische Regeldefinition folgt dem branchenweit anerkannten Muster „Wenn…, dann…“. 
+      Beispiel: Für einen bestimmten Sensor, der die Temperatur misst, gilt: Wenn der Messwert unter einen bestimmten Wert fällt, 
+      dann kontaktieren Sie die Personen auf der Liste. Dieses leicht verständliche Regelmuster lässt sich leicht in 
+      eine äußerst leistungsfähige Routine zur Bedingungsauswertung umwandeln, die garantiert nur einen minimalen 
+      Footprint für die zur Ausführung der Regel erforderlichen Rechenressourcen hat.  
+        
+
+      Die Leistung ist wichtig, da die Seraphin IoT-Überwachungs- und Telemetrieplattform 
+      keine Beschränkungen hinsichtlich der Anzahl der von Ihnen definierten Regeln vorsieht. Einige der von Ihnen erstellten Regeln müssen 
+      sofort aktiviert werden, andere werden nur zu Testzwecken verwendet und möglicherweise später 
+      in Ihrer Produktionsumgebung aktiviert oder auch nicht. Das Online-Portal erleichtert das Durchsuchen aller 
+      von Ihnen definierten Regeln, das isolierte Testen jeder einzelnen Regel und schließlich die Vorbereitung für den Einsatz in der Produktion 
+      oder das Beibehalten im Testmodus.  
+         
+
+      Als Eigentümer einer Organisation, die auf der Seraphin Monitoring Platform registriert ist, haben Sie die Möglichkeit, 
+      mehreren Benutzern Administratorzugriff auf Ihre Organisation zu gewähren. Dadurch können diese Benutzer Ihre Daten einsehen 
+      und die von Ihnen definierten Regeln für die Auslösung von Warnmeldungen anzeigen. 
+
+alertManagement:
+  - subtitle: 
+    content: >
+      ### Warnungsmanagement ###
+
+      Das Portal bietet einen einfachen Überblick über alle vom System ausgelösten Warnmeldungen. 
+      Sie können ganz einfach auf alle Informationen zugreifen, die mit dem Kontext zusammenhängen, in dem die Warnmeldung ausgelöst wurde. 
+      Dazu gehören Einblicke in das Telemetrieereignis, das die Warnmeldung ausgelöst hat, 
+      die Regelkriterien, die das Telemetrieereignis erfüllt hat, und alle Personen in Ihrem Unternehmen, 
+      die als Ansprechpartner ausgewählt wurden.  
+        
+        
+      Nur Regeln, die die von Ihnen definierten Kriterien erfüllen, können Benachrichtigungsalarme auslösen. 
+      Verwenden Sie das Portal, um Regeln zu überprüfen, die zu Benachrichtigungsversuchen geführt haben. 
+      Ein vollständiges Protokoll aller aktivierten Regeln für jedes Telemetrieereignis, 
+      das Ihre Sensoren übertragen, ist jederzeit verfügbar und sorgt für vollständige Transparenz.

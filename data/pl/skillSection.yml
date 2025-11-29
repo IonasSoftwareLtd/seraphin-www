@@ -1,0 +1,66 @@
+---
+enable: true
+topTitle: Funkcje
+
+sensorManagement:
+  - subtitle: Funkcje
+    content: >
+      ### Zarządzanie sensorami ###
+
+      Przeglądaj swoje czujniki i uzyskaj dostęp do zebranych danych za pośrednictwem portalu. 
+      Jest to wygodny sposób na zdalne monitorowanie zasobów, niezależnie od tego, czy zarządzasz tylko kilkoma, czy setkami z nich.  
+        
+
+      Portal umożliwia uporządkowanie czujników w sensowne kategorie. 
+      Możesz pogrupować je według lokalizacji fizycznej, typu lub przeznaczenia. 
+      Łatwo jest przenosić czujniki między tymi grupami, dostosowując widoki do osobistych preferencji.  
+        
+
+      Powiększenie konkretnego czujnika pozwala wyświetlić najnowsze dane zebrane w ciągu dnia. 
+      Dane są przedstawione na wykresie liniowym, co ułatwia ich przeglądanie i zapewnia przejrzystą prezentację. 
+      Ponadto wszystkie dane historyczne są dostępne na wyciągnięcie ręki i można je przeglądać w postaci łatwej do przeglądania i przewijanej tabeli.
+
+ruleEvaluation:
+  - subtitle: 
+    content: >
+      ### Wykonywanie reguł ###
+
+      Reguły stanowią podstawę platformy. Każde przychodzące zdarzenie telemetryczne, które otrzymuje platforma, jest sprawdzane pod kątem tych reguł, 
+      a wynik określa, czy należy wygenerować alert. Można tworzyć dowolną liczbę reguł i dostosowywać je do różnych 
+      danych telemetrycznych przesyłanych przez czujniki.  
+        
+      Typowa definicja reguły jest zgodna z uznanym w branży wzorcem „Jeśli…, Kiedy…, Wtedy”. 
+      Na przykład: dla konkretnego czujnika mierzącego temperaturę, gdy odczyt spadnie poniżej określonej wartości, 
+      należy skontaktować się z osobami z listy. Ten łatwy do zrozumienia wzorzec reguł można łatwo przekształcić 
+      w niezwykle wydajną procedurę oceny warunków, która gwarantuje minimalne 
+      obciążenie zasobów obliczeniowych wymaganych do wykonania reguły.  
+        
+
+      Wydajność jest ważna, ponieważ platforma monitorowania i telemetrii IoT firmy Seraphin nie nakłada 
+      żadnych ograniczeń na liczbę definiowanych reguł. Niektóre z tworzonych reguł będą wymagały 
+      natychmiastowej aktywacji, inne będą używane tylko do testów i mogą, ale nie muszą zostać ostatecznie 
+      włączone w środowisku produkcyjnym. Portal internetowy ułatwia przeglądanie wszystkich 
+      zdefiniowanych reguł, testowanie każdej z nich osobno, a na koniec przygotowanie do wdrożenia produkcyjnego 
+      lub pozostawienie ich w fazie testów.   
+        
+
+      Jako właściciel organizacji zarejestrowanej na platformie monitorującej Seraphin masz możliwość 
+      przyznania wielu użytkownikom dostępu administracyjnego do swojej organizacji. Dzięki temu będą oni mogli przeglądać 
+      Twoje dane i wyświetlać zdefiniowane przez Ciebie reguły wyzwalania alertów. 
+
+alertManagement:
+  - subtitle: 
+    content: >
+      ### Zarządzanie alertami ###
+
+      Portal ułatwia uzyskanie przeglądu wszystkich alertów zainicjowanych przez system. 
+      Można łatwo uzyskać dostęp do wszystkich informacji związanych z kontekstem, w którym został wywołany alert. 
+      Obejmuje to wgląd w zdarzenie telemetryczne, które spowodowało wywołanie alertu, 
+      kryteria reguł, które spełniło zdarzenie telemetryczne, oraz wszystkie osoby w organizacji, 
+      które zostały wybrane jako osoby kontaktowe.  
+        
+        
+      Tylko reguły spełniające zdefiniowane kryteria mogą wywoływać alerty powiadomień. 
+      Za pomocą portalu można sprawdzić reguły, które spowodowały próby powiadomień. 
+      Pełny dziennik wszystkich aktywowanych reguł dla każdego zdarzenia telemetrycznego 
+      przesyłanego przez czujniki jest zawsze dostępny, co zapewnia całkowitą przejrzystość.

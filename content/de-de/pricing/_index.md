@@ -1,6 +1,7 @@
 ---
-title: Seraphin IoT – Preise
-breadcrumb: Preise
+title: Seraphin IoT – Preisgestaltung
+breadcrumb: Preisgestaltung
+url: '/de/preisgestaltung'
 hideFooterCta: true
 subTitle: >
     Seraphin IoT ist eine sichere, skalierbare und vertrauenswürdige Überwachungsplattform, die Ihre hochwertigen Vermögenswerte schützt, indem sie
@@ -15,7 +16,7 @@ Die Preise für Seraphin IoT basieren auf einem Pay-as-you-go-Modell (PAYG). Ihn
 
 Ihr Preisplan hängt von Ihrer Bereitstellung ab.
 
-#### Bewertung
+#### Preisgestaltung
 
 Die kostengünstigste Option für Privatanwender wäre die Nutzung unserer Shared Cloud gemäß unseren allgemeinen Geschäftsbedingungen. Dies ist die beste Option für IoT-Enthusiasten oder potenzielle Kunden, die unsere Plattform evaluieren möchten.
 

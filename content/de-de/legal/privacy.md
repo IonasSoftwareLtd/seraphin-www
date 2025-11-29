@@ -1,5 +1,6 @@
 ---
 title: "Datenschutz"
+url: '/de/rechtlich/datenschutzerklärung'
 date: 2022-09-11T18:03:29+01:00
 ---
 

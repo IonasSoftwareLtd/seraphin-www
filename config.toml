@@ -206,15 +206,15 @@ defaultContentLanguage = 'en'
     # Main Menu
     [[languages.de.menu.main]]
     name = "Über"
-    url = "#uber-die-plattform-seraphin-iot"
+    url = "#uber-seraphin-iot" # this has to match the h2 title of the section
     weight = 2
     [[languages.de.menu.main]]
     name = "Anwendungen"
-    url = "#anwendungen"
+    url = "#anwendungsfälle-in-verschiedenen-branchen"
     weight = 3
     [[languages.de.menu.main]]
-    name = "Bewertung"
-    url = "/bewertung"
+    name = "Preisgestaltung"
+    url = "/preisgestaltung"
     weight = 4
     [[languages.de.menu.main]]
     name = "Artikel"
@@ -228,7 +228,7 @@ defaultContentLanguage = 'en'
     # Sitemap Menu
     [[languages.de.menu.sitemap]]
     name = "Über uns"
-    url = "#uber-die-plattform-seraphin-iot"
+    url = "#uber-seraphin-iot"
     weight = 1
 
     [[languages.de.menu.sitemap]]
