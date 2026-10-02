@@ -33,6 +33,12 @@
           {{ .Params.shortDescription }}
         </p>
 
+        {{ with .Params.heroImage }}
+        <div class="mb-5">
+          <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="img-fluid" style="max-width: 100%; height: auto;" />
+        </div>
+        {{ end }}
+
         <div class="row mb-5">
           <div class="col-lg-6">
             <div class="case-details-service">
