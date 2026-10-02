@@ -3,8 +3,8 @@ title: Studnie - monitorowanie poziomu wody w studniach głębinowych
 url: '/pl/przyklady/studnie'
 date: 2020-08-12T12:13:40+00:00
 translationKey: "wells"
-thumbnail: /images/usecase/well1280x714.jpg
-heroImage: /images/usecase/well1280x714.jpg
+thumbnail: /images/usecase/well-pl.jpg
+heroImage: /images/usecase/well-pl.jpg
 service: Monitorowanie poziomu wody w studniach
 client: Firma wiertnicza
 publish: true
@@ -31,3 +31,20 @@ komórkowej i zasilania, a bateria wystarcza na wiele lat pracy.
 
 Zaawansowane możliwości BMS platformy umożliwiają również integrację ze sterownikami pomp,
 a więc automatyczne wyłączanie pompy przy zbyt niskim poziomie wody.
+
+### Najważniejsze korzyści
+
+- **Ciągły monitoring** - odczyty poziomu wody docierają automatycznie w ustalonych odstępach czasu, bez konieczności wizyt na miejscu.
+- **Analiza trendów** - wykresy długoterminowe pokazują sezonowe zmiany, wpływ intensywnego poboru wody oraz czas regeneracji studni.
+- **Elastyczne alerty** - powiadomienia e-mail lub SMS, gdy poziom spadnie poniżej lub przekroczy zdefiniowane progi.
+- **Niższe koszty** - mniej wyjazdów do odległych lokalizacji i lepsze planowanie prac serwisowych oraz wiertniczych.
+- **Prosta instalacja** - bezprzewodowe czujniki zasilane baterią nie wymagają okablowania i można je montować w istniejących studniach.
+
+### Typowe zastosowania
+
+- Komunalne i prywatne ujęcia wody
+- Gospodarstwa rolne i systemy nawadniania
+- Monitorowanie poziomu wód gruntowych w pobliżu budów i kopalni
+- Badania środowiskowe i hydrogeologiczne
+
+Zebrane dane można także eksportować lub udostępniać innym systemom przez API platformy, co ułatwia przygotowywanie raportów dla organów gospodarki wodnej.
