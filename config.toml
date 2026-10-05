@@ -386,5 +386,5 @@ defaultContentLanguage = 'en'
 
     [[languages.de.menu.sitemap]]
     name = "Datenschutzerklärung"
-    url = "rechtlich/Datenschutzerklärung"
+    url = "rechtlich/datenschutzerklärung"
     weight = 3
