@@ -29,5 +29,11 @@ other="Lesezeit: Minuten"
 [home]
 other="Startseite"
 
+[phone]
+other="Telefon"
+
+[email]
+other="E-Mail"
+
 [all-post]
 other="Alle Beiträge"

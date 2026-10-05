@@ -1,5 +1,6 @@
 ---
 title: Farmakologia i nauka - Zamrażarki ultraniskotemperaturowe (ULT) i zbiorniki LN2
+categories: ["Farmakologia i nauka"]
 url: '/pl/przyklady/naukowe'
 date: 2020-07-13T12:49:27.000+06:00
 thumbnail: /images/usecase/lab500x749.png

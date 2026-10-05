@@ -1,5 +1,6 @@
 ---
 title: Studnie - monitorowanie poziomu wody w studniach głębinowych
+categories: ["Rolnictwo"]
 url: '/pl/przyklady/studnie'
 date: 2020-08-12T12:13:40+00:00
 translationKey: "wells"

@@ -1,5 +1,6 @@
 ---
 title: Wissenschaftlich – Ultra-Tiefkühlgeräte (ULT) und LN2-Tanks
+categories: ["Wissenschaft"]
 date: 2020-07-13T12:49:27.000+06:00
 thumbnail: /images/usecase/lab500x749.png
 images:

@@ -1,5 +1,6 @@
 ---
 title: Brunnen – Überwachung des Wasserstands in Tiefbrunnen
+categories: ["Landwirtschaft"]
 date: 2020-08-12T12:13:40+00:00
 translationKey: "wells"
 thumbnail: /images/usecase/well-de.jpg

@@ -1,5 +1,6 @@
 ---
 title: Wells - monitoring water level in underground wells
+categories: ["Farming"]
 date: 2020-08-12T12:13:40+00:00
 translationKey: "wells"
 thumbnail: /images/usecase/well-en.jpg

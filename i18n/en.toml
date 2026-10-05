@@ -29,5 +29,11 @@ other="mins read"
 [home]
 other="Home"
 
+[phone]
+other="Phone"
+
+[email]
+other="Email"
+
 [all-post]
 other="All posts"

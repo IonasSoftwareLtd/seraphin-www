@@ -29,5 +29,11 @@ other="minuty czytania"
 [home]
 other="Strona główna"
 
+[phone]
+other="Telefon"
+
+[email]
+other="Email"
+
 [all-post]
 other="Artykuły"

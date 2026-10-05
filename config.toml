@@ -41,6 +41,7 @@ defaultContentLanguage = 'en'
 
     [languages.en.params.address]
       address = "Ionas Software Ltd, 34 Craggan Drive, G14 0EW, Glasgow, UK"
+      phone = "+44 787 1259 234"
       email = "contact@ionas.co.uk"
       openingHours = "Contact us between 10am to 5pm Monday to Friday"
 
@@ -69,22 +70,73 @@ defaultContentLanguage = 'en'
     name = "Home"
     url = "#home"
     weight = 1
+
     [[languages.en.menu.main]]
     name = "About"
     url = "#about"
     weight = 2
+
     [[languages.en.menu.main]]
+    identifier = "use-cases"
     name = "Use Cases"
-    url = "#use-cases-across-various-industries"
+    url = "#"
     weight = 3
+
+    [[languages.en.menu.main]]
+    identifier = "scientific"
+    parent = "use-cases"
+    name = "Scientific"
+    url = "/categories/scientific"
+    weight = 1
+
+    [[languages.en.menu.main]]
+    parent = "scientific"
+    name = "ULT"
+    url = "/usecase/scientific"
+    weight = 1
+
+    [[languages.en.menu.main]]
+    identifier = "facilities"
+    parent = "use-cases"
+    name = "Facilities"
+    url = "/categories/facilities"
+    weight = 2
+
+    [[languages.en.menu.main]]
+    parent = "facilities"
+    name = "Office room"
+    url = "/usecase/facilities"
+    weight = 1
+
+    [[languages.en.menu.main]]
+    identifier = "farming"
+    parent = "use-cases"
+    name = "Farming"
+    url = "/categories/farming"
+    weight = 3
+
+    [[languages.en.menu.main]]
+    parent = "farming"
+    name = "Soil moisture"
+    url = "/usecase/farming"
+    weight = 1
+
+    [[languages.en.menu.main]]
+    parent = "farming"
+    name = "Wells"
+    url = "/usecase/wells"
+    weight = 2
+
     [[languages.en.menu.main]]
     name = "Pricing"
     url = "/pricing"
     weight = 4
+
     [[languages.en.menu.main]]
     name = "Articles"
     url = "/blog"
     weight = 5
+
     [[languages.en.menu.main]]
     name = "Contact"
     url = "/contact"
@@ -110,8 +162,8 @@ defaultContentLanguage = 'en'
     weight = 1
 
     [languages.pl.taxonomies]
-      tag = "tagi"
-      kategoria = "kategorie"
+      tag = "tags"
+      category = "categories"
 
     [languages.pl.params]
       subtitle = 'Platforma telemetryczna i monitorująca Iot'
@@ -133,6 +185,7 @@ defaultContentLanguage = 'en'
 
     [languages.pl.params.address]
       address = "Szymon Czaja - Programowanie w chmurze, ul. Gołębiowskiego 10, 38-130 Frysztak"
+      phone = "+48 603 982 598"
       email = "contact@ionas.co.uk"
       openingHours = "Skontaktuj się z nami między 10:00 a 17:00 od poniedziałku do piątku"
 
@@ -141,18 +194,68 @@ defaultContentLanguage = 'en'
     name = "O produkcie"
     url = "#o-platformie-seraphin-iot"
     weight = 2
+
     [[languages.pl.menu.main]]
+    identifier = "use-cases"
     name = "Zastosowania"
-    url = "#zastosowania"
+    url = "#"
     weight = 3
+
+    [[languages.pl.menu.main]]
+    identifier = "scientific"
+    parent = "use-cases"
+    name = "Farmakologia i nauka"
+    url = "/categories/farmakologia-i-nauka"
+    weight = 1
+
+    [[languages.pl.menu.main]]
+    parent = "scientific"
+    name = "ULT"
+    url = "przyklady/naukowe"
+    weight = 1
+
+    [[languages.pl.menu.main]]
+    identifier = "facilities"
+    parent = "use-cases"
+    name = "Zarządzanie budynkami"
+    url = "/categories/zarządzanie-budynkami"
+    weight = 2
+
+    [[languages.pl.menu.main]]
+    parent = "facilities"
+    name = "Pomieszczenia biurowe"
+    url = "przyklady/budynki"
+    weight = 1
+
+    [[languages.pl.menu.main]]
+    identifier = "farming"
+    parent = "use-cases"
+    name = "Rolnictwo"
+    url = "/categories/rolnictwo"
+    weight = 3
+
+    [[languages.pl.menu.main]]
+    parent = "farming"
+    name = "Wilgotność gleby"
+    url = "przyklady/rolnictwo"
+    weight = 1
+
+    [[languages.pl.menu.main]]
+    parent = "farming"
+    name = "Studnie"
+    url = "przyklady/studnie"
+    weight = 2
+
     [[languages.pl.menu.main]]
     name = "Wycena"
     url = "/wycena"
     weight = 4
+
     [[languages.pl.menu.main]]
     name = "Artykuły"
     url = "/blog"
     weight = 5
+
     [[languages.pl.menu.main]]
     name = "Kontakt"
     url = "/kontakt"
@@ -177,8 +280,8 @@ defaultContentLanguage = 'en'
     weight = 1
 
     [languages.de.taxonomies]
-      tag = "tagi"
-      kategoria = "kategorie"
+      tag = "tags"
+      category = "categories"
 
     [languages.de.params]
       subtitle = 'Telemetrie- und Überwachungsplattform Iot'
@@ -208,18 +311,68 @@ defaultContentLanguage = 'en'
     name = "Über"
     url = "#uber-seraphin-iot" # this has to match the h2 title of the section
     weight = 2
+
     [[languages.de.menu.main]]
+    identifier = "use-cases"
     name = "Anwendungen"
-    url = "#anwendungsfälle-in-verschiedenen-branchen"
+    url = "#"
     weight = 3
+
+    [[languages.de.menu.main]]
+    identifier = "scientific"
+    parent = "use-cases"
+    name = "Wissenschaft"
+    url = "/categories/wissenschaft"
+    weight = 1
+
+    [[languages.de.menu.main]]
+    parent = "scientific"
+    name = "ULT"
+    url = "usecase/scientific"
+    weight = 1
+
+    [[languages.de.menu.main]]
+    identifier = "facilities"
+    parent = "use-cases"
+    name = "Gebäude"
+    url = "/categories/gebäude"
+    weight = 2
+
+    [[languages.de.menu.main]]
+    parent = "facilities"
+    name = "Büroräume"
+    url = "usecase/facilities"
+    weight = 1
+
+    [[languages.de.menu.main]]
+    identifier = "farming"
+    parent = "use-cases"
+    name = "Landwirtschaft"
+    url = "/categories/landwirtschaft"
+    weight = 3
+
+    [[languages.de.menu.main]]
+    parent = "farming"
+    name = "Bodenfeuchtigkeit"
+    url = "usecase/farming"
+    weight = 1
+
+    [[languages.de.menu.main]]
+    parent = "farming"
+    name = "Brunnen"
+    url = "usecase/brunnen"
+    weight = 2
+
     [[languages.de.menu.main]]
     name = "Preisgestaltung"
     url = "/preisgestaltung"
     weight = 4
+
     [[languages.de.menu.main]]
     name = "Artikel"
     url = "/blog"
     weight = 5
+
     [[languages.de.menu.main]]
     name = "Kontakt"
     url = "/kontakt"

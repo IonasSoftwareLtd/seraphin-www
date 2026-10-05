@@ -1,5 +1,6 @@
 ---
 title: Scientific - Ultra Low Temperature (ULT) Freezers and LN2 tanks
+categories: ["Scientific"]
 date: 2020-07-13T12:49:27.000+06:00
 thumbnail: /images/usecase/lab500x749.png
 images:

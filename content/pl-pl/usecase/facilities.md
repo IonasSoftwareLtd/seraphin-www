@@ -1,5 +1,6 @@
 ---
 title: Zarządzanie budynkami - zużycie wody, obłożenie, CO2, temperatura
+categories: ["Zarządzanie budynkami"]
 url: '/pl/przyklady/budynki'
 date: 2020-08-12T18:07:16.000+06:00
 thumbnail: /images/usecase/building500x750.png

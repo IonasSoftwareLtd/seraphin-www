@@ -1,5 +1,6 @@
 ---
 title: Farming - soil moisture, temperature, humidity
+categories: ["Farming"]
 date: 2020-08-12T12:13:40+00:00
 thumbnail: /images/usecase/farming500x333.png
 service: Soil moisture monitoring

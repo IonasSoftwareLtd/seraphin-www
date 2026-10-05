@@ -13,10 +13,56 @@
       <ul class="nav navbar-nav main-navigation my-0 mx-auto">
         {{ $menu := .Site.Menus.main }}
         {{ range $index, $element := $menu }}
+        {{ if .HasChildren }}
+        <li class="nav-item dropdown dropdown-hover">
+          <a href="{{ if strings.HasPrefix .URL "#" }}#{{ else }}{{ $.Site.BaseURL }}{{ .URL }}{{ end }}"
+            class="nav-link dropdown-toggle text-dark text-sm-center p-2"
+            id="navbarDropdown-{{ .Identifier }}"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+            {{ .Name }} <i class="fa fa-angle-down nav-dropdown-icon ml-1" aria-hidden="true"></i>
+          </a>
+          <ul class="dropdown-menu main-dropdown-menu" aria-labelledby="navbarDropdown-{{ .Identifier }}">
+            {{ range .Children }}
+            {{ if .HasChildren }}
+            <li class="dropdown-submenu">
+              <div class="dropdown-submenu-toggle-wrapper d-flex align-items-center justify-content-between">
+                <a href="{{ $.Site.BaseURL }}{{ .URL }}"
+                  class="dropdown-item text-dark">
+                  <span>{{ .Name }}</span>
+                  <i class="fa fa-angle-right submenu-icon d-none d-lg-inline-block" aria-hidden="true"></i>
+                </a>
+                <button type="button"
+                  class="submenu-toggler d-lg-none"
+                  aria-label="Toggle submenu"
+                  aria-expanded="false">
+                  <i class="fa fa-angle-down submenu-icon" aria-hidden="true"></i>
+                </button>
+              </div>
+              <ul class="dropdown-menu submenu">
+                {{ range .Children }}
+                <li>
+                  <a class="dropdown-item text-dark" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            </li>
+            {{ else }}
+            <li>
+              <a class="dropdown-item text-dark" href="{{ $.Site.BaseURL }}{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </li>
+        {{ else }}
         <li class="nav-item">
           <a href="{{ $.Site.BaseURL }}{{ .URL }}"
-            class="nav-link text-dark text-sm-center p-2 {{ if $.IsHome }}scroll{{ end }}">{{ .Name }}</a>
+            class="nav-link text-dark text-sm-center p-2 {{ if $.IsHome }}{{ if strings.HasPrefix .URL "#" }}scroll{{ end }}{{ end }}">{{ .Name }}</a>
         </li>
+        {{ end }}
         {{ end }}
       </ul>
       <div class="navbar-nav">

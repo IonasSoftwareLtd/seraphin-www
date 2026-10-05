@@ -1,5 +1,6 @@
 ---
 title: Rolnictwo - wilgotność gleby, temperatura, wilgotność
+categories: ["Rolnictwo"]
 url: '/pl/przyklady/rolnictwo'
 date: 2020-08-12T12:13:40+00:00
 thumbnail: /images/usecase/farming500x333.png

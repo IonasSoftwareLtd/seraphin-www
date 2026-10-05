@@ -1,5 +1,6 @@
 ---
 title: Facilities management - Water usage, occupancy, CO2, temperature
+categories: ["Facilities"]
 date: 2020-08-12T18:07:16.000+06:00
 thumbnail: /images/usecase/building500x750.png
 service: Workspace conditions and space utilisation monitoring

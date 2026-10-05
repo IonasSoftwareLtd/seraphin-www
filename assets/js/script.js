@@ -105,8 +105,55 @@ $(document).ready(function () {
     }
   });
 
-  $(".navbar-nav>li>a").on("click", function () {
+  // Multi-level Dropdown functionality for Mobile & Desktop
+  $('.dropdown-submenu .submenu-toggler').on('click', function (e) {
+    if ($(window).width() < 992) {
+      e.preventDefault();
+      e.stopPropagation();
+      var $submenu = $(this).closest('.dropdown-submenu').find('> .submenu');
+      var $parentMenu = $(this).closest('.dropdown-menu');
+
+      // Close sibling submenus
+      $parentMenu.find('.dropdown-menu').not($submenu).removeClass('show');
+      $parentMenu.find('.submenu-toggler').not($(this)).removeClass('show').attr('aria-expanded', 'false');
+
+      $submenu.toggleClass('show');
+      $(this).toggleClass('show');
+      $(this).attr('aria-expanded', $submenu.hasClass('show'));
+    }
+  });
+
+  $('.nav-item.dropdown > a.dropdown-toggle').on('click', function (e) {
+    if ($(window).width() < 992) {
+      e.preventDefault();
+      e.stopPropagation();
+      var $menu = $(this).next('.dropdown-menu');
+
+      // Close other main dropdowns
+      $('.navbar-nav .nav-item.dropdown .dropdown-menu').not($menu).removeClass('show');
+      $('.navbar-nav .nav-item.dropdown > a').not($(this)).removeClass('show').attr('aria-expanded', 'false');
+
+      $menu.toggleClass('show');
+      $(this).toggleClass('show');
+      $(this).attr('aria-expanded', $menu.hasClass('show'));
+    }
+  });
+
+  // Close dropdowns when clicking outside
+  $(document).on('click', function (e) {
+    if (!$(e.target).closest('.navbar-nav').length) {
+      $('.navbar-nav .dropdown-menu').removeClass('show');
+      $('.navbar-nav .dropdown-toggle').removeClass('show').attr('aria-expanded', 'false');
+      $('.navbar-nav .submenu-toggler').removeClass('show').attr('aria-expanded', 'false');
+    }
+  });
+
+  // Close mobile collapse only on actual navigation clicks (non-dropdown toggles)
+  $(".navbar-nav a:not(.dropdown-toggle)").on("click", function () {
     $(".navbar-collapse").collapse("hide");
+    $('.navbar-nav .dropdown-menu').removeClass('show');
+    $('.navbar-nav .dropdown-toggle').removeClass('show').attr('aria-expanded', 'false');
+    $('.navbar-nav .submenu-toggler').removeClass('show').attr('aria-expanded', 'false');
   });
 
   // service slider
