@@ -1,0 +1,4 @@
+---
+title: "Kategorien"
+translationKey: "categories"
+---
